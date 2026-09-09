@@ -1,0 +1,4 @@
+[     928ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[  284506ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/Identity/api/Identity/Login:0
+[ 2449549ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[ 2449549ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0

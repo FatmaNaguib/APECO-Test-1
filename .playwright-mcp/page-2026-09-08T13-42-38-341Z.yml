@@ -1,0 +1,95 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e1867]:
+    - generic [ref=f3e1868]:
+      - generic [ref=f3e1869]:
+        - img "App logo" [ref=f3e1872]
+        - generic [ref=f3e1873]:
+          - generic [ref=f3e1874] [cursor=pointer]
+          - generic [ref=f3e1876] [cursor=pointer]
+          - button "Add ticket" [ref=f3e1883] [cursor=pointer]
+          - generic [ref=f3e1895] [cursor=pointer]
+      - list [ref=f3e1900]:
+        - listitem [ref=f3e1901]:
+          - generic [ref=f3e1902] [cursor=pointer]
+        - listitem [ref=f3e1906]:
+          - link "Services" [ref=f3e1907] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f3e1908]:
+          - link "Contact Us" [ref=f3e1909] [cursor=pointer]:
+            - /url: https://apea.ae/en/contact-us
+    - generic [ref=f3e1913]:
+      - generic [ref=f3e1917]:
+        - button [ref=f3e1919] [cursor=pointer]:
+          - button [ref=f3e1920]
+        - generic [ref=f3e1922]: Services
+      - generic [ref=f3e1924]:
+        - textbox "Search Services..." [ref=f3e1929]
+        - generic [ref=f3e1930]:
+          - generic [ref=f3e1931]: Service Type
+          - generic [ref=f3e1935] [cursor=pointer]:
+            - textbox [ref=f3e1937]
+            - generic "Licensing Services" [ref=f3e1938]
+      - generic [ref=f3e1942]:
+        - generic [ref=f3e1943] [cursor=pointer]: Initial application - Submission for a Private School Permit
+        - generic [ref=f3e1948] [cursor=pointer]: Issuance of a New Permit
+        - generic [ref=f3e1953] [cursor=pointer]: Private School Renewal Application
+        - generic [ref=f3e1958] [cursor=pointer]: School Name Change Request
+        - generic [ref=f3e1963] [cursor=pointer]: Partner Withdrawal Request
+        - generic [ref=f3e1968] [cursor=pointer]: Request for Modification or Increase in Tuition Fees
+        - generic [ref=f3e1973] [cursor=pointer]: Request for School License Cancellation
+        - generic [ref=f3e1978] [cursor=pointer]: Application for License Holder Change / Board Representative Change / Adding a Partner
+        - generic [ref=f3e1983] [cursor=pointer]: Principal Change
+        - generic [ref=f3e1988] [cursor=pointer]: Appointment Notification for Employees in Private Schools
+        - generic [ref=f3e1993] [cursor=pointer]: Approval for Publishing Announcements for Private Schools
+        - generic [ref=f3e1998] [cursor=pointer]: Request for Modification or Addition to a Private School Building
+        - generic [ref=f3e2003] [cursor=pointer]: School Relocation Request
+        - generic [ref=f3e2008] [cursor=pointer]: Approval of Annual Activities and Programs
+        - generic [ref=f3e2013] [cursor=pointer]: Adding Educational Stages
+        - generic [ref=f3e2018] [cursor=pointer]: Reducing Educational Stages
+        - generic [ref=f3e2023] [cursor=pointer]: Request for Certification of Experience Certificate for Employees
+        - generic [ref=f3e2028] [cursor=pointer]: Request for Event Permit by an External Entity
+        - generic [ref=f3e2033] [cursor=pointer]: Approval for International Travel
+    - generic [ref=f3e2040]:
+      - generic [ref=f3e2041]:
+        - generic [ref=f3e2042]:
+          - img "App logo" [ref=f3e2045]
+          - generic [ref=f3e2046]:
+            - generic [ref=f3e2047] [cursor=pointer]
+            - generic [ref=f3e2048] [cursor=pointer]
+            - link [ref=f3e2049] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f3e2050]:
+          - generic [ref=f3e2051]:
+            - generic [ref=f3e2052]: Quick Links
+            - generic [ref=f3e2053]:
+              - link "Workspace" [ref=f3e2054] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f3e2055] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f3e2056] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f3e2057] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f3e2058]:
+            - generic [ref=f3e2059]: Get in Touch
+            - generic [ref=f3e2060]:
+              - generic [ref=f3e2061]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f3e2062]: +971 232 1248
+      - separator [ref=f3e2063]
+      - generic [ref=f3e2064]:
+        - generic [ref=f3e2065]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f3e2066]:
+          - generic [ref=f3e2067] [cursor=pointer]: Copyright
+          - generic [ref=f3e2068] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f3e2069] [cursor=pointer]: Disclaimer
+          - generic [ref=f3e2070] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

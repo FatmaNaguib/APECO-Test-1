@@ -1,0 +1,151 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e111]:
+    - generic [ref=f9e113]:
+      - img "App logo" [ref=f9e116]
+      - generic [ref=f9e117]:
+        - list [ref=f9e119]:
+          - listitem [ref=f9e120]:
+            - generic [ref=f9e121] [cursor=pointer]
+          - listitem [ref=f9e125]:
+            - link "Services" [ref=f9e126] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f9e127]:
+            - link "Contact Us" [ref=f9e128] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=f9e129] [cursor=pointer]
+        - generic [ref=f9e131] [cursor=pointer]
+        - button "Add ticket" [ref=f9e138] [cursor=pointer]
+    - generic [ref=f9e150]:
+      - generic [ref=f9e152]:
+        - button "--" [ref=f9e155] [cursor=pointer]
+        - generic [ref=f9e158]:
+          - generic [ref=f9e159] [cursor=pointer]: Workspace
+          - generic [ref=f9e168] [cursor=pointer]: Requests
+          - generic [ref=f9e175] [cursor=pointer]: Services
+          - generic [ref=f9e181] [cursor=pointer]: Penalties
+          - generic [ref=f9e188] [cursor=pointer]: My Schools
+          - generic [ref=f9e201] [cursor=pointer]: Invoices
+        - generic [ref=f9e210] [cursor=pointer]: Logout
+      - generic [ref=f9e218]:
+        - generic [ref=f9e222]:
+          - button [ref=f9e224] [cursor=pointer]:
+            - button [ref=f9e225]
+          - generic [ref=f9e227]: Workspace
+        - generic [ref=f9e228]:
+          - generic [ref=f9e230] [cursor=pointer]:
+            - generic [ref=f9e231]: "0"
+            - generic [ref=f9e275]:
+              - heading "To Do" [level=3] [ref=f9e276]
+              - paragraph [ref=f9e277]: We have some work to do over here.
+          - generic [ref=f9e279] [cursor=pointer]:
+            - generic [ref=f9e280]: "0"
+            - generic [ref=f9e310]:
+              - heading "Draft" [level=3] [ref=f9e311]
+              - paragraph [ref=f9e312]: We are waiting for you!
+          - generic [ref=f9e314] [cursor=pointer]:
+            - generic [ref=f9e315]: "0"
+            - generic [ref=f9e355]:
+              - heading "Documents" [level=3] [ref=f9e356]
+              - paragraph [ref=f9e357]: Oh, here you go!
+        - generic [ref=f9e358]:
+          - generic [ref=f9e359]:
+            - heading "My Schools" [level=1] [ref=f9e360]
+            - button [ref=f9e365] [cursor=pointer]
+          - generic [ref=f9e368]:
+            - heading "Request Status" [level=1] [ref=f9e369]
+            - generic [ref=f9e373]:
+              - paragraph [ref=f9e374]: "0"
+              - paragraph [ref=f9e375]: Total Requests
+        - heading "Most Used Services" [level=1] [ref=f9e377]
+        - generic [ref=f9e378]:
+          - generic [ref=f9e379]:
+            - heading "Recent Requests" [level=2] [ref=f9e380]
+            - button "All Requests" [ref=f9e381] [cursor=pointer]
+          - generic [ref=f9e385]:
+            - generic:
+              - table:
+                - rowgroup:
+                  - row "Reference Number Service Category Service Name Student Name Date Status Actions":
+                    - columnheader "Reference Number"
+                    - columnheader "Service Category"
+                    - columnheader "Service Name"
+                    - columnheader "Student Name"
+                    - columnheader "Date"
+                    - columnheader "Status"
+                    - columnheader "Actions"
+                - rowgroup
+    - generic [ref=f9e394]:
+      - generic [ref=f9e395]:
+        - generic [ref=f9e396]:
+          - img "App logo" [ref=f9e399]
+          - generic [ref=f9e400]:
+            - generic [ref=f9e401] [cursor=pointer]
+            - generic [ref=f9e402] [cursor=pointer]
+            - link [ref=f9e403] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f9e404]:
+          - generic [ref=f9e405]:
+            - generic [ref=f9e406]: Quick Links
+            - generic [ref=f9e407]:
+              - link "Workspace" [ref=f9e408] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f9e409] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f9e410] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f9e411] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f9e412]:
+            - generic [ref=f9e413]: Get in Touch
+            - generic [ref=f9e414]:
+              - generic [ref=f9e415]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f9e416]: +971 232 1248
+      - separator [ref=f9e417]
+      - generic [ref=f9e418]:
+        - generic [ref=f9e419]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f9e420]:
+          - generic [ref=f9e421] [cursor=pointer]: Copyright
+          - generic [ref=f9e422] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f9e423] [cursor=pointer]: Disclaimer
+          - generic [ref=f9e424] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"
+                - generic:
+                  - generic:
+                    - generic: "--"
+                    - generic:
+                      - generic: Workspace
+                      - generic: Requests
+                      - generic: Services
+                      - generic: Penalties
+                      - generic: My Schools
+                      - generic: Invoices
+                      - separator
+                      - list:
+                        - listitem:
+                          - link "About Us":
+                            - /url: https://test.optimalpass.org/en/about-us
+                        - listitem:
+                          - link "Educational Institutions":
+                            - /url: https://test.optimalpass.org/en/educational-institutions
+                        - listitem:
+                          - link "Services":
+                            - /url: https://test.optimalpass.org/en/our-services
+                        - listitem:
+                          - link "Media":
+                            - /url: https://test.optimalpass.org/en/media
+                        - listitem:
+                          - link "Laws and Decrees":
+                            - /url: https://test.optimalpass.org/en/laws-and-decrees
+                        - listitem:
+                          - link "Contact Us":
+                            - /url: https://test.optimalpass.org/en/contact-us
+                    - button "Logout"

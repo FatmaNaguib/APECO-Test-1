@@ -1,0 +1,83 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e1767]:
+    - generic [ref=f3e1768]:
+      - generic [ref=f3e1769]:
+        - img "App logo" [ref=f3e1772]
+        - generic [ref=f3e1773]:
+          - generic [ref=f3e1774] [cursor=pointer]
+          - generic [ref=f3e1776] [cursor=pointer]
+          - button "Add ticket" [ref=f3e1783] [cursor=pointer]
+          - generic [ref=f3e1795] [cursor=pointer]
+      - list [ref=f3e1800]:
+        - listitem [ref=f3e1801]:
+          - generic [ref=f3e1802] [cursor=pointer]
+        - listitem [ref=f3e1806]:
+          - link "Services" [ref=f3e1807] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f3e1808]:
+          - link "Contact Us" [ref=f3e1809] [cursor=pointer]:
+            - /url: https://apea.ae/en/contact-us
+    - generic [ref=f3e1813]:
+      - generic [ref=f3e1817]:
+        - button [ref=f3e1819] [cursor=pointer]:
+          - button [ref=f3e1820]
+        - generic [ref=f3e1822]: Schools
+      - generic [ref=f3e1826]:
+        - generic:
+          - table:
+            - rowgroup:
+              - row "# English Name Arabic Name License Number License Reference Number License Expiry Date License Status Creation Date Actions":
+                - columnheader "#"
+                - columnheader "English Name"
+                - columnheader "Arabic Name"
+                - columnheader "License Number"
+                - columnheader "License Reference Number"
+                - columnheader "License Expiry Date"
+                - columnheader "License Status"
+                - columnheader "Creation Date"
+                - columnheader "Actions"
+            - rowgroup
+    - generic [ref=f3e1835]:
+      - generic [ref=f3e1836]:
+        - generic [ref=f3e1837]:
+          - img "App logo" [ref=f3e1840]
+          - generic [ref=f3e1841]:
+            - generic [ref=f3e1842] [cursor=pointer]
+            - generic [ref=f3e1843] [cursor=pointer]
+            - link [ref=f3e1844] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f3e1845]:
+          - generic [ref=f3e1846]:
+            - generic [ref=f3e1847]: Quick Links
+            - generic [ref=f3e1848]:
+              - link "Workspace" [ref=f3e1849] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f3e1850] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f3e1851] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f3e1852] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f3e1853]:
+            - generic [ref=f3e1854]: Get in Touch
+            - generic [ref=f3e1855]:
+              - generic [ref=f3e1856]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f3e1857]: +971 232 1248
+      - separator [ref=f3e1858]
+      - generic [ref=f3e1859]:
+        - generic [ref=f3e1860]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f3e1861]:
+          - generic [ref=f3e1862] [cursor=pointer]: Copyright
+          - generic [ref=f3e1863] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f3e1864] [cursor=pointer]: Disclaimer
+          - generic [ref=f3e1865] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

@@ -1,0 +1,50 @@
+[     249ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[   64224ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/Identity/api/Identity/Login:0
+[   70581ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/Identity/api/Identity/Login:0
+[   74586ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/Identity/api/Identity/Login:0
+[  302872ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[  974868ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[  981451ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28682784ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28684053ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28685545ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28685686ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28685686ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28697677ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28698502ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28698626ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28698626ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28699300ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28703304ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28716843ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28723174ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28723864ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28725133ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28726388ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28727613ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28763625ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28772368ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28773051ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28773176ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28773176ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28777428ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28786866ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28788968ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28789000ms] [ERROR] ERROR RuntimeError: NG0100: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value for 'ant-btn-rtl': 'false'. Current value: 'true'. Expression location: _NewAccountComponent component. Find more at https://angular.io/errors/NG0100
+    at throwErrorIfNoChangesMode (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9855:9)
+    at bindingUpdated (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:12904:9)
+    at checkStylingProperty (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:14419:30)
+    at ɵɵclassProp (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:14393:3)
+    at NzButtonComponent_HostBindings (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-Y4TVIHGK.js:5126:537)
+    at processHostBindingOpCodes (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9977:9)
+    at refreshView (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:10948:5)
+    at detectChangesInView (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:11058:5)
+    at detectChangesInViewIfAttached (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:11042:3)
+    at detectChangesInComponent (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:11036:3) @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[28789104ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28789105ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28795404ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[28795550ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28795550ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/auth/new-account:0
+[28801323ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[31552689ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291

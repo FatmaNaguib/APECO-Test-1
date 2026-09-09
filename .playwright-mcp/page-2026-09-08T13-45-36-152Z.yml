@@ -1,0 +1,123 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e5]:
+    - generic [ref=f8e6]:
+      - generic [ref=f8e7]:
+        - img "App logo" [ref=f8e10]
+        - generic [ref=f8e11]:
+          - generic [ref=f8e12] [cursor=pointer]
+          - generic [ref=f8e14] [cursor=pointer]
+          - button "Add ticket" [ref=f8e21] [cursor=pointer]
+          - generic [ref=f8e33] [cursor=pointer]
+      - list [ref=f8e38]:
+        - listitem [ref=f8e39]:
+          - generic [ref=f8e40] [cursor=pointer]
+        - listitem [ref=f8e44]:
+          - link "Services" [ref=f8e45] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f8e46]:
+          - link "Contact Us" [ref=f8e47] [cursor=pointer]:
+            - /url: https://apea.ae/en/contact-us
+    - generic [ref=f8e51]:
+      - generic [ref=f8e55]:
+        - button [ref=f8e57] [cursor=pointer]:
+          - button [ref=f8e58]
+        - generic [ref=f8e60]: Australian International Private School
+        - generic [ref=f8e61]: Anas Mohamed
+      - generic [ref=f8e63]:
+        - tablist [ref=f8e66]:
+          - tab "Main Information" [selected] [ref=f8e68] [cursor=pointer]
+          - tab "License" [ref=f8e70] [cursor=pointer]
+          - tab "Owners" [ref=f8e72] [cursor=pointer]
+          - tab "Grades" [ref=f8e74] [cursor=pointer]
+          - tab "Transportations" [ref=f8e76] [cursor=pointer]
+          - tab "Requests" [ref=f8e78] [cursor=pointer]
+          - tab "Exempted Services" [ref=f8e80] [cursor=pointer]
+          - tab "Penalties" [ref=f8e82] [cursor=pointer]
+        - tabpanel "Main Information" [ref=f8e85]:
+          - heading "Main Information" [level=1] [ref=f8e87]
+          - generic [ref=f8e88]:
+            - generic [ref=f8e89]:
+              - generic [ref=f8e90]:
+                - generic [ref=f8e91]: "Phone Number:"
+                - generic [ref=f8e92]: "--"
+              - generic [ref=f8e93]:
+                - generic [ref=f8e94]: "Email:"
+                - generic [ref=f8e95]: "--"
+              - generic [ref=f8e96]:
+                - generic [ref=f8e97]: "Educational Zone:"
+                - generic [ref=f8e98]: "--"
+              - generic [ref=f8e99]:
+                - generic [ref=f8e100]: "Location:"
+                - generic [ref=f8e101]: الموقع / رقم قطعة الأرض باللغة الإنجليزية - طلب تمهيدي - تقديم طلب تصريح مدرسة خاصة
+              - generic [ref=f8e102]:
+                - generic [ref=f8e103]: "Address:"
+                - generic [ref=f8e104]: شارع سالم المبارك
+              - generic [ref=f8e105]:
+                - generic [ref=f8e106]: "Fax:"
+                - generic [ref=f8e107]: "--"
+              - generic [ref=f8e108]:
+                - generic [ref=f8e109]: "Establishment Date:"
+                - generic [ref=f8e110]: 20 Apr 2025
+              - generic [ref=f8e111]:
+                - generic [ref=f8e112]: "Students Gender:"
+                - generic [ref=f8e113]: Girls
+              - generic [ref=f8e114]:
+                - generic [ref=f8e115]: "Creation Date:"
+                - generic [ref=f8e116]: 20 Apr 2025
+            - generic [ref=f8e117]:
+              - generic [ref=f8e118]:
+                - generic [ref=f8e119]: "Manager Name:"
+                - generic [ref=f8e120]: Moahmed Barakat
+              - generic [ref=f8e121]:
+                - generic [ref=f8e122]: "Manager Email:"
+                - generic [ref=f8e123]: australian_school_manager@hotmail.com
+              - generic [ref=f8e124]:
+                - generic [ref=f8e125]: "Manager Nationality:"
+                - generic [ref=f8e126]: Australia
+              - generic [ref=f8e127]:
+                - generic [ref=f8e128]: "Manager Emirates ID:"
+                - generic [ref=f8e129]: "45454545"
+    - generic [ref=f8e132]:
+      - generic [ref=f8e133]:
+        - generic [ref=f8e134]:
+          - img "App logo" [ref=f8e137]
+          - generic [ref=f8e138]:
+            - generic [ref=f8e139] [cursor=pointer]
+            - generic [ref=f8e140] [cursor=pointer]
+            - link [ref=f8e141] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f8e142]:
+          - generic [ref=f8e143]:
+            - generic [ref=f8e144]: Quick Links
+            - generic [ref=f8e145]:
+              - link "Workspace" [ref=f8e146] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f8e147] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f8e148] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f8e149] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f8e150]:
+            - generic [ref=f8e151]: Get in Touch
+            - generic [ref=f8e152]:
+              - generic [ref=f8e153]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f8e154]: +971 232 1248
+      - separator [ref=f8e155]
+      - generic [ref=f8e156]:
+        - generic [ref=f8e157]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f8e158]:
+          - generic [ref=f8e159] [cursor=pointer]: Copyright
+          - generic [ref=f8e160] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f8e161] [cursor=pointer]: Disclaimer
+          - generic [ref=f8e162] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

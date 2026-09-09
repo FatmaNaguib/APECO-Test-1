@@ -1,0 +1,92 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e5]:
+    - generic [ref=f10e7]:
+      - img "App logo" [ref=f10e10]
+      - generic [ref=f10e11]:
+        - list [ref=f10e13]:
+          - listitem [ref=f10e14]:
+            - generic [ref=f10e15] [cursor=pointer]
+          - listitem [ref=f10e19]:
+            - link "Services" [ref=f10e20] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f10e21]:
+            - link "Contact Us" [ref=f10e22] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=f10e23] [cursor=pointer]
+        - generic [ref=f10e25] [cursor=pointer]
+        - button "Add ticket" [ref=f10e32] [cursor=pointer]
+    - generic [ref=f10e44]:
+      - generic [ref=f10e46]:
+        - button "Anas Mohamed" [ref=f10e49] [cursor=pointer]
+        - generic [ref=f10e52]:
+          - generic [ref=f10e53] [cursor=pointer]: Workspace
+          - generic [ref=f10e62] [cursor=pointer]: Requests
+          - generic [ref=f10e69] [cursor=pointer]: Services
+          - generic [ref=f10e75] [cursor=pointer]: Penalties
+          - generic [ref=f10e82] [cursor=pointer]: My Schools
+          - generic [ref=f10e95] [cursor=pointer]: Invoices
+        - generic [ref=f10e104] [cursor=pointer]: Logout
+      - generic [ref=f10e112]:
+        - generic [ref=f10e116]:
+          - button [ref=f10e118] [cursor=pointer]:
+            - button [ref=f10e119]
+          - generic [ref=f10e121]: Schools
+        - generic [ref=f10e125]:
+          - generic:
+            - table:
+              - rowgroup:
+                - row "# English Name Arabic Name License Number License Reference Number License Expiry Date License Status Creation Date Actions":
+                  - columnheader "#"
+                  - columnheader "English Name"
+                  - columnheader "Arabic Name"
+                  - columnheader "License Number"
+                  - columnheader "License Reference Number"
+                  - columnheader "License Expiry Date"
+                  - columnheader "License Status"
+                  - columnheader "Creation Date"
+                  - columnheader "Actions"
+              - rowgroup
+    - generic [ref=f10e134]:
+      - generic [ref=f10e135]:
+        - generic [ref=f10e136]:
+          - img "App logo" [ref=f10e139]
+          - generic [ref=f10e140]:
+            - generic [ref=f10e141] [cursor=pointer]
+            - generic [ref=f10e142] [cursor=pointer]
+            - link [ref=f10e143] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f10e144]:
+          - generic [ref=f10e145]:
+            - generic [ref=f10e146]: Quick Links
+            - generic [ref=f10e147]:
+              - link "Workspace" [ref=f10e148] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f10e149] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f10e150] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f10e151] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f10e152]:
+            - generic [ref=f10e153]: Get in Touch
+            - generic [ref=f10e154]:
+              - generic [ref=f10e155]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f10e156]: +971 232 1248
+      - separator [ref=f10e157]
+      - generic [ref=f10e158]:
+        - generic [ref=f10e159]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f10e160]:
+          - generic [ref=f10e161] [cursor=pointer]: Copyright
+          - generic [ref=f10e162] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f10e163] [cursor=pointer]: Disclaimer
+          - generic [ref=f10e164] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

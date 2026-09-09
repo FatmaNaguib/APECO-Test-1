@@ -1,0 +1,208 @@
+- generic [ref=f10e1]:
+  - generic [ref=f10e5]:
+    - generic [ref=f10e6]:
+      - generic [ref=f10e7]:
+        - img "App logo" [ref=f10e10]
+        - generic [ref=f10e11]:
+          - generic [ref=f10e12] [cursor=pointer]
+          - generic [ref=f10e14] [cursor=pointer]
+          - button "Add ticket" [ref=f10e21] [cursor=pointer]
+          - generic [ref=f10e33] [cursor=pointer]
+      - list [ref=f10e38]:
+        - listitem [ref=f10e39]:
+          - generic [ref=f10e40] [cursor=pointer]
+        - listitem [ref=f10e44]:
+          - link "Services" [ref=f10e45] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f10e46]:
+          - link "Contact Us" [ref=f10e47] [cursor=pointer]:
+            - /url: https://apea.ae/en/contact-us
+    - generic [ref=f10e346]:
+      - generic [ref=f10e347]:
+        - generic [ref=f10e349]:
+          - heading [level=1] [ref=f10e350]:
+            - text: "School:"
+            - link "New Education School 24877" [ref=f10e351] [cursor=pointer]:
+              - /url: /school-details/764
+          - 'heading "Applicant: Anas Mohamed" [level=1] [ref=f10e352]'
+        - generic [ref=f10e353]:
+          - heading "Request Status" [level=3] [ref=f10e356]
+          - generic [ref=f10e357]:
+            - generic [ref=f10e358]:
+              - generic [ref=f10e359]:
+                - generic [ref=f10e360]:
+                  - generic [ref=f10e361]: Step 1
+                  - generic [ref=f10e363]:
+                    - generic [ref=f10e364]: 
+                    - text: Pending
+                - generic [ref=f10e365]: Reviewing by Evaluation Employee
+              - generic:
+                - generic:
+                  - generic: Step 2
+                  - generic:
+                    - generic: 
+                    - text: Upcoming
+                - generic: Meet The School Manager
+              - generic:
+                - generic:
+                  - generic: Step 3
+                  - generic:
+                    - generic: 
+                    - text: Upcoming
+                - generic: School Manager Meeting Request Sent
+              - generic:
+                - generic:
+                  - generic: Step 4
+                  - generic:
+                    - generic: 
+                    - text: Upcoming
+                - generic: School Manager Meeting In Progress
+              - generic:
+                - generic:
+                  - generic: Step 5
+                  - generic:
+                    - generic: 
+                    - text: Upcoming
+                - generic: Final Approval
+              - generic:
+                - generic:
+                  - generic: Step 6
+                  - generic:
+                    - generic: 
+                    - text: Upcoming
+                - generic: Payment Step
+              - generic:
+                - generic:
+                  - generic: Step 7
+                  - generic:
+                    - generic: 
+                    - text: Upcoming
+                - generic: Accepted
+            - generic: 
+      - generic [ref=f10e369]:
+        - generic [ref=f10e373]:
+          - button [ref=f10e375] [cursor=pointer]:
+            - button [ref=f10e376]
+          - generic [ref=f10e378]: Principal Change
+        - generic [ref=f10e379]:
+          - generic [ref=f10e380]:
+            - generic [ref=f10e387]:
+              - tablist [ref=f10e390]:
+                - tab "General Data" [selected] [ref=f10e392] [cursor=pointer]
+                - tab "Basic Candidate Data" [ref=f10e394] [cursor=pointer]
+                - tab "Qualifications" [ref=f10e396] [cursor=pointer]
+                - tab "Previous Experience" [ref=f10e398] [cursor=pointer]
+              - tabpanel "General Data" [ref=f10e401]:
+                - generic [ref=f10e404]:
+                  - generic: "*"
+                  - generic [ref=f10e408]:
+                    - generic [ref=f10e409]: School Name in English
+                    - textbox "School Name in English" [disabled] [ref=f10e415]: New Education School 24877
+                  - generic [ref=f10e419]:
+                    - generic [ref=f10e420]: School Name in Arabic
+                    - textbox "School Name in Arabic" [disabled] [ref=f10e426]: مدرسة العلم الحديث 24877
+                  - generic [ref=f10e427]:
+                    - heading "Curriculum" [level=1] [ref=f10e429]
+                    - generic [ref=f10e431]:
+                      - heading "Curriculum 1" [level=2] [ref=f10e432]
+                      - button [ref=f10e434] [cursor=pointer]
+                  - generic [ref=f10e441]:
+                    - generic [ref=f10e442]: licence Number
+                    - textbox "licence Number" [disabled] [ref=f10e448]: "4664"
+                  - generic [ref=f10e452]:
+                    - generic [ref=f10e453]: licence Expiry Date
+                    - textbox "licence Expiry Date" [disabled] [ref=f10e460]: 2036-02-17
+                  - generic [ref=f10e464]:
+                    - generic [ref=f10e465]: School Phone
+                    - textbox "School Phone" [disabled] [ref=f10e472]
+                  - generic [ref=f10e476]:
+                    - generic [ref=f10e477]: School Email
+                    - textbox "School Email" [disabled] [ref=f10e483]
+                  - generic [ref=f10e487]:
+                    - generic [ref=f10e488]: Reason for Vacancy
+                    - textbox "Reason for Vacancy" [disabled] [ref=f10e494]
+            - button "Next" [ref=f10e498] [cursor=pointer]
+          - generic [ref=f10e500]:
+            - generic [ref=f10e501]:
+              - button "1 Manager data" [ref=f10e503] [cursor=pointer]:
+                - generic [ref=f10e505]: "1"
+                - generic [ref=f10e507]: Manager data
+              - button "2 Attachments" [ref=f10e511] [cursor=pointer]:
+                - generic [ref=f10e513]: "2"
+                - generic [ref=f10e515]: Attachments
+              - button "3 Summary" [ref=f10e519] [cursor=pointer]:
+                - generic [ref=f10e520]: "3"
+                - generic [ref=f10e522]: Summary
+            - generic [ref=f10e525]:
+              - separator [ref=f10e526]
+              - heading "Help" [level=2] [ref=f10e527]
+              - generic [ref=f10e528]:
+                - generic [ref=f10e529] [cursor=pointer]: Service Card
+                - generic [ref=f10e531] [cursor=pointer]: FAQs
+                - generic [ref=f10e533] [cursor=pointer]: Contact Us
+    - generic [ref=f10e313]:
+      - generic [ref=f10e314]:
+        - generic [ref=f10e315]:
+          - img "App logo" [ref=f10e318]
+          - generic [ref=f10e319]:
+            - generic [ref=f10e320] [cursor=pointer]
+            - generic [ref=f10e321] [cursor=pointer]
+            - link [ref=f10e322] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f10e323]:
+          - generic [ref=f10e324]:
+            - generic [ref=f10e325]: Quick Links
+            - generic [ref=f10e326]:
+              - link "Workspace" [ref=f10e327] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f10e328] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f10e329] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f10e330] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f10e331]:
+            - generic [ref=f10e332]: Get in Touch
+            - generic [ref=f10e333]:
+              - generic [ref=f10e334]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f10e335]: +971 232 1248
+      - separator [ref=f10e336]
+      - generic [ref=f10e337]:
+        - generic [ref=f10e338]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f10e339]:
+          - generic [ref=f10e340] [cursor=pointer]: Copyright
+          - generic [ref=f10e341] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f10e342] [cursor=pointer]: Disclaimer
+          - generic [ref=f10e343] [cursor=pointer]: Privacy Policy
+  - generic [ref=f10e539]:
+    - button "Close" [ref=f10e542] [cursor=pointer]
+    - generic [ref=f10e547]:
+      - generic [ref=f10e548]: Anas Mohamed
+      - generic [ref=f10e551]:
+        - generic [ref=f10e552] [cursor=pointer]: Workspace
+        - generic [ref=f10e561] [cursor=pointer]: Requests
+        - generic [ref=f10e568] [cursor=pointer]: Services
+        - generic [ref=f10e574] [cursor=pointer]: Penalties
+        - generic [ref=f10e581] [cursor=pointer]: My Schools
+        - generic [ref=f10e594] [cursor=pointer]: Invoices
+        - separator [ref=f10e603]
+        - list [ref=f10e604]:
+          - listitem [ref=f10e605]:
+            - link "About Us" [active] [ref=f10e606] [cursor=pointer]:
+              - /url: https://test.optimalpass.org/en/about-us
+          - listitem [ref=f10e607]:
+            - link "Educational Institutions" [ref=f10e608] [cursor=pointer]:
+              - /url: https://test.optimalpass.org/en/educational-institutions
+          - listitem [ref=f10e609]:
+            - link "Services" [ref=f10e610] [cursor=pointer]:
+              - /url: https://test.optimalpass.org/en/our-services
+          - listitem [ref=f10e611]:
+            - link "Media" [ref=f10e612] [cursor=pointer]:
+              - /url: https://test.optimalpass.org/en/media
+          - listitem [ref=f10e613]:
+            - link "Laws and Decrees" [ref=f10e614] [cursor=pointer]:
+              - /url: https://test.optimalpass.org/en/laws-and-decrees
+          - listitem [ref=f10e615]:
+            - link "Contact Us" [ref=f10e616] [cursor=pointer]:
+              - /url: https://test.optimalpass.org/en/contact-us
+      - button "Logout" [ref=f10e617] [cursor=pointer]

@@ -1,0 +1,299 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e5]:
+    - generic [ref=f9e6]:
+      - generic [ref=f9e7]:
+        - img "App logo" [ref=f9e10]
+        - generic [ref=f9e11]:
+          - generic [ref=f9e12] [cursor=pointer]
+          - generic [ref=f9e14] [cursor=pointer]
+          - button "Add ticket" [ref=f9e21] [cursor=pointer]
+          - generic [ref=f9e33] [cursor=pointer]
+      - list [ref=f9e38]:
+        - listitem [ref=f9e39]:
+          - generic [ref=f9e40] [cursor=pointer]
+        - listitem [ref=f9e44]:
+          - link "Services" [ref=f9e45] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f9e46]:
+          - link "Contact Us" [ref=f9e47] [cursor=pointer]:
+            - /url: https://apea.ae/en/contact-us
+    - generic [ref=f9e367]:
+      - generic [ref=f9e371]:
+        - button [ref=f9e373] [cursor=pointer]:
+          - button [ref=f9e374]
+        - generic [ref=f9e376]: Requests
+      - generic [ref=f9e378]:
+        - generic [ref=f9e379]:
+          - generic [ref=f9e380]:
+            - generic [ref=f9e381]:
+              - generic [ref=f9e382]: Status
+              - generic [ref=f9e386] [cursor=pointer]:
+                - textbox [ref=f9e388]
+                - generic: All
+            - generic [ref=f9e392]:
+              - generic [ref=f9e393]: Service
+              - generic [ref=f9e397]:
+                - textbox [ref=f9e399]
+                - generic: All
+            - generic [ref=f9e403]:
+              - generic [ref=f9e404]: Date
+              - generic [ref=f9e407]:
+                - textbox "Start date" [ref=f9e409]
+                - textbox "End date" [ref=f9e416]
+            - generic [ref=f9e418]:
+              - generic [ref=f9e419] [cursor=pointer]
+              - textbox "Request ID" [ref=f9e421]
+            - generic [ref=f9e423]:
+              - generic [ref=f9e424] [cursor=pointer]
+              - textbox "Student Name" [ref=f9e426]
+          - button "+ New Request" [ref=f9e427] [cursor=pointer]:
+            - generic [ref=f9e428]: +
+            - text: New Request
+        - table [ref=f9e432]:
+          - rowgroup [ref=f9e433]:
+            - row [ref=f9e434]:
+              - columnheader "Reference Number" [ref=f9e435]
+              - columnheader "Service Category" [ref=f9e436]
+              - columnheader "Service Name" [ref=f9e437]
+              - columnheader "Student Name" [ref=f9e438]
+              - columnheader "Date" [ref=f9e439]
+              - columnheader "Status" [ref=f9e440]
+              - columnheader "Actions" [ref=f9e441]
+          - rowgroup [ref=f9e442]:
+            - row [ref=f9e443]:
+              - cell "IDPRCH14641" [ref=f9e444]
+              - cell "Licensing Services" [ref=f9e445]
+              - cell "Principal Change" [ref=f9e446]
+              - cell "--" [ref=f9e447]
+              - cell "6 Sep 2026" [ref=f9e448]
+              - cell "In-progress" [ref=f9e449]
+              - cell [ref=f9e452]:
+                - button "Details" [ref=f9e453] [cursor=pointer]
+            - row [ref=f9e454]:
+              - cell "IDINAPSUFOPRSCPE14640" [ref=f9e455]
+              - cell "Licensing Services" [ref=f9e456]
+              - cell "Initial application - Submission for a Private School Permit" [ref=f9e457]
+              - cell "--" [ref=f9e458]
+              - cell "6 Sep 2026" [ref=f9e459]
+              - cell "Draft" [ref=f9e460]
+              - cell [ref=f9e463]:
+                - button "Details" [ref=f9e464] [cursor=pointer]
+            - row [ref=f9e465]:
+              - cell "IDSUCOSEFOPA14639" [ref=f9e466]
+              - cell "Parent Services" [ref=f9e467]
+              - cell "Submit a Complaint (Service for Parents)" [ref=f9e468]
+              - cell "--" [ref=f9e469]
+              - cell "6 Sep 2026" [ref=f9e470]
+              - cell "Closed - Accepted" [ref=f9e471]
+              - cell [ref=f9e474]:
+                - button "Details" [ref=f9e475] [cursor=pointer]
+            - row [ref=f9e476]:
+              - cell "IDSUCOSEFOPA14638" [ref=f9e477]
+              - cell "Parent Services" [ref=f9e478]
+              - cell "Submit a Complaint (Service for Parents)" [ref=f9e479]
+              - cell "--" [ref=f9e480]
+              - cell "6 Sep 2026" [ref=f9e481]
+              - cell "In-progress" [ref=f9e482]
+              - cell [ref=f9e485]:
+                - button "Details" [ref=f9e486] [cursor=pointer]
+            - row [ref=f9e487]:
+              - cell "IDADEDST14637" [ref=f9e488]
+              - cell "Licensing Services" [ref=f9e489]
+              - cell "Adding Educational Stages" [ref=f9e490]
+              - cell "--" [ref=f9e491]
+              - cell "6 Sep 2026" [ref=f9e492]
+              - cell "Draft" [ref=f9e493]
+              - cell [ref=f9e496]:
+                - button "Details" [ref=f9e497] [cursor=pointer]
+            - row [ref=f9e498]:
+              - cell "IDSCNACHRE14618" [ref=f9e499]
+              - cell "Licensing Services" [ref=f9e500]
+              - cell "School Name Change Request" [ref=f9e501]
+              - cell "--" [ref=f9e502]
+              - cell "2 Sep 2026" [ref=f9e503]
+              - cell "In-progress" [ref=f9e504]
+              - cell [ref=f9e507]:
+                - button "Details" [ref=f9e508] [cursor=pointer]
+            - row [ref=f9e509]:
+              - cell "IDPRSCREAP14617" [ref=f9e510]
+              - cell "Licensing Services" [ref=f9e511]
+              - cell "Private School Renewal Application" [ref=f9e512]
+              - cell "--" [ref=f9e513]
+              - cell "2 Sep 2026" [ref=f9e514]
+              - cell "Draft" [ref=f9e515]
+              - cell [ref=f9e518]:
+                - button "Details" [ref=f9e519] [cursor=pointer]
+            - row [ref=f9e520]:
+              - cell "IDREFOCEOFEXCEFOEM14614" [ref=f9e521]
+              - cell "Licensing Services" [ref=f9e522]
+              - cell "Request for Certification of Experience Certificate for Employees" [ref=f9e523]
+              - cell "--" [ref=f9e524]
+              - cell "2 Sep 2026" [ref=f9e525]
+              - cell "Draft" [ref=f9e526]
+              - cell [ref=f9e529]:
+                - button "Details" [ref=f9e530] [cursor=pointer]
+            - row [ref=f9e531]:
+              - cell "IDSCRERE14613" [ref=f9e532]
+              - cell "Licensing Services" [ref=f9e533]
+              - cell "School Relocation Request" [ref=f9e534]
+              - cell "--" [ref=f9e535]
+              - cell "2 Sep 2026" [ref=f9e536]
+              - cell "Closed - Rejected" [ref=f9e537]
+              - cell [ref=f9e540]:
+                - button "Details" [ref=f9e541] [cursor=pointer]
+            - row [ref=f9e542]:
+              - cell "IDGOCO14612" [ref=f9e543]
+              - cell "Parent Services" [ref=f9e544]
+              - cell "Good Conduct" [ref=f9e545]
+              - cell "Derk Tomich" [ref=f9e546]
+              - cell "2 Sep 2026" [ref=f9e547]
+              - cell "In-progress" [ref=f9e548]
+              - cell [ref=f9e551]:
+                - button "Details" [ref=f9e552] [cursor=pointer]
+            - row [ref=f9e553]:
+              - cell "IDSCRERE14611" [ref=f9e554]
+              - cell "Licensing Services" [ref=f9e555]
+              - cell "School Relocation Request" [ref=f9e556]
+              - cell "--" [ref=f9e557]
+              - cell "1 Sep 2026" [ref=f9e558]
+              - cell "Draft" [ref=f9e559]
+              - cell [ref=f9e562]:
+                - button "Details" [ref=f9e563] [cursor=pointer]
+            - row [ref=f9e564]:
+              - cell "IDGOCO14610" [ref=f9e565]
+              - cell "Parent Services" [ref=f9e566]
+              - cell "Good Conduct" [ref=f9e567]
+              - cell "Derk Tomich" [ref=f9e568]
+              - cell "26 Aug 2026" [ref=f9e569]
+              - cell "In-progress" [ref=f9e570]
+              - cell [ref=f9e573]:
+                - button "Details" [ref=f9e574] [cursor=pointer]
+            - row [ref=f9e575]:
+              - cell "IDGOCO14608" [ref=f9e576]
+              - cell "Parent Services" [ref=f9e577]
+              - cell "Good Conduct" [ref=f9e578]
+              - cell "Derk Tomich" [ref=f9e579]
+              - cell "25 Aug 2026" [ref=f9e580]
+              - cell "In-progress" [ref=f9e581]
+              - cell [ref=f9e584]:
+                - button "Details" [ref=f9e585] [cursor=pointer]
+            - row [ref=f9e586]:
+              - cell "IDGOCO14607" [ref=f9e587]
+              - cell "Parent Services" [ref=f9e588]
+              - cell "Good Conduct" [ref=f9e589]
+              - cell "Derk Tomich" [ref=f9e590]
+              - cell "25 Aug 2026" [ref=f9e591]
+              - cell "Draft" [ref=f9e592]
+              - cell [ref=f9e595]:
+                - button "Details" [ref=f9e596] [cursor=pointer]
+            - row [ref=f9e597]:
+              - cell "IDGOCO14606" [ref=f9e598]
+              - cell "Parent Services" [ref=f9e599]
+              - cell "Good Conduct" [ref=f9e600]
+              - cell "Derk Tomich" [ref=f9e601]
+              - cell "25 Aug 2026" [ref=f9e602]
+              - cell "Return For Correction" [ref=f9e603]
+              - cell [ref=f9e606]:
+                - button "Details" [ref=f9e607] [cursor=pointer]
+            - row [ref=f9e608]:
+              - cell "IDTRINOROUTHCO14605" [ref=f9e609]
+              - cell "Parent Services" [ref=f9e610]
+              - cell "Transfer Inside or Outside the Country" [ref=f9e611]
+              - cell "Derk Tomich" [ref=f9e612]
+              - cell "25 Aug 2026" [ref=f9e613]
+              - cell "Draft" [ref=f9e614]
+              - cell [ref=f9e617]:
+                - button "Details" [ref=f9e618] [cursor=pointer]
+            - row [ref=f9e619]:
+              - cell "IDTRAFTHPEPE14604" [ref=f9e620]
+              - cell "Parent Services" [ref=f9e621]
+              - cell "Transfer After the Permitted Period" [ref=f9e622]
+              - cell "Derk Tomich" [ref=f9e623]
+              - cell "25 Aug 2026" [ref=f9e624]
+              - cell "Draft" [ref=f9e625]
+              - cell [ref=f9e628]:
+                - button "Details" [ref=f9e629] [cursor=pointer]
+            - row [ref=f9e630]:
+              - cell "IDCOST14603" [ref=f9e631]
+              - cell "Parent Services" [ref=f9e632]
+              - cell "Continue Studying" [ref=f9e633]
+              - cell "Derk Tomich" [ref=f9e634]
+              - cell "25 Aug 2026" [ref=f9e635]
+              - cell "Closed - Accepted" [ref=f9e636]
+              - cell [ref=f9e639]:
+                - button "Details" [ref=f9e640] [cursor=pointer]
+            - row [ref=f9e641]:
+              - cell "IDTRAFTHPEPE14602" [ref=f9e642]
+              - cell "Parent Services" [ref=f9e643]
+              - cell "Transfer After the Permitted Period" [ref=f9e644]
+              - cell "Derk Tomich" [ref=f9e645]
+              - cell "25 Aug 2026" [ref=f9e646]
+              - cell "Closed - Accepted" [ref=f9e647]
+              - cell [ref=f9e650]:
+                - button "Details" [ref=f9e651] [cursor=pointer]
+            - row [ref=f9e652]:
+              - cell "IDGOCO14601" [ref=f9e653]
+              - cell "Parent Services" [ref=f9e654]
+              - cell "Good Conduct" [ref=f9e655]
+              - cell "Derk Tomich" [ref=f9e656]
+              - cell "25 Aug 2026" [ref=f9e657]
+              - cell "Draft" [ref=f9e658]
+              - cell [ref=f9e661]:
+                - button "Details" [ref=f9e662] [cursor=pointer]
+        - list [ref=f9e665]:
+          - listitem "Previous Page" [ref=f9e666]:
+            - button [disabled] [ref=f9e667]
+          - listitem "1" [ref=f9e671] [cursor=pointer]
+          - listitem "2" [ref=f9e673] [cursor=pointer]
+          - listitem "3" [ref=f9e675] [cursor=pointer]
+          - listitem "4" [ref=f9e677] [cursor=pointer]
+          - listitem "5" [ref=f9e679] [cursor=pointer]
+          - listitem "Next 5 Pages" [ref=f9e681] [cursor=pointer]:
+            - generic [ref=f9e682]: •••
+          - listitem "95" [ref=f9e688] [cursor=pointer]
+          - listitem "Next Page" [ref=f9e690] [cursor=pointer]:
+            - button [ref=f9e691]
+    - generic [ref=f9e313]:
+      - generic [ref=f9e314]:
+        - generic [ref=f9e315]:
+          - img "App logo" [ref=f9e318]
+          - generic [ref=f9e319]:
+            - generic [ref=f9e320] [cursor=pointer]
+            - generic [ref=f9e321] [cursor=pointer]
+            - link [ref=f9e322] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f9e323]:
+          - generic [ref=f9e324]:
+            - generic [ref=f9e325]: Quick Links
+            - generic [ref=f9e326]:
+              - link "Workspace" [ref=f9e327] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f9e328] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f9e329] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f9e330] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f9e331]:
+            - generic [ref=f9e332]: Get in Touch
+            - generic [ref=f9e333]:
+              - generic [ref=f9e334]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f9e335]: +971 232 1248
+      - separator [ref=f9e336]
+      - generic [ref=f9e337]:
+        - generic [ref=f9e338]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f9e339]:
+          - generic [ref=f9e340] [cursor=pointer]: Copyright
+          - generic [ref=f9e341] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f9e342] [cursor=pointer]: Disclaimer
+          - generic [ref=f9e343] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

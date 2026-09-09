@@ -1,0 +1,78 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e5]:
+    - generic [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - img "App logo" [ref=f5e10]
+        - generic [ref=f5e11]:
+          - generic [ref=f5e12] [cursor=pointer]
+          - generic [ref=f5e14] [cursor=pointer]
+          - button "Add ticket" [ref=f5e21] [cursor=pointer]
+          - generic [ref=f5e33] [cursor=pointer]
+      - list [ref=f5e38]:
+        - listitem [ref=f5e39]:
+          - generic [ref=f5e40] [cursor=pointer]
+        - listitem [ref=f5e44]:
+          - link "Services" [ref=f5e45] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f5e46]:
+          - link "Contact Us" [ref=f5e47] [cursor=pointer]:
+            - /url: https://apea.ae/en/contact-us
+    - generic [ref=f5e345]:
+      - generic [ref=f5e349]:
+        - button [ref=f5e351] [cursor=pointer]:
+          - button [ref=f5e352]
+        - generic [ref=f5e354]: Documents
+      - generic [ref=f5e356]:
+        - generic [ref=f5e358] [cursor=pointer]:
+          - generic [ref=f5e359]: "821"
+          - heading "Uploaded Files" [level=3] [ref=f5e391]
+        - generic [ref=f5e393] [cursor=pointer]:
+          - generic [ref=f5e394]: "1889"
+          - heading "Outputs" [level=3] [ref=f5e411]
+        - generic [ref=f5e413] [cursor=pointer]:
+          - generic [ref=f5e414]: "939"
+          - heading "Invoices" [level=3] [ref=f5e446]
+    - generic [ref=f5e313]:
+      - generic [ref=f5e314]:
+        - generic [ref=f5e315]:
+          - img "App logo" [ref=f5e318]
+          - generic [ref=f5e319]:
+            - generic [ref=f5e320] [cursor=pointer]
+            - generic [ref=f5e321] [cursor=pointer]
+            - link [ref=f5e322] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f5e323]:
+          - generic [ref=f5e324]:
+            - generic [ref=f5e325]: Quick Links
+            - generic [ref=f5e326]:
+              - link "Workspace" [ref=f5e327] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f5e328] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f5e329] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f5e330] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f5e331]:
+            - generic [ref=f5e332]: Get in Touch
+            - generic [ref=f5e333]:
+              - generic [ref=f5e334]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f5e335]: +971 232 1248
+      - separator [ref=f5e336]
+      - generic [ref=f5e337]:
+        - generic [ref=f5e338]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f5e339]:
+          - generic [ref=f5e340] [cursor=pointer]: Copyright
+          - generic [ref=f5e341] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f5e342] [cursor=pointer]: Disclaimer
+          - generic [ref=f5e343] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

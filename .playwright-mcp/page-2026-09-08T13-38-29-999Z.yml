@@ -1,0 +1,53 @@
+- generic [ref=f3e378]:
+  - generic [ref=f3e380]:
+    - button [ref=f3e383] [cursor=pointer]:
+      - img "App logo" [ref=f3e385]
+    - generic [ref=f3e387]:
+      - generic [ref=f3e391] [cursor=pointer]:
+        - generic [ref=f3e392]: English
+        - generic [ref=f3e394]:
+          - textbox [ref=f3e396]
+          - generic "English" [ref=f3e397]
+      - generic [ref=f3e404]:
+        - button [ref=f3e406] [cursor=pointer]:
+          - button [ref=f3e407]
+        - generic [ref=f3e409]: Forgot Password
+  - generic [ref=f3e412]:
+    - paragraph [ref=f3e415]: Enter your registered email below to receive OTP
+    - generic [ref=f3e417]:
+      - textbox "Email" [ref=f3e418]
+      - button "Send OTP" [ref=f3e419] [cursor=pointer]
+  - generic [ref=f3e422]:
+    - generic [ref=f3e423]:
+      - generic [ref=f3e424]:
+        - img "App logo" [ref=f3e427]
+        - generic [ref=f3e428]:
+          - generic [ref=f3e429] [cursor=pointer]
+          - generic [ref=f3e430] [cursor=pointer]
+          - link [ref=f3e431] [cursor=pointer]:
+            - /url: assets/icons/instagram.svg
+      - generic [ref=f3e432]:
+        - generic [ref=f3e433]:
+          - generic [ref=f3e434]: Quick Links
+          - generic [ref=f3e435]:
+            - link "Workspace" [ref=f3e436] [cursor=pointer]:
+              - /url: /workspace
+            - link "Requests" [ref=f3e437] [cursor=pointer]:
+              - /url: /requests
+            - link "Services" [ref=f3e438] [cursor=pointer]:
+              - /url: /services
+            - link "My Schools" [ref=f3e439] [cursor=pointer]:
+              - /url: /schools
+        - generic [ref=f3e440]:
+          - generic [ref=f3e441]: Get in Touch
+          - generic [ref=f3e442]:
+            - generic [ref=f3e443]: Monday - Thursday 7 AM - 3 PM
+            - generic [ref=f3e444]: +971 232 1248
+    - separator [ref=f3e445]
+    - generic [ref=f3e446]:
+      - generic [ref=f3e447]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+      - generic [ref=f3e448]:
+        - generic [ref=f3e449] [cursor=pointer]: Copyright
+        - generic [ref=f3e450] [cursor=pointer]: Terms & Conditions
+        - generic [ref=f3e451] [cursor=pointer]: Disclaimer
+        - generic [ref=f3e452] [cursor=pointer]: Privacy Policy

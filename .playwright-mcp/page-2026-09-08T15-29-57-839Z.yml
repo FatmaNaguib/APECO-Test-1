@@ -1,0 +1,39 @@
+- generic [ref=f2e4]:
+  - link [ref=f2e7] [cursor=pointer]:
+    - /url: https://www.uaepass.ae
+  - paragraph [ref=f2e12]: Login to UAE PASS
+  - generic [ref=f2e15]:
+    - generic [ref=f2e16]:
+      - textbox "Emirates ID, email, or phone eg. 971500000000" [active] [ref=f2e18]
+      - generic [ref=f2e19]:
+        - checkbox "Remember me" [checked] [ref=f2e20]
+        - generic [ref=f2e21]: Remember me
+      - generic [ref=f2e22]:
+        - iframe [ref=f2e25]:
+          - generic [ref=f3e6]:
+            - text: protected by
+            - strong [ref=f3e7]: reCAPTCHA
+        - button "Login" [ref=f2e26] [cursor=pointer]
+    - separator [ref=f2e27]
+    - paragraph [ref=f2e30]:
+      - text: Don't have UAEPASS account?
+      - link "Create new account" [ref=f2e31] [cursor=pointer]:
+        - /url: https://stg.uaepass.ae/signup
+    - link "Recover your account" [ref=f2e36] [cursor=pointer]:
+      - /url: https://stg.uaepass.ae/account-recovery
+  - contentinfo [ref=f2e37]:
+    - generic [ref=f2e38]:
+      - generic [ref=f2e47]:
+        - link "Home" [ref=f2e48] [cursor=pointer]:
+          - /url: https://stg.uaepass.ae
+        - link "About" [ref=f2e49] [cursor=pointer]:
+          - /url: https://stg.uaepass.ae/about
+        - link "Support" [ref=f2e50] [cursor=pointer]:
+          - /url: https://stg.uaepass.ae/support
+        - link "FAQ" [ref=f2e51] [cursor=pointer]:
+          - /url: https://stg.uaepass.ae/faq
+        - link "Kiosk Locations" [ref=f2e52] [cursor=pointer]:
+          - /url: https://stg.uaepass.ae/locations
+        - link "Service Provider" [ref=f2e53] [cursor=pointer]:
+          - /url: https://stg.uaepass.ae/service-provider
+      - generic [ref=f2e54]: Copyright © 2026 UAE PASS All rights reserved.

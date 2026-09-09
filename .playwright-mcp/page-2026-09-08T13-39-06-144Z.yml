@@ -1,0 +1,39 @@
+- generic [ref=f3e617]:
+  - banner [ref=f3e618]:
+    - generic [ref=f3e619]:
+      - link [ref=f3e621] [cursor=pointer]:
+        - /url: /
+        - img "PEAO Logo" [ref=f3e622]
+      - generic [ref=f3e626] [cursor=pointer]:
+        - generic [ref=f3e627]: English
+        - generic [ref=f3e629]:
+          - textbox [ref=f3e631]
+          - generic "English" [ref=f3e632]
+  - main [ref=f3e635]:
+    - generic [ref=f3e638]:
+      - generic [ref=f3e639]:
+        - heading "Sign in" [level=1] [ref=f3e640]
+        - paragraph [ref=f3e641]: Access your account to continue
+      - button "UAE PASS Sign in with UAE PASS" [ref=f3e642] [cursor=pointer]:
+        - img "UAE PASS" [ref=f3e643]
+        - generic [ref=f3e644]: Sign in with UAE PASS
+      - generic [ref=f3e645]: OR
+      - generic [ref=f3e649]:
+        - generic [ref=f3e650]:
+          - generic [ref=f3e651]: Username
+          - textbox "Username" [ref=f3e655]:
+            - /placeholder: Enter your username
+        - generic [ref=f3e656]:
+          - generic [ref=f3e657]: Password
+          - generic [ref=f3e658]:
+            - textbox "Password" [ref=f3e662]:
+              - /placeholder: Enter your password
+            - button "Toggle password visibility" [ref=f3e663] [cursor=pointer]:
+              - generic [ref=f3e664]: 
+        - link "Forgot password?" [ref=f3e666] [cursor=pointer]:
+          - /url: /auth/forget-password
+        - button "Login" [ref=f3e667] [cursor=pointer]
+        - generic [ref=f3e669]:
+          - generic [ref=f3e670]: Don't have an account?
+          - link "Create new account" [ref=f3e671] [cursor=pointer]:
+            - /url: /auth/new-account

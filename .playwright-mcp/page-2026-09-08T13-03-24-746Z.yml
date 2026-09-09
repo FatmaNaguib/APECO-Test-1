@@ -1,0 +1,111 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e66]:
+    - generic [ref=f3e67]:
+      - generic [ref=f3e68]:
+        - img "App logo" [ref=f3e71]
+        - generic [ref=f3e72]:
+          - generic [ref=f3e73] [cursor=pointer]
+          - generic [ref=f3e75] [cursor=pointer]
+          - button "Add ticket" [ref=f3e82] [cursor=pointer]
+          - generic [ref=f3e94] [cursor=pointer]
+      - list [ref=f3e99]:
+        - listitem [ref=f3e100]:
+          - generic [ref=f3e101] [cursor=pointer]
+        - listitem [ref=f3e105]:
+          - link "Services" [ref=f3e106] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f3e107]:
+          - link "Contact Us" [ref=f3e108] [cursor=pointer]:
+            - /url: https://apea.ae/en/contact-us
+    - generic [ref=f3e112]:
+      - generic [ref=f3e116]:
+        - button [ref=f3e118] [cursor=pointer]:
+          - button [ref=f3e119]
+        - generic [ref=f3e121]: Workspace
+      - generic [ref=f3e122]:
+        - generic [ref=f3e124] [cursor=pointer]:
+          - generic [ref=f3e125]: "0"
+          - generic [ref=f3e169]:
+            - heading "To Do" [level=3] [ref=f3e170]
+            - paragraph [ref=f3e171]: We have some work to do over here.
+        - generic [ref=f3e173] [cursor=pointer]:
+          - generic [ref=f3e174]: "0"
+          - generic [ref=f3e204]:
+            - heading "Draft" [level=3] [ref=f3e205]
+            - paragraph [ref=f3e206]: We are waiting for you!
+        - generic [ref=f3e208] [cursor=pointer]:
+          - generic [ref=f3e209]: "0"
+          - generic [ref=f3e249]:
+            - heading "Documents" [level=3] [ref=f3e250]
+            - paragraph [ref=f3e251]: Oh, here you go!
+      - generic [ref=f3e252]:
+        - generic [ref=f3e253]:
+          - heading "My Schools" [level=1] [ref=f3e254]
+          - button [ref=f3e259] [cursor=pointer]
+        - generic [ref=f3e262]:
+          - heading "Request Status" [level=1] [ref=f3e263]
+          - generic [ref=f3e267]:
+            - paragraph [ref=f3e268]: "0"
+            - paragraph [ref=f3e269]: Total Requests
+      - heading "Most Used Services" [level=1] [ref=f3e271]
+      - generic [ref=f3e272]:
+        - generic [ref=f3e273]:
+          - heading "Recent Requests" [level=2] [ref=f3e274]
+          - button "All Requests" [ref=f3e275] [cursor=pointer]
+        - generic [ref=f3e279]:
+          - generic:
+            - table:
+              - rowgroup:
+                - row "Reference Number Service Category Service Name Student Name Date Status Actions":
+                  - columnheader "Reference Number"
+                  - columnheader "Service Category"
+                  - columnheader "Service Name"
+                  - columnheader "Student Name"
+                  - columnheader "Date"
+                  - columnheader "Status"
+                  - columnheader "Actions"
+              - rowgroup
+    - generic [ref=f3e288]:
+      - generic [ref=f3e289]:
+        - generic [ref=f3e290]:
+          - img "App logo" [ref=f3e293]
+          - generic [ref=f3e294]:
+            - generic [ref=f3e295] [cursor=pointer]
+            - generic [ref=f3e296] [cursor=pointer]
+            - link [ref=f3e297] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f3e298]:
+          - generic [ref=f3e299]:
+            - generic [ref=f3e300]: Quick Links
+            - generic [ref=f3e301]:
+              - link "Workspace" [ref=f3e302] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f3e303] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f3e304] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f3e305] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f3e306]:
+            - generic [ref=f3e307]: Get in Touch
+            - generic [ref=f3e308]:
+              - generic [ref=f3e309]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f3e310]: +971 232 1248
+      - separator [ref=f3e311]
+      - generic [ref=f3e312]:
+        - generic [ref=f3e313]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f3e314]:
+          - generic [ref=f3e315] [cursor=pointer]: Copyright
+          - generic [ref=f3e316] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f3e317] [cursor=pointer]: Disclaimer
+          - generic [ref=f3e318] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

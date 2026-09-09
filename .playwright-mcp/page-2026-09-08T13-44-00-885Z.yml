@@ -1,0 +1,165 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e5]:
+    - generic [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - img "App logo" [ref=f5e10]
+        - generic [ref=f5e11]:
+          - generic [ref=f5e12] [cursor=pointer]
+          - generic [ref=f5e14] [cursor=pointer]
+          - button "Add ticket" [ref=f5e21] [cursor=pointer]
+          - generic [ref=f5e33] [cursor=pointer]
+      - list [ref=f5e38]:
+        - listitem [ref=f5e39]:
+          - generic [ref=f5e40] [cursor=pointer]
+        - listitem [ref=f5e44]:
+          - link "Services" [ref=f5e45] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f5e46]:
+          - link "Contact Us" [ref=f5e47] [cursor=pointer]:
+            - /url: https://apea.ae/en/contact-us
+    - generic [ref=f5e51]:
+      - generic [ref=f5e55]:
+        - button [ref=f5e57] [cursor=pointer]:
+          - button [ref=f5e58]
+        - generic [ref=f5e60]: Workspace
+      - generic [ref=f5e61]:
+        - generic [ref=f5e63] [cursor=pointer]:
+          - generic [ref=f5e64]: "32"
+          - generic [ref=f5e108]:
+            - heading "To Do" [level=3] [ref=f5e109]
+            - paragraph [ref=f5e110]: We have some work to do over here.
+        - generic [ref=f5e112] [cursor=pointer]:
+          - generic [ref=f5e113]: "882"
+          - generic [ref=f5e143]:
+            - heading "Draft" [level=3] [ref=f5e144]
+            - paragraph [ref=f5e145]: We are waiting for you!
+        - generic [ref=f5e147] [cursor=pointer]:
+          - generic [ref=f5e148]: "2710"
+          - generic [ref=f5e188]:
+            - heading "Documents" [level=3] [ref=f5e189]
+            - paragraph [ref=f5e190]: Oh, here you go!
+      - generic [ref=f5e191]:
+        - generic [ref=f5e192]:
+          - heading "My Schools" [level=1] [ref=f5e193]
+          - generic [ref=f5e195]:
+            - paragraph [ref=f5e197] [cursor=pointer]: Australian International Private School
+            - paragraph [ref=f5e199] [cursor=pointer]: British Modern School
+            - paragraph [ref=f5e201] [cursor=pointer]: English School Name 13333
+            - button [ref=f5e204] [cursor=pointer]
+        - generic [ref=f5e207]:
+          - heading "Request Status" [level=1] [ref=f5e208]
+          - generic [ref=f5e210]:
+            - generic [ref=f5e211]: "[object Object]"
+            - generic [ref=f5e212]:
+              - paragraph [ref=f5e213]: "1894"
+              - paragraph [ref=f5e214]: Total Requests
+      - generic [ref=f5e215]:
+        - heading "Most Used Services" [level=1] [ref=f5e216]
+        - generic [ref=f5e217]:
+          - heading "Add Student Degrees" [level=3] [ref=f5e223] [cursor=pointer]
+          - heading "Initial application - Submission for a Private School Permit" [level=3] [ref=f5e229] [cursor=pointer]
+          - heading "Issuance of a New Permit" [level=3] [ref=f5e235] [cursor=pointer]
+      - generic [ref=f5e236]:
+        - generic [ref=f5e237]:
+          - heading "Recent Requests" [level=2] [ref=f5e238]
+          - button "All Requests" [ref=f5e239] [cursor=pointer]
+        - table [ref=f5e245]:
+          - rowgroup [ref=f5e246]:
+            - row [ref=f5e247]:
+              - columnheader "Reference Number" [ref=f5e248]
+              - columnheader "Service Category" [ref=f5e249]
+              - columnheader "Service Name" [ref=f5e250]
+              - columnheader "Student Name" [ref=f5e251]
+              - columnheader "Date" [ref=f5e252]
+              - columnheader "Status" [ref=f5e253]
+              - columnheader "Actions" [ref=f5e254]
+          - rowgroup [ref=f5e255]:
+            - row [ref=f5e256]:
+              - cell "IDPRCH14641" [ref=f5e257]
+              - cell "Licensing Services" [ref=f5e258]
+              - cell "Principal Change" [ref=f5e259]
+              - cell "--" [ref=f5e260]
+              - cell "6 Sep 2026" [ref=f5e261]
+              - cell "In-progress" [ref=f5e262]
+              - cell [ref=f5e265]:
+                - button "Details" [ref=f5e266] [cursor=pointer]
+            - row [ref=f5e267]:
+              - cell "IDINAPSUFOPRSCPE14640" [ref=f5e268]
+              - cell "Licensing Services" [ref=f5e269]
+              - cell "Initial application - Submission for a Private School Permit" [ref=f5e270]
+              - cell "--" [ref=f5e271]
+              - cell "6 Sep 2026" [ref=f5e272]
+              - cell "Draft" [ref=f5e273]
+              - cell [ref=f5e276]:
+                - button "Details" [ref=f5e277] [cursor=pointer]
+            - row [ref=f5e278]:
+              - cell "IDSUCOSEFOPA14639" [ref=f5e279]
+              - cell "Parent Services" [ref=f5e280]
+              - cell "Submit a Complaint (Service for Parents)" [ref=f5e281]
+              - cell "--" [ref=f5e282]
+              - cell "6 Sep 2026" [ref=f5e283]
+              - cell "Closed - Accepted" [ref=f5e284]
+              - cell [ref=f5e287]:
+                - button "Details" [ref=f5e288] [cursor=pointer]
+            - row [ref=f5e289]:
+              - cell "IDSUCOSEFOPA14638" [ref=f5e290]
+              - cell "Parent Services" [ref=f5e291]
+              - cell "Submit a Complaint (Service for Parents)" [ref=f5e292]
+              - cell "--" [ref=f5e293]
+              - cell "6 Sep 2026" [ref=f5e294]
+              - cell "In-progress" [ref=f5e295]
+              - cell [ref=f5e298]:
+                - button "Details" [ref=f5e299] [cursor=pointer]
+            - row [ref=f5e300]:
+              - cell "IDADEDST14637" [ref=f5e301]
+              - cell "Licensing Services" [ref=f5e302]
+              - cell "Adding Educational Stages" [ref=f5e303]
+              - cell "--" [ref=f5e304]
+              - cell "6 Sep 2026" [ref=f5e305]
+              - cell "Draft" [ref=f5e306]
+              - cell [ref=f5e309]:
+                - button "Details" [ref=f5e310] [cursor=pointer]
+    - generic [ref=f5e313]:
+      - generic [ref=f5e314]:
+        - generic [ref=f5e315]:
+          - img "App logo" [ref=f5e318]
+          - generic [ref=f5e319]:
+            - generic [ref=f5e320] [cursor=pointer]
+            - generic [ref=f5e321] [cursor=pointer]
+            - link [ref=f5e322] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f5e323]:
+          - generic [ref=f5e324]:
+            - generic [ref=f5e325]: Quick Links
+            - generic [ref=f5e326]:
+              - link "Workspace" [ref=f5e327] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f5e328] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f5e329] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f5e330] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f5e331]:
+            - generic [ref=f5e332]: Get in Touch
+            - generic [ref=f5e333]:
+              - generic [ref=f5e334]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f5e335]: +971 232 1248
+      - separator [ref=f5e336]
+      - generic [ref=f5e337]:
+        - generic [ref=f5e338]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f5e339]:
+          - generic [ref=f5e340] [cursor=pointer]: Copyright
+          - generic [ref=f5e341] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f5e342] [cursor=pointer]: Disclaimer
+          - generic [ref=f5e343] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

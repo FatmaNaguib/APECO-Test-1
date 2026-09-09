@@ -1,0 +1,78 @@
+- generic [ref=f3e512]:
+  - generic [ref=f3e514]:
+    - button [ref=f3e517] [cursor=pointer]:
+      - img "App logo" [ref=f3e519]
+    - generic [ref=f3e521]:
+      - generic [ref=f3e525] [cursor=pointer]:
+        - generic [ref=f3e526]: English
+        - generic [ref=f3e528]:
+          - textbox [ref=f3e530]
+          - generic "English" [ref=f3e531]
+      - generic [ref=f3e538]:
+        - button [ref=f3e540] [cursor=pointer]:
+          - button [ref=f3e541]
+        - generic [ref=f3e543]: Create New Account
+  - generic [ref=f3e547]:
+    - generic [ref=f3e548]:
+      - generic [ref=f3e549]:
+        - generic [ref=f3e550]: First Name (English)*
+        - textbox [ref=f3e551]
+      - generic [ref=f3e552]:
+        - generic [ref=f3e553]: Last Name (English)*
+        - textbox [ref=f3e554]
+    - generic [ref=f3e555]:
+      - generic [ref=f3e556]:
+        - generic [ref=f3e557]: First Name (Arabic)*
+        - textbox [ref=f3e558]
+      - generic [ref=f3e559]:
+        - generic [ref=f3e560]: Last Name (Arabic)*
+        - textbox [ref=f3e561]
+    - generic [ref=f3e563]:
+      - generic [ref=f3e564]: Email*
+      - textbox [ref=f3e565]
+    - generic [ref=f3e566]:
+      - generic [ref=f3e567]:
+        - generic [ref=f3e568]: Password*
+        - generic [ref=f3e569]:
+          - textbox [ref=f3e570]
+          - generic [ref=f3e571]: 
+      - generic [ref=f3e573]:
+        - generic [ref=f3e574]: Confirm Password*
+        - generic [ref=f3e575]:
+          - textbox [ref=f3e576]
+          - generic [ref=f3e577]: 
+    - button "Register" [ref=f3e580] [cursor=pointer]
+  - generic [ref=f3e583]:
+    - generic [ref=f3e584]:
+      - generic [ref=f3e585]:
+        - img "App logo" [ref=f3e588]
+        - generic [ref=f3e589]:
+          - generic [ref=f3e590] [cursor=pointer]
+          - generic [ref=f3e591] [cursor=pointer]
+          - link [ref=f3e592] [cursor=pointer]:
+            - /url: assets/icons/instagram.svg
+      - generic [ref=f3e593]:
+        - generic [ref=f3e594]:
+          - generic [ref=f3e595]: Quick Links
+          - generic [ref=f3e596]:
+            - link "Workspace" [ref=f3e597] [cursor=pointer]:
+              - /url: /workspace
+            - link "Requests" [ref=f3e598] [cursor=pointer]:
+              - /url: /requests
+            - link "Services" [ref=f3e599] [cursor=pointer]:
+              - /url: /services
+            - link "My Schools" [ref=f3e600] [cursor=pointer]:
+              - /url: /schools
+        - generic [ref=f3e601]:
+          - generic [ref=f3e602]: Get in Touch
+          - generic [ref=f3e603]:
+            - generic [ref=f3e604]: Monday - Thursday 7 AM - 3 PM
+            - generic [ref=f3e605]: +971 232 1248
+    - separator [ref=f3e606]
+    - generic [ref=f3e607]:
+      - generic [ref=f3e608]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+      - generic [ref=f3e609]:
+        - generic [ref=f3e610] [cursor=pointer]: Copyright
+        - generic [ref=f3e611] [cursor=pointer]: Terms & Conditions
+        - generic [ref=f3e612] [cursor=pointer]: Disclaimer
+        - generic [ref=f3e613] [cursor=pointer]: Privacy Policy
