@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Assertion Failures",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*expect\\(.*\\)\\..*|.*AssertionError.*|.*Error: expect.*|.*Received:.*"
+  },
+  {
+    "name": "Locator Failures",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*strict mode violation.*|.*element\\(s\\) not found.*|.*waiting for locator.*|.*locator resolved to.*|.*No element matches.*"
+  },
+  {
+    "name": "Timeout Failures",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*Timeout \\d+ms exceeded.*|.*Timeout.*exceeded.*|.*Test timeout of \\d+ms exceeded.*|.*page\\.waitFor.*timed out.*"
+  },
+  {
+    "name": "Network & API Failures",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*net::ERR_.*|.*status 406.*|.*status 500.*|.*status 502.*|.*status 503.*|.*NetworkError.*|.*fetch failed.*"
+  },
+  {
+    "name": "Application Errors",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*TypeError:.*|.*ReferenceError:.*|.*SyntaxError:.*|.*Unhandled rejection:.*"
+  },
+  {
+    "name": "Infrastructure & Browser Failures",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*Browser closed.*|.*Target page, context or browser has been closed.*|.*Protocol error.*|.*Navigation failed.*|.*browserType\\.launch.*"
+  }
+]

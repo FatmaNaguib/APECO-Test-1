@@ -141,4 +141,138 @@ export class LoginPage extends BasePage {
   get usernameField(): Locator {
     return this.usernameInput;
   }
+
+  get submitButton(): Locator {
+    return this.loginButton;
+  }
+
+  get visibilityToggle(): Locator {
+    return this.passwordVisibilityToggle;
+  }
+
+  get uaePassBtn(): Locator {
+    return this.uaePassButton;
+  }
+
+  get heading(): Locator {
+    return this.page.getByRole('heading', { level: 1 });
+  }
+
+  get usernameRequiredError(): Locator {
+    return this.page.getByText('please enter user name');
+  }
+
+  get passwordRequiredError(): Locator {
+    return this.page.getByText('please enter the password');
+  }
+
+  get emailFormatError(): Locator {
+    return this.page.getByText('Please enter a valid email');
+  }
+
+  get passwordComplexityError(): Locator {
+    return this.page.getByText(/Please enter a password between 6 to 12 characters long/i);
+  }
+
+  get languageDropdown(): Locator {
+    return this.page.locator('app-language-switcher nz-select');
+  }
+
+  get arabicOption(): Locator {
+    return this.page.locator('.cdk-overlay-container [title="العربية"]:visible, nz-option-item[title="العربية"]:visible').first();
+  }
+
+  get englishOption(): Locator {
+    return this.page.locator('.cdk-overlay-container [title="English"]:visible, nz-option-item[title="English"]:visible').first();
+  }
+
+  get peaoLogo(): Locator {
+    return this.page.getByRole('img', { name: 'PEAO Logo' });
+  }
+
+  get arabicUsernameField(): Locator {
+    return this.page.getByRole('textbox', { name: 'اسم المستخدم' });
+  }
+
+  get arabicPasswordField(): Locator {
+    return this.page.getByRole('textbox', { name: 'كلمة المرور' });
+  }
+
+  get arabicSubmitButton(): Locator {
+    return this.page.getByRole('button', { name: 'تسجيل الدخول', exact: true });
+  }
+
+  get arabicUaePassButton(): Locator {
+    return this.page.getByRole('button', { name: 'UAE PASS تسجيل الدخول باستخدام UAE PASS' });
+  }
+
+  get arabicForgotPasswordLink(): Locator {
+    return this.page.getByRole('link', { name: 'هل نسيت كلمة المرور؟' });
+  }
+
+  get arabicCreateAccountLink(): Locator {
+    return this.page.getByRole('link', { name: 'إنشاء حساب جديد' });
+  }
+
+  get arabicUsernameRequiredError(): Locator {
+    return this.page.getByText('الرجاء إدخال اسم المستخدم');
+  }
+
+  get arabicPasswordRequiredError(): Locator {
+    return this.page.getByText('الرجاء إدخال كلمة المرور');
+  }
+
+  get arabicEmailFormatError(): Locator {
+    return this.page.getByText('الرجاء إدخال بريد إلكتروني صحيح');
+  }
+
+  get arabicPasswordComplexityError(): Locator {
+    return this.page.getByText('الرجاء إدخال كلمة مرور من 6 إلى 12 خانة وتحتوي على أحرف، أرقام، رموز، وحروف كبيرة وصغيرة');
+  }
+
+  get arabicSubtitle(): Locator {
+    return this.page.getByText('سجّل الدخول إلى حسابك للمتابعة');
+  }
+
+  async fillArabicUsername(username: string): Promise<void> {
+    await this.fill(this.arabicUsernameField, username, 'Arabic Username field');
+  }
+
+  async fillArabicPassword(password: string): Promise<void> {
+    await this.fill(this.arabicPasswordField, password, 'Arabic Password field');
+  }
+
+  async loginInArabic(username?: string, password?: string): Promise<void> {
+    Logger.info('Executing Arabic login flow');
+    if (username !== undefined) {
+      await this.fillArabicUsername(username);
+    }
+    if (password !== undefined) {
+      await this.fillArabicPassword(password);
+    }
+    await this.click(this.arabicSubmitButton, 'Arabic Login button');
+  }
+
+  async fillUsername(username: string): Promise<void> {
+    await this.fill(this.usernameInput, username, 'Username field');
+  }
+
+  async fillPassword(password: string): Promise<void> {
+    await this.fill(this.passwordInput, password, 'Password field');
+  }
+
+  async switchLanguage(language: 'Arabic' | 'English'): Promise<void> {
+    Logger.info(`Switching language to ${language}`);
+    const targetDir = language === 'Arabic' ? 'rtl' : 'ltr';
+
+    await this.click(this.languageDropdown, 'Language dropdown');
+    const option = language === 'Arabic' ? this.arabicOption : this.englishOption;
+    await this.click(option, `${language} option`);
+
+    // Ensure document direction flips and stabilizes to target orientation
+    await this.page.locator(`html[dir="${targetDir}"]`).waitFor({ state: 'attached' });
+
+    // Wait for the dropdown overlay backdrop to detach so subsequent clicks are not intercepted
+    await this.page.locator('.cdk-overlay-backdrop').waitFor({ state: 'detached' }).catch(() => {});
+  }
 }

@@ -1,0 +1,116 @@
+# ==============================================================================
+# Azure DevOps Pipeline: Playwright Allure Automation Suite
+# ==============================================================================
+trigger:
+  branches:
+    include:
+      - main
+      - master
+      - develop
+  paths:
+    include:
+      - tests/**
+      - pages/**
+      - utils/**
+      - config/**
+      - playwright.config.ts
+
+pr:
+  branches:
+    include:
+      - main
+      - master
+
+variables:
+  - name: CI
+    value: 'true'
+  - name: NODE_VERSION
+    value: '20.x'
+  - name: TEST_ENV
+    value: 'qa'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+stages:
+  - stage: TestAndReport
+    displayName: 'Execute Playwright Tests & Generate Allure Report'
+    jobs:
+      - job: PlaywrightExecution
+        displayName: 'Run Playwright Test Suite'
+        timeoutInMinutes: 60
+        steps:
+          # Step 1: Install Node.js
+          - task: NodeTool@0
+            displayName: 'Install Node.js $(NODE_VERSION)'
+            inputs:
+              versionSpec: $(NODE_VERSION)
+
+          # Step 2: Install Java (Required for Allure CLI)
+          - task: JavaToolInstaller@0
+            displayName: 'Install Java 17 for Allure Report Generation'
+            inputs:
+              versionSpec: '17'
+              jdkArchitectureOption: 'x64'
+              jdkSourceOption: 'PreInstalled'
+
+          # Step 3: Install NPM Dependencies
+          - script: |
+              npm ci
+            displayName: 'Install Project Dependencies (npm ci)'
+
+          # Step 4: Install Playwright Browsers with OS Dependencies
+          - script: |
+              npx playwright install --with-deps chromium
+            displayName: 'Install Playwright Chromium Browser'
+
+          # Step 5: Execute Playwright Tests with Allure Reporter
+          # Continue on error so report generation and publishing runs even if tests fail
+          - script: |
+              npx playwright test
+            displayName: 'Execute Playwright Tests'
+            env:
+              TEST_ENV: $(TEST_ENV)
+              TEST_EMAIL: $(TEST_EMAIL)
+              TEST_PASSWORD: $(TEST_PASSWORD)
+              CI: 'true'
+            continueOnError: true
+
+          # Step 6: Inject Environment Metadata & Failure Categories
+          - script: |
+              node scripts/setup-allure-env.js
+            displayName: 'Inject Allure Environment Metadata & Categories'
+            condition: always()
+
+          # Step 7: Generate Standalone HTML Allure Report
+          - script: |
+              npx allure generate allure-results --clean -o allure-report
+            displayName: 'Compile Allure Report via Allure CLI'
+            condition: always()
+
+          # Step 8: Publish Playwright HTML Report as Pipeline Artifact
+          - task: PublishPipelineArtifact@1
+            displayName: 'Publish Native Playwright Report'
+            condition: always()
+            inputs:
+              targetPath: 'playwright-report'
+              artifact: 'playwright-report-$(Build.BuildId)'
+              publishLocation: 'pipeline'
+
+          # Step 9: Publish Allure Results (Raw JSON + Traces)
+          - task: PublishPipelineArtifact@1
+            displayName: 'Publish Raw Allure Results'
+            condition: always()
+            inputs:
+              targetPath: 'allure-results'
+              artifact: 'allure-results-$(Build.BuildId)'
+              publishLocation: 'pipeline'
+
+          # Step 10: Publish Compiled Allure HTML Report
+          - task: PublishPipelineArtifact@1
+            displayName: 'Publish Compiled Allure HTML Report'
+            condition: always()
+            inputs:
+              targetPath: 'allure-report'
+              artifact: 'allure-report-$(Build.BuildId)'
+              publishLocation: 'pipeline'

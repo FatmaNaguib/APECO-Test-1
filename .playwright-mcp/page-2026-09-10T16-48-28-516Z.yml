@@ -1,0 +1,79 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - navigation [ref=e7]:
+      - link "All44" [ref=e8] [cursor=pointer]:
+        - /url: "#?"
+      - link "Passed40" [ref=e9] [cursor=pointer]:
+        - /url: "#?q=s%3Apassed"
+      - link "Failed4" [ref=e12] [cursor=pointer]:
+        - /url: "#?q=s%3Afailed"
+      - link "Flaky0" [ref=e15] [cursor=pointer]:
+        - /url: "#?q=s%3Aflaky"
+      - link "Skipped0" [ref=e16] [cursor=pointer]:
+        - /url: "#?q=s%3Askipped"
+      - link "Speedboard" [ref=e17] [cursor=pointer]:
+        - /url: "#?speedboard"
+      - button "Settings" [ref=e20] [cursor=pointer]
+    - textbox "Search tests" [ref=e24]: s:failed
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - generic [ref=e28]: "Project: chromium"
+      - generic [ref=e770]: "Filtered: 4 (1.1m)"
+    - generic [ref=e30]: 9/10/2026, 7:29:12 PM
+    - generic [ref=e31]: "Total time: 5.4m"
+  - generic [ref=e32]:
+    - button "login.spec.ts" [expanded] [active] [ref=e33] [cursor=pointer]
+    - region [ref=e777]:
+      - list [ref=e778]:
+        - listitem [ref=e779]:
+          - generic [ref=e780]:
+            - generic [ref=e785]:
+              - 'link "Feature: Login › Regression Checks › TC-LOGIN-REG-04: [Known Defect REQ-LOGIN-09] Email input should auto-trim whitespace" [ref=e786] [cursor=pointer]':
+                - /url: "#?q=s%3Afailed&testId=41d3fd2474a19feb00a1-d7cefbd32c30040a6702"
+              - generic [ref=e787]: chromium
+            - generic [ref=e790]: 12.1s
+          - generic [ref=e792]:
+            - link "login.spec.ts:246" [ref=e793] [cursor=pointer]:
+              - /url: "#?q=s%3Afailed&testId=41d3fd2474a19feb00a1-d7cefbd32c30040a6702"
+            - link "View Trace" [ref=e795] [cursor=pointer]:
+              - /url: http://localhost:9323/trace/index.html?trace=http://localhost:9323/data/10a08759c5bf884e15de3d68a0a9484fe4019b41.zip
+        - listitem [ref=e799]:
+          - generic [ref=e800]:
+            - generic [ref=e805]:
+              - 'link "Feature: Login › Regression Checks › TC-LOGIN-REG-05: [Known Defect REQ-LOGIN-04] Required username error should be properly capitalized" [ref=e806] [cursor=pointer]':
+                - /url: "#?q=s%3Afailed&testId=41d3fd2474a19feb00a1-badb3e302fd2d4e4b5b6"
+              - generic [ref=e807]: chromium
+            - generic [ref=e810]: 20.8s
+          - generic [ref=e812]:
+            - link "login.spec.ts:256" [ref=e813] [cursor=pointer]:
+              - /url: "#?q=s%3Afailed&testId=41d3fd2474a19feb00a1-badb3e302fd2d4e4b5b6"
+            - link "View Trace" [ref=e815] [cursor=pointer]:
+              - /url: http://localhost:9323/trace/index.html?trace=http://localhost:9323/data/6dfcbb64f7f58d906509f4d79940c7267293920d.zip
+  - generic [ref=e398]:
+    - button "loginlocalization.spec.ts" [expanded] [ref=e399] [cursor=pointer]
+    - region [ref=e821]:
+      - list [ref=e822]:
+        - listitem [ref=e823]:
+          - generic [ref=e824]:
+            - generic [ref=e829]:
+              - 'link "Feature: Login Localization › Positive Flows › TC-LOC-POS-01: Switching language to Arabic flips document layout to RTL and translates login interface" [ref=e830] [cursor=pointer]':
+                - /url: "#?q=s%3Afailed&testId=786afc3924369528382d-63e4869d71b849cdeb9c"
+              - generic [ref=e831]: chromium
+            - generic [ref=e834]: 21.6s
+          - generic [ref=e836]:
+            - link "loginlocalization.spec.ts:20" [ref=e837] [cursor=pointer]:
+              - /url: "#?q=s%3Afailed&testId=786afc3924369528382d-63e4869d71b849cdeb9c"
+            - link "View Trace" [ref=e839] [cursor=pointer]:
+              - /url: http://localhost:9323/trace/index.html?trace=http://localhost:9323/data/a8a6edfa1b11872531b059028bbcb1df76ab78df.zip
+        - listitem [ref=e843]:
+          - generic [ref=e844]:
+            - generic [ref=e849]:
+              - 'link "Feature: Login Localization › Edge Boundary Flows › TC-LOC-EDGE-03: Rapid sequential language switching preserves form controls and prevents UI rendering glitches" [ref=e850] [cursor=pointer]':
+                - /url: "#?q=s%3Afailed&testId=786afc3924369528382d-ab83ea7343b6249b8a31"
+              - generic [ref=e851]: chromium
+            - generic [ref=e854]: 13.5s
+          - generic [ref=e856]:
+            - link "loginlocalization.spec.ts:220" [ref=e857] [cursor=pointer]:
+              - /url: "#?q=s%3Afailed&testId=786afc3924369528382d-ab83ea7343b6249b8a31"
+            - link "View Trace" [ref=e859] [cursor=pointer]:
+              - /url: http://localhost:9323/trace/index.html?trace=http://localhost:9323/data/9d5bb998aad1934a5a7a10429c3980d6ea3f65b8.zip

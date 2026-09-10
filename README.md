@@ -78,15 +78,17 @@ TEST_PASSWORD=P0rtal#Cqnyp
 | Command | Description |
 | :--- | :--- |
 | `npm run test` | Run all test suites across configured browsers |
+| `npm run test:allure` | Run all tests, inject environment metadata, and generate Allure report |
+| `npm run allure:generate` | Compile raw `allure-results` into standalone HTML `allure-report` |
+| `npm run allure:open` | Open local web server to view the Allure report |
+| `npm run allure:serve` | Generate and serve Allure report in real-time |
+| `npm run allure:clean` | Cross-platform clean of `allure-results` and `allure-report` |
+| `npm run report:allure` | One-click compilation and browser preview of Allure report |
 | `npm run test:chrome` | Run tests exclusively on Chromium / Google Chrome |
-| `npm run test:firefox` | Run tests on Firefox |
-| `npm run test:webkit` | Run tests on WebKit (Safari engine) |
 | `npm run test:smoke` | Run only smoke suite tests (`tests/smoke`) |
-| `npm run test:regression` | Run only regression suite tests (`tests/regression`) |
 | `npm run test:ui` | Open the interactive Playwright UI Test Runner |
 | `npm run test:debug` | Run tests in Playwright Inspector debug mode |
-| `npm run test:headed` | Execute tests with the browser window visible |
-| `npm run report` | Open the generated HTML test execution report |
+| `npm run report` | Open the native Playwright HTML report |
 
 ---
 
@@ -191,6 +193,7 @@ test.describe('Smoke Suite - Requests', () => {
 ---
 
 ## 📊 Reporting & CI Integration
-* **HTML Report**: Automatically generated on every run (`playwright-report/index.html`).
+* **Allure Report**: Enterprise test dashboard with Epics, Features, Steps, Categories, and Attachments (`allure-report/index.html`). Run `npm run report:allure`. Full guide: [ALLURE-REPORTING.md](ALLURE-REPORTING.md).
+* **Playwright HTML Report**: Native report generated on every run (`playwright-report/index.html`). Run `npm run report`.
 * **Traces & Videos**: Configured to capture full traces, screenshots, and videos on failure for instant root-cause analysis (`trace: 'retain-on-failure'`).
-* **CI Execution**: Configured in `playwright.config.ts` with 2 retries on CI workers and headless execution by default.
+* **CI/CD Pipelines**: Pre-configured production pipelines available for Azure DevOps (`pipelines/azure-devops.yml`), GitHub Actions (`.github/workflows/playwright-allure.yml`), and Jenkins (`Jenkinsfile`).

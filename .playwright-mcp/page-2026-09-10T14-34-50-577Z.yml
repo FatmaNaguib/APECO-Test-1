@@ -1,0 +1,229 @@
+- main [ref=e4]:
+  - generic [ref=e6]:
+    - navigation [ref=e8]:
+      - link "All22" [active] [ref=e9] [cursor=pointer]:
+        - /url: "#?"
+      - link "Passed20" [ref=e10] [cursor=pointer]:
+        - /url: "#?q=s%3Apassed"
+      - link "Failed2" [ref=e13] [cursor=pointer]:
+        - /url: "#?q=s%3Afailed"
+      - link "Flaky0" [ref=e16] [cursor=pointer]:
+        - /url: "#?q=s%3Aflaky"
+      - link "Skipped0" [ref=e17] [cursor=pointer]:
+        - /url: "#?q=s%3Askipped"
+      - link "Speedboard" [ref=e18] [cursor=pointer]:
+        - /url: "#?speedboard"
+      - button "Settings" [ref=e21] [cursor=pointer]
+    - textbox "Search tests" [ref=e25]
+  - generic [ref=e27]:
+    - generic [ref=e28]: "Project: chromium"
+    - generic [ref=e32]: 9/10/2026, 5:23:47 PM
+    - generic [ref=e33]: "Total time: 4.6m"
+  - generic [ref=e34]:
+    - button "login.spec.ts" [expanded] [ref=e35] [cursor=pointer]
+    - region [ref=e38]:
+      - list [ref=e39]:
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e46]:
+              - 'link "Feature: Login › Regression Checks › TC-LOGIN-REG-04: [Known Defect REQ-LOGIN-09] Email input should auto-trim whitespace" [ref=e47] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-d7cefbd32c30040a6702"
+              - generic [ref=e48]: chromium
+            - generic [ref=e51]: 10.7s
+          - generic [ref=e53]:
+            - link "login.spec.ts:246" [ref=e54] [cursor=pointer]:
+              - /url: "#?testId=41d3fd2474a19feb00a1-d7cefbd32c30040a6702"
+            - link "View Trace" [ref=e56] [cursor=pointer]:
+              - /url: http://localhost:9323/trace/index.html?trace=http://localhost:9323/data/d2699329ebaec01184c2f38396fc211b4a732bf2.zip
+        - listitem [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e66]:
+              - 'link "Feature: Login › Regression Checks › TC-LOGIN-REG-05: [Known Defect REQ-LOGIN-04] Required username error should be properly capitalized" [ref=e67] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-badb3e302fd2d4e4b5b6"
+              - generic [ref=e68]: chromium
+            - generic [ref=e71]: 15.2s
+          - generic [ref=e73]:
+            - link "login.spec.ts:256" [ref=e74] [cursor=pointer]:
+              - /url: "#?testId=41d3fd2474a19feb00a1-badb3e302fd2d4e4b5b6"
+            - link "View Trace" [ref=e76] [cursor=pointer]:
+              - /url: http://localhost:9323/trace/index.html?trace=http://localhost:9323/data/f2b7f4d61b1d4d9699ad27592f8c028085cbdde8.zip
+        - listitem [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e86]:
+              - 'link "Feature: Login › Positive Flows › TC-LOGIN-POS-01: Successful authentication with valid credentials navigates to workspace dashboard" [ref=e87] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-4ba983c1e3e6f7af0f82"
+              - generic [ref=e88]: chromium
+            - generic [ref=e91]: 25.9s
+          - link "login.spec.ts:20" [ref=e94] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-4ba983c1e3e6f7af0f82"
+        - listitem [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e102]:
+              - 'link "Feature: Login › Positive Flows › TC-LOGIN-POS-02: Deep linking preserves and routes to redirect-url destination upon authentication" [ref=e103] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-56749b990f2fc25a228a"
+              - generic [ref=e104]: chromium
+            - generic [ref=e107]: 31.6s
+          - link "login.spec.ts:29" [ref=e110] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-56749b990f2fc25a228a"
+        - listitem [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e118]:
+              - 'link "Feature: Login › Positive Flows › TC-LOGIN-POS-03: Password visibility toggle alternates between masked and plain text input" [ref=e119] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-427f12d293e33379c526"
+              - generic [ref=e120]: chromium
+            - generic [ref=e123]: 22.4s
+          - link "login.spec.ts:39" [ref=e126] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-427f12d293e33379c526"
+        - listitem [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e134]:
+              - 'link "Feature: Login › Positive Flows › TC-LOGIN-POS-04: UAE PASS button initiates redirection to official identity provider staging portal" [ref=e135] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-f61468b54e01172a3884"
+              - generic [ref=e136]: chromium
+            - generic [ref=e139]: 11.8s
+          - link "login.spec.ts:55" [ref=e142] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-f61468b54e01172a3884"
+        - listitem [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e150]:
+              - 'link "Feature: Login › Positive Flows › TC-LOGIN-POS-05: Language switcher alternates login page interface and direction between English and Arabic" [ref=e151] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-ac4485d4f29799c5b086"
+              - generic [ref=e152]: chromium
+            - generic [ref=e155]: 10.6s
+          - link "login.spec.ts:63" [ref=e158] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-ac4485d4f29799c5b086"
+        - listitem [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e166]:
+              - 'link "Feature: Login › Negative Flows › TC-LOGIN-NEG-01: Submission with empty username displays inline required validation" [ref=e167] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-70647e2a0019600c5e00"
+              - generic [ref=e168]: chromium
+            - generic [ref=e171]: 7.0s
+          - link "login.spec.ts:86" [ref=e174] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-70647e2a0019600c5e00"
+        - listitem [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e182]:
+              - 'link "Feature: Login › Negative Flows › TC-LOGIN-NEG-02: Submission with empty password displays inline required validation" [ref=e183] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-cd2ae6730753be60aa8b"
+              - generic [ref=e184]: chromium
+            - generic [ref=e187]: 8.3s
+          - link "login.spec.ts:96" [ref=e190] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-cd2ae6730753be60aa8b"
+        - listitem [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e198]:
+              - 'link "Feature: Login › Negative Flows › TC-LOGIN-NEG-03: Submission with both username and password empty displays simultaneous inline errors" [ref=e199] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-b4836b6789771eec57b2"
+              - generic [ref=e200]: chromium
+            - generic [ref=e203]: 8.3s
+          - link "login.spec.ts:106" [ref=e206] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-b4836b6789771eec57b2"
+        - listitem [ref=e208]:
+          - generic [ref=e209]:
+            - generic [ref=e214]:
+              - 'link "Feature: Login › Negative Flows › TC-LOGIN-NEG-04: Authentication with invalid password returns HTTP 406 and displays toast notification" [ref=e215] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-6eaf785c064075c95265"
+              - generic [ref=e216]: chromium
+            - generic [ref=e219]: 8.9s
+          - link "login.spec.ts:115" [ref=e222] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-6eaf785c064075c95265"
+        - listitem [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e230]:
+              - 'link "Feature: Login › Negative Flows › TC-LOGIN-NEG-05: Submission with plain non-email username is rejected client-side" [ref=e231] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-c30d142cb8aa98403420"
+              - generic [ref=e232]: chromium
+            - generic [ref=e235]: 7.7s
+          - link "login.spec.ts:134" [ref=e238] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-c30d142cb8aa98403420"
+        - listitem [ref=e240]:
+          - generic [ref=e241]:
+            - generic [ref=e246]:
+              - 'link "Feature: Login › Negative Flows › TC-LOGIN-NEG-06: Submission with password lacking complexity requirements is rejected client-side" [ref=e247] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-54f58c741ade42aa7914"
+              - generic [ref=e248]: chromium
+            - generic [ref=e251]: 7.2s
+          - link "login.spec.ts:142" [ref=e254] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-54f58c741ade42aa7914"
+        - listitem [ref=e256]:
+          - generic [ref=e257]:
+            - generic [ref=e262]:
+              - 'link "Feature: Login › Negative Flows › TC-LOGIN-NEG-07: Malformed email without domain or @ is rejected client-side" [ref=e263] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-a56a5993ab3667154191"
+              - generic [ref=e264]: chromium
+            - generic [ref=e267]: 10.9s
+          - link "login.spec.ts:151" [ref=e270] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-a56a5993ab3667154191"
+        - listitem [ref=e272]:
+          - generic [ref=e273]:
+            - generic [ref=e278]:
+              - 'link "Feature: Login › Edge Boundary Flows › TC-LOGIN-EDGE-01: Password at exact minimum length boundary (6 characters with complexity) is accepted" [ref=e279] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-50b11ed50a7784d5f65d"
+              - generic [ref=e280]: chromium
+            - generic [ref=e283]: 9.9s
+          - link "login.spec.ts:168" [ref=e286] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-50b11ed50a7784d5f65d"
+        - listitem [ref=e288]:
+          - generic [ref=e289]:
+            - generic [ref=e294]:
+              - 'link "Feature: Login › Edge Boundary Flows › TC-LOGIN-EDGE-02: Password at exact maximum length boundary (12 characters with complexity) is accepted" [ref=e295] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-5ddff19decd877cf7011"
+              - generic [ref=e296]: chromium
+            - generic [ref=e299]: 8.3s
+          - link "login.spec.ts:177" [ref=e302] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-5ddff19decd877cf7011"
+        - listitem [ref=e304]:
+          - generic [ref=e305]:
+            - generic [ref=e310]:
+              - 'link "Feature: Login › Edge Boundary Flows › TC-LOGIN-EDGE-03: Password just below minimum length (5 characters) triggers client-side validation error" [ref=e311] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-487554dc3573fa8821b4"
+              - generic [ref=e312]: chromium
+            - generic [ref=e315]: 10.9s
+          - link "login.spec.ts:186" [ref=e318] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-487554dc3573fa8821b4"
+        - listitem [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e326]:
+              - 'link "Feature: Login › Edge Boundary Flows › TC-LOGIN-EDGE-04: Password just above maximum length (13 characters) triggers client-side validation error" [ref=e327] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-fb34cccb97ab040097d4"
+              - generic [ref=e328]: chromium
+            - generic [ref=e331]: 22.0s
+          - link "login.spec.ts:195" [ref=e334] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-fb34cccb97ab040097d4"
+        - listitem [ref=e336]:
+          - generic [ref=e337]:
+            - generic [ref=e342]:
+              - 'link "Feature: Login › Edge Boundary Flows › TC-LOGIN-EDGE-05: Valid email with leading or trailing whitespace is rejected without auto-trimming" [ref=e343] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-67baafe47ad82b47310e"
+              - generic [ref=e344]: chromium
+            - generic [ref=e347]: 10.8s
+          - link "login.spec.ts:204" [ref=e350] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-67baafe47ad82b47310e"
+        - listitem [ref=e352]:
+          - generic [ref=e353]:
+            - generic [ref=e358]:
+              - 'link "Feature: Login › Regression Checks › TC-LOGIN-REG-01: Password masking prevents plaintext exposure on initial entry" [ref=e359] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-39ab5186db7b56b05269"
+              - generic [ref=e360]: chromium
+            - generic [ref=e363]: 9.0s
+          - link "login.spec.ts:218" [ref=e366] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-39ab5186db7b56b05269"
+        - listitem [ref=e368]:
+          - generic [ref=e369]:
+            - generic [ref=e374]:
+              - 'link "Feature: Login › Regression Checks › TC-LOGIN-REG-02: Empty form submission is rejected and never navigates to workspace" [ref=e375] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-cfc2f7e718ad781d85dc"
+              - generic [ref=e376]: chromium
+            - generic [ref=e379]: 8.0s
+          - link "login.spec.ts:226" [ref=e382] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-cfc2f7e718ad781d85dc"
+        - listitem [ref=e384]:
+          - generic [ref=e385]:
+            - generic [ref=e390]:
+              - 'link "Feature: Login › Regression Checks › TC-LOGIN-REG-03: Wrong credentials do NOT redirect to workspace and show error notification" [ref=e391] [cursor=pointer]':
+                - /url: "#?testId=41d3fd2474a19feb00a1-fc5d137affd37d362737"
+              - generic [ref=e392]: chromium
+            - generic [ref=e395]: 8.9s
+          - link "login.spec.ts:236" [ref=e398] [cursor=pointer]:
+            - /url: "#?testId=41d3fd2474a19feb00a1-fc5d137affd37d362737"

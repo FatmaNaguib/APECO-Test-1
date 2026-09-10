@@ -1,0 +1,12 @@
+[     313ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[     457ms] [ERROR] ERROR RuntimeError: NG0100: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value for 'ant-select-rtl': 'false'. Current value: 'true'. Expression location: _LanguageSwitcherComponent component. Find more at https://angular.io/errors/NG0100
+    at throwErrorIfNoChangesMode (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9855:9)
+    at bindingUpdated (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:12904:9)
+    at checkStylingProperty (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:14419:30)
+    at ɵɵclassProp (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:14393:3)
+    at NzSelectComponent_HostBindings (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-MHBGWDJM.js:3286:601)
+    at processHostBindingOpCodes (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9977:9)
+    at refreshView (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:10948:5)
+    at detectChangesInView (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:11058:5)
+    at detectChangesInViewIfAttached (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:11042:3)
+    at detectChangesInEmbeddedViews (https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:11015:7) @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800

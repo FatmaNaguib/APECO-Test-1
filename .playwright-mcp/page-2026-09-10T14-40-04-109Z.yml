@@ -1,0 +1,43 @@
+- generic [ref=e444]:
+  - banner [ref=e445]:
+    - generic [ref=e446]:
+      - link [ref=e448] [cursor=pointer]:
+        - /url: /
+        - img "PEAO Logo" [ref=e449]
+      - generic [ref=e453] [cursor=pointer]:
+        - generic [ref=e537]: English
+        - generic [ref=e539]:
+          - textbox [ref=e541]
+          - generic "English" [ref=e542]
+  - main [ref=e462]:
+    - generic [ref=e466]:
+      - generic [ref=e467]:
+        - heading "Sign in" [level=1] [ref=e543]
+        - paragraph [ref=e469]: Access your account to continue
+      - button "UAE PASS Sign in with UAE PASS" [ref=e544] [cursor=pointer]:
+        - img "UAE PASS" [ref=e471]
+        - generic [ref=e472]: Sign in with UAE PASS
+      - generic [ref=e473]: OR
+      - generic [ref=e477]:
+        - generic [ref=e478]:
+          - generic [ref=e479]: Username
+          - textbox "Username" [ref=e545]:
+            - /placeholder: Enter your username
+            - text: apecouser
+          - generic [ref=e525]: Please enter a valid email
+        - generic [ref=e484]:
+          - generic [ref=e485]: Password
+          - generic [ref=e486]:
+            - textbox "Password" [ref=e546]:
+              - /placeholder: Enter your password
+              - text: simple
+            - button "Toggle password visibility" [ref=e491] [cursor=pointer]:
+              - generic [ref=e492]: 
+          - generic [ref=e526]: Please enter a password between 6 to 12 characters long that includes at least one uppercase letter, one lowercase letter, one number, and one special character
+        - link "Forgot password?" [ref=e547] [cursor=pointer]:
+          - /url: /auth/forget-password
+        - button "Login" [ref=e548] [cursor=pointer]
+        - generic [ref=e497]:
+          - generic [ref=e498]: Don't have an account?
+          - link "Create new account" [ref=e549] [cursor=pointer]:
+            - /url: /auth/new-account

@@ -4,6 +4,7 @@ import fs from 'fs';
 import dotenv from 'dotenv';
 import { LoginPage } from '../pages/LoginPage';
 import { Logger } from '../utils/logger';
+import { FailureCollector } from '../utils/failureCollector';
 
 // ---------------------------------------------------------------------------
 // 1. Environment & Credential Loading (No Hardcoding)
@@ -62,10 +63,17 @@ const { email: TEST_EMAIL, password: TEST_PASSWORD } = loadCredentials();
 // ---------------------------------------------------------------------------
 // 2. Fixture Types
 // ---------------------------------------------------------------------------
-type TestFixtures = {
+type TestOptions = {
   /**
-   * Pre-authenticated page fixture.
-   * Tests requesting `page` start with active authentication tokens and cookies.
+   * Whether the default `page` fixture should be authenticated.
+   * Defaults to `true`. Set `test.use({ auth: false })` in unauthenticated suites like login.spec.ts.
+   */
+  auth: boolean;
+};
+
+type TestFixtures = TestOptions & {
+  /**
+   * Page fixture. Pre-authenticated by default, or clean when `auth: false`.
    */
   page: Page;
 
@@ -97,6 +105,8 @@ type WorkerFixtures = {
 // 3. Extended Test Instance
 // ---------------------------------------------------------------------------
 export const test = baseTest.extend<TestFixtures, WorkerFixtures>({
+  auth: [true, { option: true }],
+
   // Worker-scoped fixture: Logs in once per worker and saves storage state
   workerStorageState: [
     async ({ browser }, use) => {
@@ -134,38 +144,42 @@ export const test = baseTest.extend<TestFixtures, WorkerFixtures>({
     { scope: 'worker' },
   ],
 
-  // Overridden `page` fixture: Pre-authenticated and isolated per test
-  page: async ({ browser, workerStorageState }, use) => {
+  // Clean, isolated page fixture by default
+  page: async ({ browser }, use, testInfo) => {
+    Logger.debug('Creating new isolated clean browser context');
+    const context = await browser.newContext();
+    const page = await context.newPage();
+    const failureCollector = new FailureCollector(page);
+
+    await use(page);
+
+    await failureCollector.collectOnFailure(testInfo);
+    await context.close();
+  },
+
+  // Authenticated page fixture: logs in once per worker and provides authenticated page
+  authenticatedPage: async ({ browser, workerStorageState }, use, testInfo) => {
     Logger.debug('Creating new isolated browser context with authenticated storageState');
     const context = await browser.newContext({
       storageState: workerStorageState,
     });
     const page = await context.newPage();
+    const failureCollector = new FailureCollector(page);
 
     await use(page);
 
+    await failureCollector.collectOnFailure(testInfo);
     await context.close();
   },
 
-  // Explicit authenticatedPage alias
-  authenticatedPage: async ({ page }, use) => {
+  // Clean unauthenticated page alias
+  unauthenticatedPage: async ({ page }, use) => {
     await use(page);
   },
 
-  // Clean unauthenticated page for public/auth test cases
-  unauthenticatedPage: async ({ browser }, use) => {
-    Logger.debug('Creating new isolated unauthenticated browser context');
-    const context = await browser.newContext();
-    const page = await context.newPage();
-
-    await use(page);
-
-    await context.close();
-  },
-
-  // Page Object helper
-  loginPage: async ({ unauthenticatedPage }, use) => {
-    const loginPage = new LoginPage(unauthenticatedPage);
+  // Page Object helper using the clean test page
+  loginPage: async ({ page }, use) => {
+    const loginPage = new LoginPage(page);
     await use(loginPage);
   },
 });

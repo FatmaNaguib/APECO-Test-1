@@ -1,7 +1,7 @@
 import { test, expect } from '../fixtures';
 
 test.describe('Authenticated Workspace Suite', () => {
-  test('Test 1: Access workspace dashboard directly with authenticated page', async ({ page }) => {
+  test('Test 1: Access workspace dashboard directly with authenticated page', async ({ authenticatedPage: page }) => {
     // Act: Navigate to workspace directly (already authenticated!)
     await page.goto('/workspace');
 
@@ -10,7 +10,7 @@ test.describe('Authenticated Workspace Suite', () => {
     await expect(page.locator('app-header')).toBeVisible();
   });
 
-  test('Test 2: Access schools directly with authenticated page', async ({ page }) => {
+  test('Test 2: Access schools directly with authenticated page', async ({ authenticatedPage: page }) => {
     // Act: Navigate to another protected route directly
     await page.goto('/schools');
 

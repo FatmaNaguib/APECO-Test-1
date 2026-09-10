@@ -1,0 +1,43 @@
+- generic [ref=e444]:
+  - banner [ref=e445]:
+    - generic [ref=e446]:
+      - link [ref=e448] [cursor=pointer]:
+        - /url: /
+        - img "PEAO Logo" [ref=e449]
+      - generic [ref=e453] [cursor=pointer]:
+        - generic [ref=e512]: العربية
+        - generic [ref=e514]:
+          - textbox [ref=e516]
+          - generic "العربية" [ref=e517]
+  - main [ref=e462]:
+    - generic [ref=e466]:
+      - generic [ref=e467]:
+        - heading "تسجيل الدخول" [level=1] [ref=e518]
+        - paragraph [ref=e469]: سجّل الدخول إلى حسابك للمتابعة
+      - button "UAE PASS تسجيل الدخول باستخدام UAE PASS" [ref=e519] [cursor=pointer]:
+        - img "UAE PASS" [ref=e471]
+        - generic [ref=e472]: تسجيل الدخول باستخدام UAE PASS
+      - generic [ref=e473]: أو
+      - generic [ref=e477]:
+        - generic [ref=e478]:
+          - generic [ref=e479]: اسم المستخدم
+          - textbox "اسم المستخدم" [ref=e520]:
+            - /placeholder: ادخل اسم المستخدم الخاص بك
+            - text: apecouser
+          - generic [ref=e525]: الرجاء إدخال بريد إلكتروني صحيح
+        - generic [ref=e484]:
+          - generic [ref=e485]: كلمة المرور
+          - generic [ref=e486]:
+            - textbox "كلمة المرور" [ref=e521]:
+              - /placeholder: ادخل كلمة المرور الخاصة بك
+              - text: simple
+            - button "Toggle password visibility" [ref=e491] [cursor=pointer]:
+              - generic [ref=e492]: 
+          - generic [ref=e526]: الرجاء إدخال كلمة مرور من 6 إلى 12 خانة وتحتوي على أحرف، أرقام، رموز، وحروف كبيرة وصغيرة
+        - link "هل نسيت كلمة المرور؟" [ref=e522] [cursor=pointer]:
+          - /url: /auth/forget-password
+        - button "تسجيل الدخول" [active] [ref=e523] [cursor=pointer]
+        - generic [ref=e497]:
+          - generic [ref=e498]: ليس لديك حساب؟
+          - link "إنشاء حساب جديد" [ref=e524] [cursor=pointer]:
+            - /url: /auth/new-account

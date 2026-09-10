@@ -15,6 +15,13 @@
     "test:ui": "playwright test --ui",
     "test:debug": "playwright test --debug",
     "report": "playwright show-report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "allure:clean": "node scripts/clean-allure.js",
+    "allure:env": "node scripts/setup-allure-env.js",
+    "test:allure": "playwright test && npm run allure:env && npm run allure:generate",
+    "report:allure": "npm run allure:env && npm run allure:generate && npm run allure:open",
     "lint": "tsc --noEmit"
   },
   "keywords": [
@@ -30,6 +37,8 @@
   "devDependencies": {
     "@playwright/test": "^1.48.0",
     "@types/node": "^20.0.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.12.1",
     "dotenv": "^16.6.1",
     "typescript": "^5.5.0"
   }
