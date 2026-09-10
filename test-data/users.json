@@ -1,0 +1,21 @@
+{
+  "validUser": {
+    "email": "apecouser@hotmail.com",
+    "password": "P0rtal#Cqnyp",
+    "displayName": "Anas Mohamed"
+  },
+  "invalidUser": {
+    "email": "apecouser@hotmail.com",
+    "password": "Wrong#123"
+  },
+  "unregisteredUser": {
+    "email": "nonexistent.user99@domain.com",
+    "password": "Wrong#Password123"
+  },
+  "malformedInputs": {
+    "plainUsername": "plainuser",
+    "shortPassword": "Aa1#",
+    "longPassword": "Aa1#bbCc2$ddEe3%",
+    "whitespaceEmail": "  apecouser@hotmail.com  "
+  }
+}
