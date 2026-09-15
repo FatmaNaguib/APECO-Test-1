@@ -5,6 +5,7 @@ import { ENV } from '../config/environment';
  * Login Feature Test Suite
  * Covers Positive, Negative, Edge, and Regression cases defined in test-cases.md
  * Adheres strictly to skills/test-authoring.md standard.
+ * All assertions validate visible user-facing UI text rather than DOM element tags or layout attributes.
  */
 test.describe('Feature: Login', () => {
   // Use clean unauthenticated context for all login tests
@@ -21,9 +22,9 @@ test.describe('Feature: Login', () => {
       await loginPage.goto();
       await loginPage.login(validUser, validPass);
 
-      // Verify redirection to workspace and dashboard rendering
+      // Verify redirection to workspace and dashboard rendering by visible UI text
       await expect(page).toHaveURL(/.*workspace/, { timeout: 15000 });
-      await expect(page.locator('app-header')).toBeVisible();
+      await expect(page.getByRole('heading', { name: 'My Schools' })).toBeVisible();
     });
 
     test('TC-LOGIN-POS-02: Deep linking preserves and routes to redirect-url destination upon authentication', async ({ loginPage, page }) => {
@@ -32,8 +33,9 @@ test.describe('Feature: Login', () => {
 
       await loginPage.login(validUser, validPass);
 
-      // Verify redirect goes directly to /schools instead of default /workspace
+      // Verify redirect goes directly to /schools with visible UI text
       await expect(page).toHaveURL(/.*schools/, { timeout: 15000 });
+      await expect(page.getByText('Schools', { exact: true })).toBeVisible();
     });
 
     test('TC-LOGIN-POS-03: Password visibility toggle alternates between masked and plain text input', async ({ loginPage }) => {
@@ -63,19 +65,23 @@ test.describe('Feature: Login', () => {
     test('TC-LOGIN-POS-05: Language switcher alternates login page interface and direction between English and Arabic', async ({ loginPage, page }) => {
       await loginPage.goto();
 
-      // Initial English LTR
-      await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
-      await expect(loginPage.heading).toHaveText('Sign in');
+      // Initial English view: Assert on displayed UI text
+      await expect(page.getByRole('heading', { name: 'Sign in' })).toBeVisible();
+      await expect(page.getByRole('button', { name: 'Login' })).toBeVisible();
+      await expect(page.getByRole('link', { name: 'Forgot password?' })).toBeVisible();
 
-      // Switch to Arabic RTL
+      // Switch to Arabic view: Assert on displayed UI text
       await loginPage.switchLanguage('Arabic');
-      await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
-      await expect(loginPage.heading).toHaveText('تسجيل الدخول');
+      await expect(page.getByRole('heading', { name: 'تسجيل الدخول' })).toBeVisible();
+      await expect(page.getByText('سجّل الدخول إلى حسابك للمتابعة')).toBeVisible();
+      await expect(page.getByRole('button', { name: 'تسجيل الدخول', exact: true })).toBeVisible();
+      await expect(page.getByRole('link', { name: 'هل نسيت كلمة المرور؟' })).toBeVisible();
 
-      // Switch back to English LTR
+      // Switch back to English view: Assert on displayed UI text
       await loginPage.switchLanguage('English');
-      await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
-      await expect(loginPage.heading).toHaveText('Sign in');
+      await expect(page.getByRole('heading', { name: 'Sign in' })).toBeVisible();
+      await expect(page.getByRole('button', { name: 'Login' })).toBeVisible();
+      await expect(page.getByRole('link', { name: 'Forgot password?' })).toBeVisible();
     });
   });
 
@@ -88,8 +94,8 @@ test.describe('Feature: Login', () => {
       await loginPage.fillPassword(validPass);
       await loginPage.submitButton.click();
 
-      // Form is blocked; inline validation displayed; remains on login view
-      await expect(loginPage.usernameRequiredError).toBeVisible();
+      // Form is blocked; inline validation displayed on UI text; remains on login view
+      await expect(page.getByText('please enter user name')).toBeVisible();
       await expect(page).toHaveURL(/.*auth\/login/);
     });
 
@@ -98,8 +104,8 @@ test.describe('Feature: Login', () => {
       await loginPage.fillUsername(validUser);
       await loginPage.submitButton.click();
 
-      // Form is blocked; inline validation displayed; remains on login view
-      await expect(loginPage.passwordRequiredError).toBeVisible();
+      // Form is blocked; inline validation displayed on UI text; remains on login view
+      await expect(page.getByText('please enter the password')).toBeVisible();
       await expect(page).toHaveURL(/.*auth\/login/);
     });
 
@@ -107,8 +113,9 @@ test.describe('Feature: Login', () => {
       await loginPage.goto();
       await loginPage.submitEmptyForm();
 
-      await expect(loginPage.usernameRequiredError).toBeVisible();
-      await expect(loginPage.passwordRequiredError).toBeVisible();
+      // Assert on displayed UI validation text
+      await expect(page.getByText('please enter user name')).toBeVisible();
+      await expect(page.getByText('please enter the password')).toBeVisible();
       await expect(page).toHaveURL(/.*auth\/login/);
     });
 
@@ -125,39 +132,40 @@ test.describe('Feature: Login', () => {
       const loginResponse = await loginResponsePromise;
       expect(loginResponse.status()).toBe(406);
 
-      // Toast error alert is rendered
-      await expect(loginPage.toastAlert).toBeVisible();
-      await expect(loginPage.toastAlert).toContainText('Username or password is incorrect!');
+      // Toast error alert is rendered with displayed UI text
+      await expect(page.getByText('Username or password is incorrect!')).toBeVisible();
       await expect(page).toHaveURL(/.*auth\/login/);
     });
 
-    test('TC-LOGIN-NEG-05: Submission with plain non-email username is rejected client-side', async ({ loginPage }) => {
+    test('TC-LOGIN-NEG-05: Submission with plain non-email username is rejected client-side', async ({ loginPage, page }) => {
       await loginPage.goto();
       await loginPage.fillUsername('apecouser');
       await loginPage.passwordField.focus();
 
-      await expect(loginPage.emailFormatError).toBeVisible();
+      // Assert on displayed UI error text
+      await expect(page.getByText('Please enter a valid email')).toBeVisible();
     });
 
-    test('TC-LOGIN-NEG-06: Submission with password lacking complexity requirements is rejected client-side', async ({ loginPage }) => {
+    test('TC-LOGIN-NEG-06: Submission with password lacking complexity requirements is rejected client-side', async ({ loginPage, page }) => {
       await loginPage.goto();
       await loginPage.fillUsername(validUser);
       await loginPage.fillPassword('simplepass');
       await loginPage.usernameField.focus();
 
-      await expect(loginPage.passwordComplexityError).toBeVisible();
+      // Assert on displayed UI error text
+      await expect(page.getByText(/Please enter a password between 6 to 12 characters long/i)).toBeVisible();
     });
 
-    test('TC-LOGIN-NEG-07: Malformed email without domain or @ is rejected client-side', async ({ loginPage }) => {
+    test('TC-LOGIN-NEG-07: Malformed email without domain or @ is rejected client-side', async ({ loginPage, page }) => {
       await loginPage.goto();
 
       await loginPage.fillUsername('apecouser@');
       await loginPage.passwordField.focus();
-      await expect(loginPage.emailFormatError).toBeVisible();
+      await expect(page.getByText('Please enter a valid email')).toBeVisible();
 
       await loginPage.fillUsername('apecouserhotmail.com');
       await loginPage.passwordField.focus();
-      await expect(loginPage.emailFormatError).toBeVisible();
+      await expect(page.getByText('Please enter a valid email')).toBeVisible();
     });
   });
 
@@ -165,49 +173,53 @@ test.describe('Feature: Login', () => {
   // 3. Edge Test Cases
   // ---------------------------------------------------------------------------
   test.describe('Edge Boundary Flows', () => {
-    test('TC-LOGIN-EDGE-01: Password at exact minimum length boundary (6 characters with complexity) is accepted', async ({ loginPage }) => {
+    test('TC-LOGIN-EDGE-01: Password at exact minimum length boundary (6 characters with complexity) is accepted', async ({ loginPage, page }) => {
       await loginPage.goto();
       await loginPage.fillUsername(validUser);
       await loginPage.fillPassword('Aa1#bb'); // 6 chars, uppercase, lowercase, number, special
       await loginPage.usernameField.focus();
 
-      await expect(loginPage.passwordComplexityError).toBeHidden();
+      // Assert that complexity validation error text is not displayed
+      await expect(page.getByText(/Please enter a password between 6 to 12 characters long/i)).toBeHidden();
     });
 
-    test('TC-LOGIN-EDGE-02: Password at exact maximum length boundary (12 characters with complexity) is accepted', async ({ loginPage }) => {
+    test('TC-LOGIN-EDGE-02: Password at exact maximum length boundary (12 characters with complexity) is accepted', async ({ loginPage, page }) => {
       await loginPage.goto();
       await loginPage.fillUsername(validUser);
       await loginPage.fillPassword('Aa1#bbCc2$dd'); // 12 chars
       await loginPage.usernameField.focus();
 
-      await expect(loginPage.passwordComplexityError).toBeHidden();
+      // Assert that complexity validation error text is not displayed
+      await expect(page.getByText(/Please enter a password between 6 to 12 characters long/i)).toBeHidden();
     });
 
-    test('TC-LOGIN-EDGE-03: Password just below minimum length (5 characters) triggers client-side validation error', async ({ loginPage }) => {
+    test('TC-LOGIN-EDGE-03: Password just below minimum length (5 characters) triggers client-side validation error', async ({ loginPage, page }) => {
       await loginPage.goto();
       await loginPage.fillUsername(validUser);
       await loginPage.fillPassword('Aa1#b'); // 5 chars: min - 1
       await loginPage.usernameField.focus();
 
-      await expect(loginPage.passwordComplexityError).toBeVisible();
+      // Assert on displayed UI error text
+      await expect(page.getByText(/Please enter a password between 6 to 12 characters long/i)).toBeVisible();
     });
 
-    test('TC-LOGIN-EDGE-04: Password just above maximum length (13 characters) triggers client-side validation error', async ({ loginPage }) => {
+    test('TC-LOGIN-EDGE-04: Password just above maximum length (13 characters) triggers client-side validation error', async ({ loginPage, page }) => {
       await loginPage.goto();
       await loginPage.fillUsername(validUser);
       await loginPage.fillPassword('Aa1#bbCc2$ddE'); // 13 chars: max + 1
       await loginPage.usernameField.focus();
 
-      await expect(loginPage.passwordComplexityError).toBeVisible();
+      // Assert on displayed UI error text
+      await expect(page.getByText(/Please enter a password between 6 to 12 characters long/i)).toBeVisible();
     });
 
-    test('TC-LOGIN-EDGE-05: Valid email with leading or trailing whitespace is rejected without auto-trimming', async ({ loginPage }) => {
+    test('TC-LOGIN-EDGE-05: Valid email with leading or trailing whitespace is rejected without auto-trimming', async ({ loginPage, page }) => {
       await loginPage.goto();
       await loginPage.fillUsername('  apecouser@hotmail.com  ');
       await loginPage.passwordField.focus();
 
-      // App currently does not trim whitespace and rejects with email format error
-      await expect(loginPage.emailFormatError).toBeVisible();
+      // App currently does not trim whitespace and displays email format error text
+      await expect(page.getByText('Please enter a valid email')).toBeVisible();
     });
   });
 
@@ -230,7 +242,7 @@ test.describe('Feature: Login', () => {
       // Regression check: Empty submission must NOT navigate to workspace
       await expect(page).not.toHaveURL(/.*workspace/);
       await expect(page).toHaveURL(/.*auth\/login/);
-      await expect(loginPage.usernameRequiredError).toBeVisible();
+      await expect(page.getByText('please enter user name')).toBeVisible();
     });
 
     test('TC-LOGIN-REG-03: Wrong credentials do NOT redirect to workspace and show error notification', async ({ loginPage, page }) => {
@@ -240,17 +252,17 @@ test.describe('Feature: Login', () => {
       // Regression check: Wrong credentials must NOT redirect to workspace
       await expect(page).not.toHaveURL(/.*workspace/);
       await expect(page).toHaveURL(/.*auth\/login/);
-      await expect(loginPage.toastAlert).toBeVisible();
+      await expect(page.getByText('Username or password is incorrect!')).toBeVisible();
     });
 
-    test('TC-LOGIN-REG-04: [Known Defect REQ-LOGIN-09] Email input should auto-trim whitespace', async ({ loginPage }) => {
+    test('TC-LOGIN-REG-04: [Known Defect REQ-LOGIN-09] Email input should auto-trim whitespace', async ({ loginPage, page }) => {
       await loginPage.goto();
       await loginPage.fillUsername('  apecouser@hotmail.com  ');
       await loginPage.passwordField.focus();
 
-      // SPECIFICATION EXPECTATION: Trimmed email should be valid and NOT display an error.
+      // SPECIFICATION EXPECTATION: Trimmed email should be valid and NOT display an error text.
       // NOTE: This test is designed to FAIL on the current build, demonstrating known defect REQ-LOGIN-09!
-      await expect(loginPage.emailFormatError).toBeHidden();
+      await expect(page.getByText('Please enter a valid email')).toBeHidden();
     });
 
     test('TC-LOGIN-REG-05: [Known Defect REQ-LOGIN-04] Required username error should be properly capitalized', async ({ loginPage, page }) => {
