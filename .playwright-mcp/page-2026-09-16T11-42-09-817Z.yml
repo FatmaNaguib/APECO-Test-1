@@ -1,0 +1,277 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - img "App logo" [ref=e10]
+      - generic [ref=e11]:
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]
+          - listitem [ref=e19]:
+            - link "Services" [ref=e20] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e21]:
+            - link "Contact Us" [ref=e22] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=e23] [cursor=pointer]
+        - generic [ref=e25] [cursor=pointer]
+        - button "Add ticket" [ref=e32] [cursor=pointer]
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - button "Moahmed Barakat" [ref=e49] [cursor=pointer]
+        - generic [ref=e52]:
+          - generic [ref=e53] [cursor=pointer]: Workspace
+          - generic [ref=e62] [cursor=pointer]: Requests
+          - generic [ref=e69] [cursor=pointer]: Services
+          - generic [ref=e75] [cursor=pointer]: Penalties
+          - generic [ref=e82] [cursor=pointer]: My Schools
+          - generic [ref=e95] [cursor=pointer]: Invoices
+          - generic [ref=e104] [cursor=pointer]: Settings
+          - generic [ref=e111] [cursor=pointer]: Students
+          - generic [ref=e117] [cursor=pointer]: Divisions
+        - generic [ref=e123] [cursor=pointer]: Logout
+      - generic [ref=e329]:
+        - generic [ref=e333]:
+          - button [ref=e335] [cursor=pointer]:
+            - button [ref=e336]
+          - generic [ref=e338]: Initial application - Submission for a Private School Permit
+        - generic [ref=e540]: Invalid share percentage for owners. The value should be 100%.
+        - generic [ref=e339]:
+          - generic [ref=e340]:
+            - generic [ref=e554]:
+              - generic [ref=e555]:
+                - heading "Owners Profiles Data" [level=1] [ref=e556]
+                - button "Add Owner" [ref=e557] [cursor=pointer]
+              - generic [ref=e559]:
+                - generic [ref=e560]:
+                  - heading "Owner Profile Data 1" [level=2] [ref=e561]
+                  - button [ref=e563] [cursor=pointer]
+                - generic [ref=e568]:
+                  - tablist [ref=e571]:
+                    - tab "Personal Details" [selected] [ref=e573] [cursor=pointer]
+                    - tab "Passport Details Incomplete" [ref=e577] [cursor=pointer]:
+                      - generic [ref=e578]:
+                        - generic [ref=e579]: Passport Details
+                        - generic [ref=e580]: Incomplete
+                    - tab "Residence Details Optional" [ref=e582] [cursor=pointer]:
+                      - generic [ref=e583]:
+                        - generic [ref=e584]: Residence Details
+                        - generic [ref=e585]: Optional
+                    - tab "Qualifying Incomplete" [ref=e587] [cursor=pointer]:
+                      - generic [ref=e588]:
+                        - generic [ref=e589]: Qualifying
+                        - generic [ref=e590]: Incomplete
+                    - tab "Marital Status Data Incomplete" [ref=e592] [cursor=pointer]:
+                      - generic [ref=e593]:
+                        - generic [ref=e594]: Marital Status Data
+                        - generic [ref=e595]: Incomplete
+                    - tab "Father/Mother Data Incomplete" [ref=e597] [cursor=pointer]:
+                      - generic [ref=e598]:
+                        - generic [ref=e599]: Father/Mother Data
+                        - generic [ref=e600]: Incomplete
+                    - tab "Housing Data Incomplete" [ref=e602] [cursor=pointer]:
+                      - generic [ref=e603]:
+                        - generic [ref=e604]: Housing Data
+                        - generic [ref=e605]: Incomplete
+                    - tab "Car Details Optional" [ref=e607] [cursor=pointer]:
+                      - generic [ref=e608]:
+                        - generic [ref=e609]: Car Details
+                        - generic [ref=e610]: Optional
+                    - tab "Military Data Optional" [ref=e612] [cursor=pointer]:
+                      - generic [ref=e613]:
+                        - generic [ref=e614]: Military Data
+                        - generic [ref=e615]: Optional
+                    - tab "Children data Optional" [ref=e617] [cursor=pointer]:
+                      - generic [ref=e618]:
+                        - generic [ref=e619]: Children data
+                        - generic [ref=e620]: Optional
+                    - tab "Relatives Data Optional" [ref=e622] [cursor=pointer]:
+                      - generic [ref=e623]:
+                        - generic [ref=e624]: Relatives Data
+                        - generic [ref=e625]: Optional
+                    - tab "Friends Data Optional" [ref=e627] [cursor=pointer]:
+                      - generic [ref=e628]:
+                        - generic [ref=e629]: Friends Data
+                        - generic [ref=e630]: Optional
+                    - tab "Previous Works Optional" [ref=e632] [cursor=pointer]:
+                      - generic [ref=e633]:
+                        - generic [ref=e634]: Previous Works
+                        - generic [ref=e635]: Optional
+                    - tab "Previous Visited Countries Optional" [ref=e637] [cursor=pointer]:
+                      - generic [ref=e638]:
+                        - generic [ref=e639]: Previous Visited Countries
+                        - generic [ref=e640]: Optional
+                    - tab "Previous Worked Countries Optional" [ref=e642] [cursor=pointer]:
+                      - generic [ref=e643]:
+                        - generic [ref=e644]: Previous Worked Countries
+                        - generic [ref=e645]: Optional
+                    - tab "Share Percnetage Incomplete" [ref=e647] [cursor=pointer]:
+                      - generic [ref=e648]:
+                        - generic [ref=e649]: Share Percnetage
+                        - generic [ref=e650]: Incomplete
+                  - tabpanel "Personal Details" [ref=e653]:
+                    - generic [ref=e656]:
+                      - generic [ref=e660]:
+                        - generic [ref=e661]: Type of Owner *
+                        - generic [ref=e667]:
+                          - textbox [ref=e669]
+                          - generic: Type of Owner
+                      - generic [ref=e676]:
+                        - generic [ref=e677]: Name of The Institution or Company *
+                        - textbox "Name of The Institution or Company *" [ref=e683]:
+                          - /placeholder: Name of The Institution or Company
+                      - generic [ref=e687]:
+                        - generic [ref=e688]: Full Name *
+                        - textbox "Full Name *" [ref=e694]:
+                          - /placeholder: Full Name
+                      - generic [ref=e698]:
+                        - generic [ref=e699]: Family Name *
+                        - textbox "Family Name *" [ref=e705]:
+                          - /placeholder: Family Name
+                      - generic [ref=e709]:
+                        - generic [ref=e710]: Nickname
+                        - textbox "Nickname" [ref=e716]
+                      - generic [ref=e720]:
+                        - generic [ref=e721]: Photograph *
+                        - generic [ref=e723]:
+                          - generic [ref=e728] [cursor=pointer]:
+                            - generic [ref=e729]: Choose File
+                            - generic [ref=e730]: Choose File
+                          - generic [ref=e731]: Max file size is 3MB, Suitable files are .jpg, .jpeg, .png
+                      - generic [ref=e735]:
+                        - generic [ref=e736]: Criminal Status Certificate *
+                        - generic [ref=e738]:
+                          - generic [ref=e743] [cursor=pointer]:
+                            - generic [ref=e744]: Choose File
+                            - generic [ref=e745]: Choose File
+                          - generic [ref=e746]: Max file size is 3MB, Suitable files are .jpg, .jpeg, .png and pdf
+                      - generic [ref=e750]:
+                        - generic [ref=e751]: Place of Birth *
+                        - textbox "Place of Birth *" [ref=e757]:
+                          - /placeholder: Place of Birth
+                      - generic [ref=e761]:
+                        - generic [ref=e762]: Date of Birth *
+                        - textbox "Date of Birth" [ref=e769]
+                      - generic [ref=e773]:
+                        - generic [ref=e774]: Current Nationality *
+                        - generic [ref=e780]:
+                          - textbox [ref=e782]
+                          - generic: Current Nationality
+                      - generic [ref=e789]:
+                        - generic [ref=e790]: Previous Nationality
+                        - generic [ref=e796]:
+                          - textbox [ref=e798]
+                          - generic: Previous Nationality
+                      - generic [ref=e805]:
+                        - generic [ref=e806]: Religion *
+                        - generic [ref=e812]:
+                          - textbox [ref=e814]
+                          - generic: Religion
+                      - generic [ref=e821]:
+                        - generic [ref=e822]: Doctrine
+                        - generic [ref=e828]:
+                          - textbox [ref=e830]
+                          - generic: Doctrine
+                      - generic [ref=e837]:
+                        - generic [ref=e838]: Date of Enter Country
+                        - textbox "Date of Enter Country" [ref=e845]
+                      - generic [ref=e849]:
+                        - generic [ref=e850]: Center of Entry into the Country
+                        - textbox "Center of Entry into the Country" [ref=e856]
+                      - generic [ref=e860]:
+                        - generic [ref=e861]: Sponsor Upon Entry
+                        - textbox "Sponsor Upon Entry" [ref=e867]
+                      - generic [ref=e871]:
+                        - generic [ref=e872]: Current Sponsor
+                        - textbox "Current Sponsor" [ref=e878]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]: Occupation *
+                        - textbox "Occupation" [ref=e889]
+                      - generic [ref=e893]:
+                        - generic [ref=e894]: Current Place of Work
+                        - textbox "Current Place of Work" [ref=e900]
+                      - generic [ref=e904]:
+                        - generic [ref=e905]: Work Phone
+                        - textbox "Work Phone" [ref=e911]
+                      - generic [ref=e915]:
+                        - generic [ref=e916]: Bank
+                        - textbox "Bank" [ref=e922]
+                      - generic [ref=e926]:
+                        - generic [ref=e927]: Salary *
+                        - textbox "Salary" [ref=e934]
+            - generic [ref=e358]:
+              - button "Previous" [ref=e935] [cursor=pointer]
+              - generic [ref=e360]:
+                - button "Save as Draft" [ref=e361] [cursor=pointer]
+                - button "Next" [disabled] [ref=e363]
+          - generic [ref=e365]:
+            - generic [ref=e366]:
+              - generic [ref=e367]: Completion Rate
+              - generic [ref=e368]: "0"
+            - generic [ref=e375]:
+              - button "Application Information" [ref=e937]
+              - button "2 Owners Profiles" [ref=e385]:
+                - generic [ref=e387]: "2"
+                - generic [ref=e389]: Owners Profiles
+              - button "3 School Information" [ref=e393]:
+                - generic [ref=e395]: "3"
+                - generic [ref=e397]: School Information
+              - button "4 Download Documents" [ref=e401]:
+                - generic [ref=e403]: "4"
+                - generic [ref=e405]: Download Documents
+              - button "5 Attachments" [ref=e409]:
+                - generic [ref=e411]: "5"
+                - generic [ref=e413]: Attachments
+              - button "6 Summary" [ref=e417]:
+                - generic [ref=e418]: "6"
+                - generic [ref=e420]: Summary
+            - generic [ref=e423]:
+              - separator [ref=e424]
+              - heading "Help" [level=2] [ref=e425]
+              - generic [ref=e426]:
+                - generic [ref=e427] [cursor=pointer]: Service Card
+                - generic [ref=e429] [cursor=pointer]: FAQs
+                - generic [ref=e431] [cursor=pointer]: Contact Us
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - generic [ref=e260]:
+          - img "App logo" [ref=e263]
+          - generic [ref=e264]:
+            - generic [ref=e265] [cursor=pointer]
+            - generic [ref=e266] [cursor=pointer]
+            - link [ref=e267] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - generic [ref=e270]: Quick Links
+            - generic [ref=e271]:
+              - link "Workspace" [ref=e272] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=e273] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=e274] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=e275] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=e276]:
+            - generic [ref=e277]: Get in Touch
+            - generic [ref=e278]:
+              - generic [ref=e279]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=e280]: +971 232 1248
+      - separator [ref=e281]
+      - generic [ref=e282]:
+        - generic [ref=e283]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=e284]:
+          - generic [ref=e285] [cursor=pointer]: Copyright
+          - generic [ref=e286] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e287] [cursor=pointer]: Disclaimer
+          - generic [ref=e288] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

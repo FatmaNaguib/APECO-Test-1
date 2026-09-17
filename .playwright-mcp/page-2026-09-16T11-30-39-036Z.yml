@@ -1,0 +1,107 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e1811]:
+    - generic [ref=f2e1813]:
+      - img "App logo" [ref=f2e1816]
+      - generic [ref=f2e1817]:
+        - list [ref=f2e1819]:
+          - listitem [ref=f2e1820]:
+            - generic [ref=f2e1821] [cursor=pointer]
+          - listitem [ref=f2e1825]:
+            - link "Services" [ref=f2e1826] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f2e1827]:
+            - link "Contact Us" [ref=f2e1828] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=f2e1829] [cursor=pointer]
+        - generic [ref=f2e1831] [cursor=pointer]
+        - button "Add ticket" [ref=f2e1838] [cursor=pointer]
+    - generic [ref=f2e1850]:
+      - generic [ref=f2e1852]:
+        - button "Moahmed Barakat" [ref=f2e1855] [cursor=pointer]
+        - generic [ref=f2e1858]:
+          - generic [ref=f2e1859] [cursor=pointer]: Workspace
+          - generic [ref=f2e1868] [cursor=pointer]: Requests
+          - generic [ref=f2e1875] [cursor=pointer]: Services
+          - generic [ref=f2e1881] [cursor=pointer]: Penalties
+          - generic [ref=f2e1888] [cursor=pointer]: My Schools
+          - generic [ref=f2e1901] [cursor=pointer]: Invoices
+          - generic [ref=f2e1910] [cursor=pointer]: Settings
+          - generic [ref=f2e1917] [cursor=pointer]: Students
+          - generic [ref=f2e1923] [cursor=pointer]: Divisions
+        - generic [ref=f2e1929] [cursor=pointer]: Logout
+      - generic [ref=f2e1937]:
+        - generic [ref=f2e1941]:
+          - button [ref=f2e1943] [cursor=pointer]:
+            - button [ref=f2e1944]
+          - generic [ref=f2e1946]: Services
+        - generic [ref=f2e1948]:
+          - textbox "Search Services..." [ref=f2e1953]
+          - generic [ref=f2e1954]:
+            - generic [ref=f2e1955]: Service Type
+            - generic [ref=f2e1959] [cursor=pointer]:
+              - textbox [ref=f2e1961]
+              - generic "Licensing Services" [ref=f2e1962]
+        - generic [ref=f2e1966]:
+          - generic [ref=f2e1967] [cursor=pointer]: Initial application - Submission for a Private School Permit
+          - generic [ref=f2e1972] [cursor=pointer]: Issuance of a New Permit
+          - generic [ref=f2e1977] [cursor=pointer]: Private School Renewal Application
+          - generic [ref=f2e1982] [cursor=pointer]: School Name Change Request
+          - generic [ref=f2e1987] [cursor=pointer]: Partner Withdrawal Request
+          - generic [ref=f2e1992] [cursor=pointer]: Request for Modification or Increase in Tuition Fees
+          - generic [ref=f2e1997] [cursor=pointer]: Request for School License Cancellation
+          - generic [ref=f2e2002] [cursor=pointer]: Application for License Holder Change / Board Representative Change / Adding a Partner
+          - generic [ref=f2e2007] [cursor=pointer]: Principal Change
+          - generic [ref=f2e2012] [cursor=pointer]: Appointment Notification for Employees in Private Schools
+          - generic [ref=f2e2017] [cursor=pointer]: Approval for Publishing Announcements for Private Schools
+          - generic [ref=f2e2022] [cursor=pointer]: Request for Modification or Addition to a Private School Building
+          - generic [ref=f2e2027] [cursor=pointer]: School Relocation Request
+          - generic [ref=f2e2032] [cursor=pointer]: Approval of Annual Activities and Programs
+          - generic [ref=f2e2037] [cursor=pointer]: Adding Educational Stages
+          - generic [ref=f2e2042] [cursor=pointer]: Reducing Educational Stages
+          - generic [ref=f2e2047] [cursor=pointer]: Request for Certification of Experience Certificate for Employees
+          - generic [ref=f2e2052] [cursor=pointer]: Request for Event Permit by an External Entity
+          - generic [ref=f2e2057] [cursor=pointer]: Approval for International Travel
+    - generic [ref=f2e2064]:
+      - generic [ref=f2e2065]:
+        - generic [ref=f2e2066]:
+          - img "App logo" [ref=f2e2069]
+          - generic [ref=f2e2070]:
+            - generic [ref=f2e2071] [cursor=pointer]
+            - generic [ref=f2e2072] [cursor=pointer]
+            - link [ref=f2e2073] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f2e2074]:
+          - generic [ref=f2e2075]:
+            - generic [ref=f2e2076]: Quick Links
+            - generic [ref=f2e2077]:
+              - link "Workspace" [ref=f2e2078] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f2e2079] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f2e2080] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f2e2081] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f2e2082]:
+            - generic [ref=f2e2083]: Get in Touch
+            - generic [ref=f2e2084]:
+              - generic [ref=f2e2085]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f2e2086]: +971 232 1248
+      - separator [ref=f2e2087]
+      - generic [ref=f2e2088]:
+        - generic [ref=f2e2089]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f2e2090]:
+          - generic [ref=f2e2091] [cursor=pointer]: Copyright
+          - generic [ref=f2e2092] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f2e2093] [cursor=pointer]: Disclaimer
+          - generic [ref=f2e2094] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

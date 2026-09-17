@@ -1,0 +1,116 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e1562]:
+    - generic [ref=f2e1564]:
+      - img "App logo" [ref=f2e1567]
+      - generic [ref=f2e1568]:
+        - list [ref=f2e1570]:
+          - listitem [ref=f2e1571]:
+            - generic [ref=f2e1572] [cursor=pointer]
+          - listitem [ref=f2e1576]:
+            - link "Services" [ref=f2e1577] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f2e1578]:
+            - link "Contact Us" [ref=f2e1579] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=f2e1580] [cursor=pointer]
+        - generic [ref=f2e1582] [cursor=pointer]
+        - button "Add ticket" [ref=f2e1589] [cursor=pointer]
+    - generic [ref=f2e1601]:
+      - generic [ref=f2e1603]:
+        - button "Moahmed Barakat" [ref=f2e1606] [cursor=pointer]
+        - generic [ref=f2e1609]:
+          - generic [ref=f2e1610] [cursor=pointer]: Workspace
+          - generic [ref=f2e1619] [cursor=pointer]: Requests
+          - generic [ref=f2e1626] [cursor=pointer]: Services
+          - generic [ref=f2e1632] [cursor=pointer]: Penalties
+          - generic [ref=f2e1639] [cursor=pointer]: My Schools
+          - generic [ref=f2e1652] [cursor=pointer]: Invoices
+          - generic [ref=f2e1661] [cursor=pointer]: Settings
+          - generic [ref=f2e1668] [cursor=pointer]: Students
+          - generic [ref=f2e1674] [cursor=pointer]: Divisions
+        - generic [ref=f2e1680] [cursor=pointer]: Logout
+      - generic [ref=f2e1688]:
+        - generic [ref=f2e1692]:
+          - button [ref=f2e1694] [cursor=pointer]:
+            - button [ref=f2e1695]
+          - generic [ref=f2e1697]: Manage School Logos
+        - generic [ref=f2e1698]:
+          - generic [ref=f2e1700]:
+            - generic [ref=f2e1704]:
+              - generic [ref=f2e1708]:
+                - generic [ref=f2e1709]: School *
+                - generic [ref=f2e1715]:
+                  - textbox [ref=f2e1717]
+                  - generic: School
+              - generic [ref=f2e1724]:
+                - generic [ref=f2e1725]: School Logo *
+                - generic [ref=f2e1727]:
+                  - generic [ref=f2e1732]:
+                    - generic [ref=f2e1733] [cursor=pointer]: Choose File
+                    - generic [ref=f2e1734]: Choose File
+                  - generic [ref=f2e1735]: Max file size is 3MB, Suitable files are .jpg, .jpeg, and .png
+              - generic [ref=f2e1739]:
+                - generic [ref=f2e1740]: Diploma Accreditation Logo of American Curriculum
+                - generic [ref=f2e1742]:
+                  - generic [ref=f2e1747]:
+                    - generic [ref=f2e1748] [cursor=pointer]: Choose File
+                    - generic [ref=f2e1749]: Choose File
+                  - generic [ref=f2e1750]: Max file size is 3MB, Suitable files are .jpg, .jpeg, .png
+              - generic [ref=f2e1754]:
+                - generic [ref=f2e1755]: School Stamp
+                - generic [ref=f2e1757]:
+                  - generic [ref=f2e1762]:
+                    - generic [ref=f2e1763] [cursor=pointer]: Choose File
+                    - generic [ref=f2e1764]: Choose File
+                  - generic [ref=f2e1765]: Max file size is 3MB, Suitable files are .jpg, .jpeg, .png
+            - button "Save" [disabled] [ref=f2e1767]
+          - generic [ref=f2e1768]:
+            - heading "Help" [level=2] [ref=f2e1769]
+            - generic [ref=f2e1770]:
+              - generic [ref=f2e1771] [cursor=pointer]: Service Card
+              - generic [ref=f2e1773] [cursor=pointer]: FAQs
+              - generic [ref=f2e1775] [cursor=pointer]: Contact Us
+    - generic [ref=f2e1779]:
+      - generic [ref=f2e1780]:
+        - generic [ref=f2e1781]:
+          - img "App logo" [ref=f2e1784]
+          - generic [ref=f2e1785]:
+            - generic [ref=f2e1786] [cursor=pointer]
+            - generic [ref=f2e1787] [cursor=pointer]
+            - link [ref=f2e1788] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f2e1789]:
+          - generic [ref=f2e1790]:
+            - generic [ref=f2e1791]: Quick Links
+            - generic [ref=f2e1792]:
+              - link "Workspace" [ref=f2e1793] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f2e1794] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f2e1795] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f2e1796] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f2e1797]:
+            - generic [ref=f2e1798]: Get in Touch
+            - generic [ref=f2e1799]:
+              - generic [ref=f2e1800]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f2e1801]: +971 232 1248
+      - separator [ref=f2e1802]
+      - generic [ref=f2e1803]:
+        - generic [ref=f2e1804]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f2e1805]:
+          - generic [ref=f2e1806] [cursor=pointer]: Copyright
+          - generic [ref=f2e1807] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f2e1808] [cursor=pointer]: Disclaimer
+          - generic [ref=f2e1809] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

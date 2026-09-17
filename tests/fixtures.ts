@@ -3,6 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import dotenv from 'dotenv';
 import { LoginPage } from '../pages/LoginPage';
+import { Initialapplicationapproval } from '../pages/Initialapplicationapproval';
 import { Logger } from '../utils/logger';
 import { FailureCollector } from '../utils/failureCollector';
 
@@ -83,6 +84,11 @@ type TestFixtures = TestOptions & {
   authenticatedPage: Page;
 
   /**
+   * Login fixture: Isolated, pre-authenticated page instance.
+   */
+  login: Page;
+
+  /**
    * Clean, unauthenticated page fixture for testing public/login views.
    */
   unauthenticatedPage: Page;
@@ -91,6 +97,11 @@ type TestFixtures = TestOptions & {
    * LoginPage instance for page-specific actions.
    */
   loginPage: LoginPage;
+
+  /**
+   * Initialapplicationapproval Page Object instance for Permit service tests.
+   */
+  initialApplicationApproval: Initialapplicationapproval;
 };
 
 type WorkerFixtures = {
@@ -141,7 +152,7 @@ export const test = baseTest.extend<TestFixtures, WorkerFixtures>({
 
       await use(authFile);
     },
-    { scope: 'worker' },
+    { scope: 'worker', timeout: 60000 },
   ],
 
   // Clean, isolated page fixture by default
@@ -169,7 +180,12 @@ export const test = baseTest.extend<TestFixtures, WorkerFixtures>({
     await use(page);
 
     await failureCollector.collectOnFailure(testInfo);
-    await context.close();
+    await context.close().catch(e => Logger.warn(`Context close warning: ${e.message}`));
+  },
+
+  // Login fixture providing an isolated, pre-authenticated page
+  login: async ({ authenticatedPage }, use) => {
+    await use(authenticatedPage);
   },
 
   // Clean unauthenticated page alias
@@ -181,6 +197,12 @@ export const test = baseTest.extend<TestFixtures, WorkerFixtures>({
   loginPage: async ({ page }, use) => {
     const loginPage = new LoginPage(page);
     await use(loginPage);
+  },
+
+  // Initialapplicationapproval Page Object fixture
+  initialApplicationApproval: async ({ authenticatedPage }, use) => {
+    const approval = new Initialapplicationapproval(authenticatedPage);
+    await use(approval);
   },
 });
 

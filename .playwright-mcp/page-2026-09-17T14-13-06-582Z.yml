@@ -1,0 +1,131 @@
+- generic [ref=e1614]:
+  - complementary [ref=e1615]:
+    - generic [ref=e1616]:
+      - img "app-logo" [ref=e1620] [cursor=pointer]
+      - list [ref=e1622]:
+        - listitem [ref=e1623]:
+          - button " Services" [ref=e1624] [cursor=pointer]:
+            - generic [ref=e1625]:
+              - generic [ref=e1626]: 
+              - generic [ref=e1627]: Services
+        - listitem [ref=e1628]:
+          - button " Schools" [ref=e1629] [cursor=pointer]:
+            - generic [ref=e1630]:
+              - generic [ref=e1631]: 
+              - generic [ref=e1632]: Schools
+        - listitem [ref=e1633]:
+          - button " Students" [ref=e1634] [cursor=pointer]:
+            - generic [ref=e1635]:
+              - generic [ref=e1636]: 
+              - generic [ref=e1637]: Students
+        - listitem [ref=e1638]:
+          - button " School Penalties" [ref=e1639] [cursor=pointer]:
+            - generic [ref=e1640]:
+              - generic [ref=e1641]: 
+              - generic [ref=e1642]: School Penalties
+        - listitem [ref=e1643]:
+          - button " Students Affairs" [ref=e1644] [cursor=pointer]:
+            - generic [ref=e1645]:
+              - generic [ref=e1646]: 
+              - generic [ref=e1647]: Students Affairs
+        - listitem [ref=e1648]:
+          - button " Invoices" [ref=e1649] [cursor=pointer]:
+            - generic [ref=e1650]:
+              - generic [ref=e1651]: 
+              - generic [ref=e1652]: Invoices
+        - listitem [ref=e1653]:
+          - button " Reports" [ref=e1654] [cursor=pointer]:
+            - generic [ref=e1655]:
+              - generic [ref=e1656]: 
+              - generic [ref=e1657]: Reports
+        - listitem [ref=e1658]:
+          - button " Admin" [ref=e1659] [cursor=pointer]:
+            - generic [ref=e1660]:
+              - generic [ref=e1661]: 
+              - generic [ref=e1662]: Admin
+    - text: 
+  - generic [ref=e1663]:
+    - navigation [ref=e1664]:
+      - generic [ref=e1665]:
+        - list:
+          - listitem
+        - list [ref=e1666]:
+          - listitem [ref=e1667]:
+            - generic [ref=e1670] [cursor=pointer]:
+              - generic [ref=e1671]: Aq
+              - generic [ref=e1673]:
+                - paragraph [ref=e1674]: Admin Qc
+                - generic [ref=e1675]: Admin QC
+          - listitem [ref=e1676]:
+            - button "عربي" [ref=e1677] [cursor=pointer]
+    - generic [ref=e1680]:
+      - generic [ref=e1683]:
+        - button " Back" [ref=e1684] [cursor=pointer]:
+          - generic [ref=e1685]: 
+          - generic [ref=e1686]: Back
+        - generic [ref=e1687]: Request Details
+      - generic [ref=e1689]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+              - generic:
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"
+                - generic:
+                  - progressbar "loading"

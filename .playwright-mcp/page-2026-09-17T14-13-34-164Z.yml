@@ -1,0 +1,179 @@
+- generic [ref=e1]:
+  - generic [ref=e1614]:
+    - complementary [ref=e1615]:
+      - generic [ref=e1616]:
+        - img "app-logo" [ref=e1620] [cursor=pointer]
+        - list [ref=e1622]:
+          - listitem [ref=e1623]:
+            - button " Services" [ref=e1624] [cursor=pointer]:
+              - generic [ref=e1625]:
+                - generic [ref=e1626]: 
+                - generic [ref=e1627]: Services
+          - listitem [ref=e1628]:
+            - button " Schools" [ref=e1629] [cursor=pointer]:
+              - generic [ref=e1630]:
+                - generic [ref=e1631]: 
+                - generic [ref=e1632]: Schools
+          - listitem [ref=e1633]:
+            - button " Students" [ref=e1634] [cursor=pointer]:
+              - generic [ref=e1635]:
+                - generic [ref=e1636]: 
+                - generic [ref=e1637]: Students
+          - listitem [ref=e1638]:
+            - button " School Penalties" [ref=e1639] [cursor=pointer]:
+              - generic [ref=e1640]:
+                - generic [ref=e1641]: 
+                - generic [ref=e1642]: School Penalties
+          - listitem [ref=e1643]:
+            - button " Students Affairs" [ref=e1644] [cursor=pointer]:
+              - generic [ref=e1645]:
+                - generic [ref=e1646]: 
+                - generic [ref=e1647]: Students Affairs
+          - listitem [ref=e1648]:
+            - button " Invoices" [ref=e1649] [cursor=pointer]:
+              - generic [ref=e1650]:
+                - generic [ref=e1651]: 
+                - generic [ref=e1652]: Invoices
+          - listitem [ref=e1653]:
+            - button " Reports" [ref=e1654] [cursor=pointer]:
+              - generic [ref=e1655]:
+                - generic [ref=e1656]: 
+                - generic [ref=e1657]: Reports
+          - listitem [ref=e1658]:
+            - button " Admin" [ref=e1659] [cursor=pointer]:
+              - generic [ref=e1660]:
+                - generic [ref=e1661]: 
+                - generic [ref=e1662]: Admin
+      - text: 
+    - generic [ref=e1663]:
+      - navigation [ref=e1664]:
+        - generic [ref=e1665]:
+          - list:
+            - listitem
+          - list [ref=e1666]:
+            - listitem [ref=e1667]:
+              - generic [ref=e1673] [cursor=pointer]:
+                - paragraph [ref=e1674]: Admin Qc
+                - generic [ref=e1675]: Admin QC
+            - listitem [ref=e1676]:
+              - button "عربي" [ref=e1677] [cursor=pointer]
+      - generic [ref=e1680]:
+        - generic [ref=e1683]:
+          - button " Back" [ref=e1684] [cursor=pointer]:
+            - generic [ref=e1685]: 
+            - generic [ref=e1686]: Back
+          - generic [ref=e1687]: Request Details
+        - generic [ref=e1697]:
+          - 'heading "Applicant: Anas Mohamed" [level=1] [ref=e1700]'
+          - generic [ref=e1701]:
+            - generic [ref=e1703]:
+              - heading "Request Status" [level=3] [ref=e1704]
+              - generic [ref=e1705]:
+                - button "Approve" [ref=e1706] [cursor=pointer]
+                - button "Return" [active] [ref=e1707] [cursor=pointer]
+                - dialog [ref=e1894]:
+                  - generic [ref=e1895]:
+                    - generic [ref=e1896]: Return for Correction by APECO Employee
+                    - generic [ref=e1900]:
+                      - generic [ref=e1901]:
+                        - heading [level=5]
+                        - generic [ref=e1906]:
+                          - generic [ref=e1907]: Return reasons *
+                          - generic [ref=e1912]:
+                            - textbox [ref=e1914]
+                            - generic: Return reasons
+                        - generic [ref=e1917]:
+                          - generic [ref=e1918]: Comments
+                          - generic [ref=e1919]:
+                            - textbox "Type description" [ref=e1920]
+                            - generic [ref=e1921]:
+                              - generic [ref=e1922] [cursor=pointer]: Upload Files
+                              - generic [ref=e1923]:
+                                - text: "Hint: Maxmium allowed file size is 10 MB and supported types are"
+                                - generic [ref=e1924]: image Files ,
+                                - generic [ref=e1925]: pdf Files ,
+                                - generic [ref=e1926]: Sheets Files ,
+                                - generic [ref=e1927]: Word Files
+                              - button "Upload Files"
+                      - generic [ref=e1928]:
+                        - button "Back" [ref=e1929] [cursor=pointer]
+                        - button "Save" [disabled]
+                - button "Reject" [ref=e1708] [cursor=pointer]
+            - generic [ref=e1709]:
+              - generic [ref=e1710]:
+                - generic [ref=e1711]:
+                  - generic [ref=e1712]:
+                    - generic [ref=e1713]: Step 1
+                    - generic [ref=e1715]:
+                      - generic [ref=e1716]: 
+                      - text: Pending
+                  - generic [ref=e1717]: APECO Employee Review
+                - generic:
+                  - generic:
+                    - generic: Step 2
+                    - generic:
+                      - generic: 
+                      - text: Upcoming
+                  - generic: Technical Engineer Review
+                - generic:
+                  - generic:
+                    - generic: Step 3
+                    - generic:
+                      - generic: 
+                      - text: Upcoming
+                  - generic: Accepted
+              - generic: 
+          - generic [ref=e1723]:
+            - generic [ref=e1724]: Initial application - Submission for a Private School Permit
+            - generic [ref=e1728]:
+              - generic [ref=e1729]:
+                - generic [ref=e1736]:
+                  - tablist [ref=e1739]:
+                    - tab "Applicant Information" [selected] [ref=e1741] [cursor=pointer]
+                    - tab "Contact Information" [ref=e1743] [cursor=pointer]
+                  - tabpanel "Applicant Information" [ref=e1746]:
+                    - generic [ref=e1749]:
+                      - generic [ref=e1753]:
+                        - generic [ref=e1754]: First Name (in English) *
+                        - textbox "First Name (in English)" [disabled] [ref=e1759]: Anas
+                      - generic [ref=e1763]:
+                        - generic [ref=e1764]: First Name (in Arabic) *
+                        - textbox "First Name (in Arabic)" [disabled] [ref=e1769]: انس
+                      - generic [ref=e1773]:
+                        - generic [ref=e1774]: Last Name (in English) *
+                        - textbox "Last Name (in English)" [disabled] [ref=e1779]: Mohamed
+                      - generic [ref=e1783]:
+                        - generic [ref=e1784]: Last Name (in Arabic) *
+                        - textbox "Last Name (in Arabic)" [disabled] [ref=e1789]: محمد
+                      - generic [ref=e1793]:
+                        - generic [ref=e1794]: Date of Birth
+                        - textbox "Date of Birth" [disabled] [ref=e1801]: 1985-01-01
+                      - generic [ref=e1805]:
+                        - generic [ref=e1806]: Emirates ID
+                        - textbox "Emirates ID" [disabled] [ref=e1811]
+                - button "Next" [ref=e1815] [cursor=pointer]
+              - generic [ref=e1817]:
+                - generic [ref=e1818]:
+                  - button "1 Application Information" [ref=e1820] [cursor=pointer]:
+                    - generic [ref=e1822]: "1"
+                    - generic [ref=e1823]: Application Information
+                  - button "2 Owners Profiles" [ref=e1827] [cursor=pointer]:
+                    - generic [ref=e1829]: "2"
+                    - generic [ref=e1830]: Owners Profiles
+                  - button "3 School Information" [ref=e1834] [cursor=pointer]:
+                    - generic [ref=e1836]: "3"
+                    - generic [ref=e1837]: School Information
+                  - button "4 Attachments" [ref=e1841] [cursor=pointer]:
+                    - generic [ref=e1843]: "4"
+                    - generic [ref=e1844]: Attachments
+                  - button "5 Summary" [ref=e1848] [cursor=pointer]:
+                    - generic [ref=e1849]: "5"
+                    - generic [ref=e1850]: Summary
+                - generic [ref=e1853]:
+                  - separator [ref=e1854]
+                  - generic [ref=e1855]:
+                    - heading "Help" [level=2] [ref=e1856]
+                    - generic [ref=e1857] [cursor=pointer]: Service Card
+                    - generic [ref=e1859] [cursor=pointer]: FAQS
+                    - generic [ref=e1861] [cursor=pointer]: Contact US
+  - generic: Previous Requests

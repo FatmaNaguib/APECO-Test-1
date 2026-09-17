@@ -1,0 +1,177 @@
+- generic [ref=e32]:
+  - complementary [ref=e33]:
+    - generic [ref=e34]:
+      - img "app-logo" [ref=e38] [cursor=pointer]
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - button " Services" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: 
+              - generic [ref=e45]: Services
+        - listitem [ref=e46]:
+          - button " Schools" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]:
+              - generic [ref=e49]: 
+              - generic [ref=e50]: Schools
+        - listitem [ref=e51]:
+          - button " Students" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: 
+              - generic [ref=e55]: Students
+        - listitem [ref=e56]:
+          - button " School Penalties" [ref=e57] [cursor=pointer]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: 
+              - generic [ref=e60]: School Penalties
+        - listitem [ref=e61]:
+          - button " Students Affairs" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: 
+              - generic [ref=e65]: Students Affairs
+        - listitem [ref=e66]:
+          - button " Invoices" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]:
+              - generic [ref=e69]: 
+              - generic [ref=e70]: Invoices
+        - listitem [ref=e71]:
+          - button " Reports" [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: 
+              - generic [ref=e75]: Reports
+        - listitem [ref=e76]:
+          - button " Admin" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: 
+              - generic [ref=e80]: Admin
+    - text:    
+  - generic [ref=e81]:
+    - navigation [ref=e82]:
+      - generic [ref=e83]:
+        - list:
+          - listitem
+        - list [ref=e84]:
+          - listitem [ref=e85]:
+            - generic [ref=e91] [cursor=pointer]:
+              - paragraph [ref=e92]: Admin Qc
+              - generic [ref=e93]: Admin QC
+          - listitem [ref=e94]:
+            - button "عربي" [ref=e95] [cursor=pointer]
+    - generic [ref=e99]:
+      - generic [ref=e101]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: Agent Queue
+          - generic [ref=e105]: (1)
+        - button " Export" [ref=e214] [cursor=pointer]:
+          - generic [ref=e215]: 
+          - text: Export
+      - generic [ref=e107]:
+        - generic [ref=e1533]:
+          - generic [ref=e1535]:
+            - generic [ref=e1536]: 
+            - generic [ref=e1538]:
+              - strong [ref=e1539]: "1"
+              - heading "All Requests" [level=3] [ref=e1540]
+          - generic [ref=e1542]:
+            - generic [ref=e1543]: 
+            - generic [ref=e1545]:
+              - strong [ref=e1546]: "1"
+              - heading "Assigned to Me" [level=3] [ref=e1547]
+          - generic [ref=e1549]:
+            - generic [ref=e1550]: 
+            - generic [ref=e1552]:
+              - strong [ref=e1553]: "1"
+              - heading "Open" [level=3] [ref=e1554]
+          - generic [ref=e1556]:
+            - generic [ref=e1557]: 
+            - generic [ref=e1559]:
+              - strong [ref=e1560]: "0"
+              - heading "Closed" [level=3] [ref=e1561]
+        - generic [ref=e123]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: 
+            - textbox "Search" [ref=e129]: "14680"
+            - generic [ref=e1500] [cursor=pointer]
+          - button "filter Filter 1" [ref=e1562] [cursor=pointer]:
+            - img "filter" [ref=e132]
+            - generic [ref=e133]: Filter
+            - generic [ref=e1563]: "1"
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: Status
+            - generic [ref=e141] [cursor=pointer]:
+              - textbox [ref=e143]
+              - generic: All
+          - generic [ref=e147]:
+            - generic [ref=e148]: Category
+            - generic [ref=e150] [cursor=pointer]:
+              - textbox [ref=e152]
+              - generic: All
+          - generic [ref=e156]:
+            - generic [ref=e157]: Service
+            - generic [ref=e159]:
+              - textbox [ref=e161]
+              - generic: All
+          - generic [ref=e165]:
+            - generic [ref=e166]: School
+            - generic [ref=e168]:
+              - textbox [ref=e170]
+              - generic: All
+          - generic [ref=e175]:
+            - generic [ref=e176]: 
+            - textbox "Student Name" [ref=e178]
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - checkbox "Assigned to Me"
+              - generic [ref=e183] [cursor=pointer]
+            - generic [ref=e184]: Assigned to Me
+        - table [ref=e1567]:
+          - rowgroup [ref=e1568]:
+            - row [ref=e1569]:
+              - columnheader "#  " [ref=e1570]:
+                - generic [ref=e1571] [cursor=pointer]:
+                  - text: "#"
+                  - generic [ref=e1572]:
+                    - generic [ref=e1573]: 
+                    - generic [ref=e1574]: 
+              - columnheader "Service Name  " [ref=e1575]:
+                - generic [ref=e1576] [cursor=pointer]:
+                  - text: Service Name
+                  - generic [ref=e1577]:
+                    - generic [ref=e1578]: 
+                    - generic [ref=e1579]: 
+              - columnheader "School Name  " [ref=e1580]:
+                - generic [ref=e1581] [cursor=pointer]:
+                  - text: School Name
+                  - generic [ref=e1582]:
+                    - generic [ref=e1583]: 
+                    - generic [ref=e1584]: 
+              - columnheader "Student Name  " [ref=e1585]:
+                - generic [ref=e1586] [cursor=pointer]:
+                  - text: Student Name
+                  - generic [ref=e1587]:
+                    - generic [ref=e1588]: 
+                    - generic [ref=e1589]: 
+              - columnheader "Status  " [ref=e1590]:
+                - generic [ref=e1591] [cursor=pointer]:
+                  - text: Status
+                  - generic [ref=e1592]:
+                    - generic [ref=e1593]: 
+                    - generic [ref=e1594]: 
+              - columnheader "Created Date  " [ref=e1595]:
+                - generic [ref=e1596] [cursor=pointer]:
+                  - text: Created Date
+                  - generic [ref=e1597]:
+                    - generic [ref=e1598]: 
+                    - generic [ref=e1599]: 
+              - columnheader "Updated Date" [ref=e1600]
+          - rowgroup [ref=e1601]:
+            - row [ref=e1602]:
+              - cell [ref=e1603]:
+                - link "IDINAPSUFOPRSCPE14680" [ref=e1604] [cursor=pointer]:
+                  - /url: /requests/request-details/14680
+              - cell "Initial application - Submission for a Private School Permit" [ref=e1605]
+              - cell "--" [ref=e1606]
+              - cell "--" [ref=e1607]
+              - cell "Open - APECO Employee Review" [ref=e1608]
+              - cell "17/09/2026" [ref=e1611]
+              - cell "17/09/2026" [ref=e1612]

@@ -1,0 +1,16 @@
+[    1368ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[    3088ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/ServiceDesk/api/Notification/GetLatestNotifications?numOfDays=30&PageSize=3:0
+[    3096ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/UserManagement/api/Profile/Get/CurrentUser:0
+[    3120ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/ServiceDesk/api/ServiceCatalogue/GetCategories:0
+[    3142ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/ServiceDesk/api/User/AccessDetails:0
+[    3494ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/Identity/api/Identity/RefreshToken:0
+[    3495ms] [ERROR] Error fetching another data: HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-EXJMFCB7.js:47
+[    3497ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/Identity/api/Identity/RefreshToken:0
+[    3502ms] [ERROR] ERROR HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[    3503ms] [ERROR] ERROR HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[    3518ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/Identity/api/Identity/RefreshToken:0
+[    3521ms] [ERROR] ERROR HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[    3522ms] [ERROR] ERROR HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[    3527ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/Identity/api/Identity/RefreshToken:0
+[    3530ms] [ERROR] ERROR HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[    8290ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291

@@ -35,7 +35,7 @@ export class LoginPage extends BasePage {
     this.uaePassButton = page.getByRole('button', { name: 'Sign in with UAE PASS' });
     this.forgotPasswordLink = page.getByRole('link', { name: 'Forgot password?' });
     this.createAccountLink = page.getByRole('link', { name: 'Create new account' });
-    this.toastErrorAlert = page.getByRole('alert');
+    this.toastErrorAlert = page.getByRole('alert').or(page.locator('.ant-message-error, .ant-notification-notice-error, .ant-alert-error'));
     this.usernameValidationMessage = page.getByText(/please enter (user name|a valid email)/i);
     this.passwordValidationMessage = page.getByText(/please enter (the password|a password between)/i);
   }
@@ -179,11 +179,11 @@ export class LoginPage extends BasePage {
   }
 
   get arabicOption(): Locator {
-    return this.page.locator('.cdk-overlay-container [title="العربية"]:visible, nz-option-item[title="العربية"]:visible').first();
+    return this.page.getByRole('option', { name: 'العربية' }).or(this.page.locator('[title="العربية"]:visible, nz-option-item[title="العربية"]:visible')).first();
   }
 
   get englishOption(): Locator {
-    return this.page.locator('.cdk-overlay-container [title="English"]:visible, nz-option-item[title="English"]:visible').first();
+    return this.page.getByRole('option', { name: 'English' }).or(this.page.locator('[title="English"]:visible, nz-option-item[title="English"]:visible')).first();
   }
 
   get peaoLogo(): Locator {

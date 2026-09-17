@@ -1,0 +1,497 @@
+- generic [ref=e1969]:
+  - complementary [ref=e1970]:
+    - generic [ref=e1971]:
+      - img "app-logo" [ref=e1975] [cursor=pointer]
+      - list [ref=e1977]:
+        - listitem [ref=e1978]:
+          - button " Services" [ref=e1979] [cursor=pointer]:
+            - generic [ref=e1980]:
+              - generic [ref=e1981]: 
+              - generic [ref=e1982]: Services
+        - listitem [ref=e1983]:
+          - button " Schools" [ref=e1984] [cursor=pointer]:
+            - generic [ref=e1985]:
+              - generic [ref=e1986]: 
+              - generic [ref=e1987]: Schools
+        - listitem [ref=e1988]:
+          - button " Students" [ref=e1989] [cursor=pointer]:
+            - generic [ref=e1990]:
+              - generic [ref=e1991]: 
+              - generic [ref=e1992]: Students
+        - listitem [ref=e1993]:
+          - button " School Penalties" [ref=e1994] [cursor=pointer]:
+            - generic [ref=e1995]:
+              - generic [ref=e1996]: 
+              - generic [ref=e1997]: School Penalties
+        - listitem [ref=e1998]:
+          - button " Students Affairs" [ref=e1999] [cursor=pointer]:
+            - generic [ref=e2000]:
+              - generic [ref=e2001]: 
+              - generic [ref=e2002]: Students Affairs
+        - listitem [ref=e2003]:
+          - button " Invoices" [ref=e2004] [cursor=pointer]:
+            - generic [ref=e2005]:
+              - generic [ref=e2006]: 
+              - generic [ref=e2007]: Invoices
+        - listitem [ref=e2008]:
+          - button " Reports" [ref=e2009] [cursor=pointer]:
+            - generic [ref=e2010]:
+              - generic [ref=e2011]: 
+              - generic [ref=e2012]: Reports
+        - listitem [ref=e2013]:
+          - button " Admin" [ref=e2014] [cursor=pointer]:
+            - generic [ref=e2015]:
+              - generic [ref=e2016]: 
+              - generic [ref=e2017]: Admin
+    - text:    
+  - generic [ref=e2018]:
+    - navigation [ref=e2019]:
+      - generic [ref=e2020]:
+        - list:
+          - listitem
+        - list [ref=e2021]:
+          - listitem [ref=e2022]:
+            - generic [ref=e2028] [cursor=pointer]:
+              - paragraph [ref=e2029]: Admin Qc
+              - generic [ref=e2030]: Admin QC
+          - listitem [ref=e2031]:
+            - button "عربي" [ref=e2032] [cursor=pointer]
+    - generic [ref=e2036]:
+      - generic [ref=e2038]:
+        - generic [ref=e2040]:
+          - generic [ref=e2041]: Agent Queue
+          - generic [ref=e2042]: (2998)
+        - button " Export" [ref=e2044] [cursor=pointer]:
+          - generic [ref=e2651]: 
+          - text: Export
+      - generic [ref=e2046]:
+        - generic [ref=e2654]:
+          - generic [ref=e2656]:
+            - generic [ref=e2657]: 
+            - generic [ref=e2659]:
+              - strong [ref=e2660]: "2998"
+              - heading "All Requests" [level=3] [ref=e2661]
+          - generic [ref=e2663]:
+            - generic [ref=e2664]: 
+            - generic [ref=e2666]:
+              - strong [ref=e2667]: "403"
+              - heading "Assigned to Me" [level=3] [ref=e2668]
+          - generic [ref=e2670]:
+            - generic [ref=e2671]: 
+            - generic [ref=e2673]:
+              - strong [ref=e2674]: "857"
+              - heading "Open" [level=3] [ref=e2675]
+          - generic [ref=e2677]:
+            - generic [ref=e2678]: 
+            - generic [ref=e2680]:
+              - strong [ref=e2681]: "2059"
+              - heading "Closed" [level=3] [ref=e2682]
+        - generic [ref=e2083]:
+          - generic [ref=e2086]:
+            - generic [ref=e2087]: 
+            - textbox "Search" [ref=e2089]
+          - button "filter Filter" [ref=e2253] [cursor=pointer]:
+            - img "filter" [ref=e2092]
+            - generic [ref=e2093]: Filter
+        - generic [ref=e2098]:
+          - generic [ref=e2099]:
+            - generic [ref=e2100]: Status
+            - generic [ref=e2102] [cursor=pointer]:
+              - textbox [ref=e2104]
+              - generic: All
+          - generic [ref=e2108]:
+            - generic [ref=e2109]: Category
+            - generic [ref=e2111] [cursor=pointer]:
+              - textbox [ref=e2113]
+              - generic: All
+          - generic [ref=e2117]:
+            - generic [ref=e2118]: Service
+            - generic [ref=e2120]:
+              - textbox [ref=e2122]
+              - generic: All
+          - generic [ref=e2126]:
+            - generic [ref=e2127]: School
+            - generic [ref=e2129]:
+              - textbox [ref=e2131]
+              - generic: All
+          - generic [ref=e2136]:
+            - generic [ref=e2137]: 
+            - textbox "Student Name" [ref=e2139]
+          - generic [ref=e2142]:
+            - generic [ref=e2143]:
+              - checkbox "Assigned to Me"
+              - generic [ref=e2144] [cursor=pointer]
+            - generic [ref=e2145]: Assigned to Me
+        - generic [ref=e2683]:
+          - table [ref=e2686]:
+            - rowgroup [ref=e2687]:
+              - row [ref=e2688]:
+                - columnheader "#  " [ref=e2689]:
+                  - generic [ref=e2690] [cursor=pointer]:
+                    - text: "#"
+                    - generic [ref=e2691]:
+                      - generic [ref=e2692]: 
+                      - generic [ref=e2693]: 
+                - columnheader "Service Name  " [ref=e2694]:
+                  - generic [ref=e2695] [cursor=pointer]:
+                    - text: Service Name
+                    - generic [ref=e2696]:
+                      - generic [ref=e2697]: 
+                      - generic [ref=e2698]: 
+                - columnheader "School Name  " [ref=e2699]:
+                  - generic [ref=e2700] [cursor=pointer]:
+                    - text: School Name
+                    - generic [ref=e2701]:
+                      - generic [ref=e2702]: 
+                      - generic [ref=e2703]: 
+                - columnheader "Student Name  " [ref=e2704]:
+                  - generic [ref=e2705] [cursor=pointer]:
+                    - text: Student Name
+                    - generic [ref=e2706]:
+                      - generic [ref=e2707]: 
+                      - generic [ref=e2708]: 
+                - columnheader "Status  " [ref=e2709]:
+                  - generic [ref=e2710] [cursor=pointer]:
+                    - text: Status
+                    - generic [ref=e2711]:
+                      - generic [ref=e2712]: 
+                      - generic [ref=e2713]: 
+                - columnheader "Created Date  " [ref=e2714]:
+                  - generic [ref=e2715] [cursor=pointer]:
+                    - text: Created Date
+                    - generic [ref=e2716]:
+                      - generic [ref=e2717]: 
+                      - generic [ref=e2718]: 
+                - columnheader "Updated Date" [ref=e2719]
+            - rowgroup [ref=e2720]:
+              - row [ref=e2721]:
+                - cell [ref=e2722]:
+                  - link "IDGOCO14584" [ref=e2723] [cursor=pointer]:
+                    - /url: /requests/request-details/14584
+                - cell "Good Conduct" [ref=e2724]
+                - cell "New Education School 128966" [ref=e2725]
+                - cell "Aidda Al-Ayouby" [ref=e2726]
+                - cell "Open - Returned" [ref=e2727]
+                - cell "25/08/2026" [ref=e2730]
+                - cell "25/08/2026" [ref=e2731]
+              - row [ref=e2732]:
+                - cell [ref=e2733]:
+                  - link "IDGOCO14583" [ref=e2734] [cursor=pointer]:
+                    - /url: /requests/request-details/14583
+                - cell "Good Conduct" [ref=e2735]
+                - cell "New Education School 128966" [ref=e2736]
+                - cell "Aidda Al-Ayouby" [ref=e2737]
+                - cell "Closed - Accepted" [ref=e2738]
+                - cell "25/08/2026" [ref=e2741]
+                - cell "25/08/2026" [ref=e2742]
+              - row [ref=e2743]:
+                - cell [ref=e2744]:
+                  - link "IDTRAFTHPEPE14581" [ref=e2745] [cursor=pointer]:
+                    - /url: /requests/request-details/14581
+                - cell "Transfer After the Permitted Period" [ref=e2746]
+                - cell "Australian International Private School" [ref=e2747]
+                - cell "Derk Tomich" [ref=e2748]
+                - cell "Closed - Accepted" [ref=e2749]
+                - cell "24/08/2026" [ref=e2752]
+                - cell "24/08/2026" [ref=e2753]
+              - row [ref=e2754]:
+                - cell [ref=e2755]:
+                  - link "IDTRAFTHPEPE14580" [ref=e2756] [cursor=pointer]:
+                    - /url: /requests/request-details/14580
+                - cell "Transfer After the Permitted Period" [ref=e2757]
+                - cell "Australian International Private School" [ref=e2758]
+                - cell "Derk Tomich" [ref=e2759]
+                - cell "Open - School Employee Review" [ref=e2760]
+                - cell "24/08/2026" [ref=e2763]
+                - cell "24/08/2026" [ref=e2764]
+              - row [ref=e2765]:
+                - cell [ref=e2766]:
+                  - link "IDTRINOROUTHCO14579" [ref=e2767] [cursor=pointer]:
+                    - /url: /requests/request-details/14579
+                - cell "Transfer Inside or Outside the Country" [ref=e2768]
+                - cell "Australian International Private School" [ref=e2769]
+                - cell "Derk Tomich" [ref=e2770]
+                - cell "Open - School Employee Review" [ref=e2771]
+                - cell "24/08/2026" [ref=e2774]
+                - cell "24/08/2026" [ref=e2775]
+              - row [ref=e2776]:
+                - cell [ref=e2777]:
+                  - link "IDGOCO14577" [ref=e2778] [cursor=pointer]:
+                    - /url: /requests/request-details/14577
+                - cell "Good Conduct" [ref=e2779]
+                - cell "Australian International Private School" [ref=e2780]
+                - cell "Derk Tomich" [ref=e2781]
+                - cell "Open - School Employee Review" [ref=e2782]
+                - cell "24/08/2026" [ref=e2785]
+                - cell "24/08/2026" [ref=e2786]
+              - row [ref=e2787]:
+                - cell [ref=e2788]:
+                  - link "IDGOCO14576" [ref=e2789] [cursor=pointer]:
+                    - /url: /requests/request-details/14576
+                - cell "Good Conduct" [ref=e2790]
+                - cell "New Education School 128966" [ref=e2791]
+                - cell "Aidda Al-Ayouby" [ref=e2792]
+                - cell "Open - School Employee Review" [ref=e2793]
+                - cell "23/08/2026" [ref=e2796]
+                - cell "23/08/2026" [ref=e2797]
+              - row [ref=e2798]:
+                - cell [ref=e2799]:
+                  - link "IDAPFOLIHOCHBORECHADPA14572" [ref=e2800] [cursor=pointer]:
+                    - /url: /requests/request-details/14572
+                - cell "Application for License Holder Change / Board Representative Change / Adding a Partner" [ref=e2801]
+                - cell "Nour New School" [ref=e2802]
+                - cell "--" [ref=e2803]
+                - cell "Open - Employee Review" [ref=e2804]
+                - cell "18/08/2026" [ref=e2807]
+                - cell "18/08/2026" [ref=e2808]
+              - row [ref=e2809]:
+                - cell [ref=e2810]:
+                  - link "IDAPFOLIHOCHBORECHADPA14571" [ref=e2811] [cursor=pointer]:
+                    - /url: /requests/request-details/14571
+                - cell "Application for License Holder Change / Board Representative Change / Adding a Partner" [ref=e2812]
+                - cell "New Education School 24877" [ref=e2813]
+                - cell "--" [ref=e2814]
+                - cell "Open - Employee Review" [ref=e2815]
+                - cell "18/08/2026" [ref=e2818]
+                - cell "18/08/2026" [ref=e2819]
+              - row [ref=e2820]:
+                - cell [ref=e2821]:
+                  - link "IDLEDEST14569" [ref=e2822] [cursor=pointer]:
+                    - /url: /requests/request-details/14569
+                - cell "Level Determination Statement" [ref=e2823]
+                - cell "مدرسة العلم الحديث 1084447" [ref=e2824]
+                - cell "--" [ref=e2825]
+                - cell "Open - Student Affairs Employee Review" [ref=e2826]
+                - cell "18/08/2026" [ref=e2829]
+                - cell "18/08/2026" [ref=e2830]
+              - row [ref=e2831]:
+                - cell [ref=e2832]:
+                  - link "IDREFOMOORININTUFE14568" [ref=e2833] [cursor=pointer]:
+                    - /url: /requests/request-details/14568
+                - cell "Request for Modification or Increase in Tuition Fees" [ref=e2834]
+                - cell "English School Name22" [ref=e2835]
+                - cell "--" [ref=e2836]
+                - cell "Open - Employee Review" [ref=e2837]
+                - cell "18/08/2026" [ref=e2840]
+                - cell "18/08/2026" [ref=e2841]
+              - row [ref=e2842]:
+                - cell [ref=e2843]:
+                  - link "IDREFOMOORININTUFE14567" [ref=e2844] [cursor=pointer]:
+                    - /url: /requests/request-details/14567
+                - cell "Request for Modification or Increase in Tuition Fees" [ref=e2845]
+                - cell "English School Name22" [ref=e2846]
+                - cell "--" [ref=e2847]
+                - cell "Closed - Accepted" [ref=e2848]
+                - cell "18/08/2026" [ref=e2851]
+                - cell "18/08/2026" [ref=e2852]
+              - row [ref=e2853]:
+                - cell [ref=e2854]:
+                  - link "IDREFOMOORININTUFE14566" [ref=e2855] [cursor=pointer]:
+                    - /url: /requests/request-details/14566
+                - cell "Request for Modification or Increase in Tuition Fees" [ref=e2856]
+                - cell "English School Name-xx" [ref=e2857]
+                - cell "--" [ref=e2858]
+                - cell "Open - Employee Review" [ref=e2859]
+                - cell "18/08/2026" [ref=e2862]
+                - cell "18/08/2026" [ref=e2863]
+              - row [ref=e2864]:
+                - cell [ref=e2865]:
+                  - link "IDREEDST14564" [ref=e2866] [cursor=pointer]:
+                    - /url: /requests/request-details/14564
+                - cell "Reducing Educational Stages" [ref=e2867]
+                - cell "New Education School 42607" [ref=e2868]
+                - cell "--" [ref=e2869]
+                - cell "Closed - Accepted" [ref=e2870]
+                - cell "17/08/2026" [ref=e2873]
+                - cell "17/08/2026" [ref=e2874]
+              - row [ref=e2875]:
+                - cell [ref=e2876]:
+                  - link "IDSCRERE14563" [ref=e2877] [cursor=pointer]:
+                    - /url: /requests/request-details/14563
+                - cell "School Relocation Request" [ref=e2878]
+                - cell "New Education School 2115999" [ref=e2879]
+                - cell "--" [ref=e2880]
+                - cell "Closed - Accepted" [ref=e2881]
+                - cell "17/08/2026" [ref=e2884]
+                - cell "17/08/2026" [ref=e2885]
+              - row [ref=e2886]:
+                - cell [ref=e2887]:
+                  - link "IDPRCH14562" [ref=e2888] [cursor=pointer]:
+                    - /url: /requests/request-details/14562
+                - cell "Principal Change" [ref=e2889]
+                - cell "New Education School 77000" [ref=e2890]
+                - cell "--" [ref=e2891]
+                - cell "Closed - Accepted" [ref=e2892]
+                - cell "17/08/2026" [ref=e2895]
+                - cell "17/08/2026" [ref=e2896]
+              - row [ref=e2897]:
+                - cell [ref=e2898]:
+                  - link "IDPAWIRE14561" [ref=e2899] [cursor=pointer]:
+                    - /url: /requests/request-details/14561
+                - cell "Partner Withdrawal Request" [ref=e2900]
+                - cell "New Education School 8002428" [ref=e2901]
+                - cell "--" [ref=e2902]
+                - cell "Open - Employee Review" [ref=e2903]
+                - cell "17/08/2026" [ref=e2906]
+                - cell "17/08/2026" [ref=e2907]
+              - row [ref=e2908]:
+                - cell [ref=e2909]:
+                  - link "IDCUTRST14560" [ref=e2910] [cursor=pointer]:
+                    - /url: /requests/request-details/14560
+                - cell "Curriculum Transfer Statement" [ref=e2911]
+                - cell "Australian International Private School" [ref=e2912]
+                - cell "--" [ref=e2913]
+                - cell "Open - Student Affairs Employee Review" [ref=e2914]
+                - cell "17/08/2026" [ref=e2917]
+                - cell "17/08/2026" [ref=e2918]
+              - row [ref=e2919]:
+                - cell [ref=e2920]:
+                  - link "IDOUOFCOSTARST14559" [ref=e2921] [cursor=pointer]:
+                    - /url: /requests/request-details/14559
+                - cell "Out of Country Student Arrival Statement" [ref=e2922]
+                - cell "Australian International Private School" [ref=e2923]
+                - cell "--" [ref=e2924]
+                - cell "Open - Student Affairs Employee Review" [ref=e2925]
+                - cell "17/08/2026" [ref=e2928]
+                - cell "17/08/2026" [ref=e2929]
+              - row [ref=e2930]:
+                - cell [ref=e2931]:
+                  - link "IDDIEDLESCST14558" [ref=e2932] [cursor=pointer]:
+                    - /url: /requests/request-details/14558
+                - cell "Different Educational Level Scale Statement" [ref=e2933]
+                - cell "Australian International Private School" [ref=e2934]
+                - cell "--" [ref=e2935]
+                - cell "Open - Student Affairs Employee Review" [ref=e2936]
+                - cell "17/08/2026" [ref=e2939]
+                - cell "17/08/2026" [ref=e2940]
+              - row [ref=e2941]:
+                - cell [ref=e2942]:
+                  - link "IDDIEDLESCST14557" [ref=e2943] [cursor=pointer]:
+                    - /url: /requests/request-details/14557
+                - cell "Different Educational Level Scale Statement" [ref=e2944]
+                - cell "Australian International Private School" [ref=e2945]
+                - cell "--" [ref=e2946]
+                - cell "Open - Student Affairs Employee Review" [ref=e2947]
+                - cell "17/08/2026" [ref=e2950]
+                - cell "17/08/2026" [ref=e2951]
+              - row [ref=e2952]:
+                - cell [ref=e2953]:
+                  - link "IDLEDEST14556" [ref=e2954] [cursor=pointer]:
+                    - /url: /requests/request-details/14556
+                - cell "Level Determination Statement" [ref=e2955]
+                - cell "Australian International Private School" [ref=e2956]
+                - cell "--" [ref=e2957]
+                - cell "Open - Student Affairs Employee Review" [ref=e2958]
+                - cell "17/08/2026" [ref=e2961]
+                - cell "17/08/2026" [ref=e2962]
+              - row [ref=e2963]:
+                - cell [ref=e2964]:
+                  - link "IDADEDST14555" [ref=e2965] [cursor=pointer]:
+                    - /url: /requests/request-details/14555
+                - cell "Adding Educational Stages" [ref=e2966]
+                - cell "New Education School 4659941" [ref=e2967]
+                - cell "--" [ref=e2968]
+                - cell "Closed - Accepted" [ref=e2969]
+                - cell "17/08/2026" [ref=e2972]
+                - cell "17/08/2026" [ref=e2973]
+              - row [ref=e2974]:
+                - cell [ref=e2975]:
+                  - link "IDSCNACHRE14554" [ref=e2976] [cursor=pointer]:
+                    - /url: /requests/request-details/14554
+                - cell "School Name Change Request" [ref=e2977]
+                - cell "English School Name 13333" [ref=e2978]
+                - cell "--" [ref=e2979]
+                - cell "Closed - Accepted" [ref=e2980]
+                - cell "17/08/2026" [ref=e2983]
+                - cell "17/08/2026" [ref=e2984]
+              - row [ref=e2985]:
+                - cell [ref=e2986]:
+                  - link "IDAPFOLIHOCHBORECHADPA14553" [ref=e2987] [cursor=pointer]:
+                    - /url: /requests/request-details/14553
+                - cell "Application for License Holder Change / Board Representative Change / Adding a Partner" [ref=e2988]
+                - cell "New Education School 8002428" [ref=e2989]
+                - cell "--" [ref=e2990]
+                - cell "Closed - Accepted" [ref=e2991]
+                - cell "17/08/2026" [ref=e2994]
+                - cell "17/08/2026" [ref=e2995]
+              - row [ref=e2996]:
+                - cell [ref=e2997]:
+                  - link "IDADEDST14552" [ref=e2998] [cursor=pointer]:
+                    - /url: /requests/request-details/14552
+                - cell "Adding Educational Stages" [ref=e2999]
+                - cell "New Education School 75675850" [ref=e3000]
+                - cell "--" [ref=e3001]
+                - cell "Open - Review the Engineering Plan" [ref=e3002]
+                - cell "17/08/2026" [ref=e3005]
+                - cell "17/08/2026" [ref=e3006]
+              - row [ref=e3007]:
+                - cell [ref=e3008]:
+                  - link "IDLEDEST14543" [ref=e3009] [cursor=pointer]:
+                    - /url: /requests/request-details/14543
+                - cell "Level Determination Statement" [ref=e3010]
+                - cell "Australian International Private School" [ref=e3011]
+                - cell "--" [ref=e3012]
+                - cell "Open - Student Affairs Employee Review" [ref=e3013]
+                - cell "17/08/2026" [ref=e3016]
+                - cell "17/08/2026" [ref=e3017]
+              - row [ref=e3018]:
+                - cell [ref=e3019]:
+                  - link "IDDE14542" [ref=e3020] [cursor=pointer]:
+                    - /url: /requests/request-details/14542
+                - cell "Degrees" [ref=e3021]
+                - cell "Australian International Private School" [ref=e3022]
+                - cell "Derk Tomich" [ref=e3023]
+                - cell "Closed - Accepted" [ref=e3024]
+                - cell "17/08/2026" [ref=e3027]
+                - cell "17/08/2026" [ref=e3028]
+              - row [ref=e3029]:
+                - cell [ref=e3030]:
+                  - link "IDSCNACHRE14541" [ref=e3031] [cursor=pointer]:
+                    - /url: /requests/request-details/14541
+                - cell "School Name Change Request" [ref=e3032]
+                - cell "English School Name 13333" [ref=e3033]
+                - cell "--" [ref=e3034]
+                - cell "Open - Employee Review" [ref=e3035]
+                - cell "17/08/2026" [ref=e3038]
+                - cell "17/08/2026" [ref=e3039]
+              - row [ref=e3040]:
+                - cell [ref=e3041]:
+                  - link "IDAPFOPUANFOPRSC14540" [ref=e3042] [cursor=pointer]:
+                    - /url: /requests/request-details/14540
+                - cell "Approval for Publishing Announcements for Private Schools" [ref=e3043]
+                - cell "Australian International Private School" [ref=e3044]
+                - cell "--" [ref=e3045]
+                - cell "Open - APECO Employee Review" [ref=e3046]
+                - cell "17/08/2026" [ref=e3049]
+                - cell "17/08/2026" [ref=e3050]
+          - navigation "Pagination" [ref=e3053]:
+            - list [ref=e3054]:
+              - listitem [ref=e3055]:
+                - generic [ref=e3056] [cursor=pointer]:
+                  - text:  Previous
+                  - generic [ref=e3057]: page
+              - listitem [ref=e3058]:
+                - generic [ref=e3059] [cursor=pointer]:
+                  - generic [ref=e3060]: page
+                  - generic [ref=e3061]: "1"
+              - listitem [ref=e3062]:
+                - generic [ref=e3063]:
+                  - generic [ref=e3064]: You're on page
+                  - text: "2"
+              - listitem [ref=e3065]:
+                - generic [ref=e3066] [cursor=pointer]:
+                  - generic [ref=e3067]: page
+                  - generic [ref=e3068]: "3"
+              - listitem [ref=e3069]:
+                - generic [ref=e3070] [cursor=pointer]:
+                  - generic [ref=e3071]: page
+                  - generic [ref=e3072]: ...
+              - listitem [ref=e3073]:
+                - generic [ref=e3074] [cursor=pointer]:
+                  - generic [ref=e3075]: page
+                  - generic [ref=e3076]: "100"
+              - listitem [ref=e3077]:
+                - generic [ref=e3078] [cursor=pointer]:
+                  - text: Next
+                  - generic [ref=e3079]: page
+                  - text: 

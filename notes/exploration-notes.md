@@ -206,6 +206,144 @@
 
 ---
 
+## Applicant Services
+
+### Flows
+1. **Protected Route Redirection & Deep Linking Flow**:
+   1. Navigate directly to `/services` without an active authenticated session.
+   2. Observe immediate redirection to `/auth/login?redirect-url=%2Fservices`.
+   3. Complete authentication; observe seamless redirection back to the `/services` catalog.
+2. **Category Catalog Filtering Flow**:
+   1. On `/services`, observe default selection of **Licensing Services** (`خدمات التراخيص`, `cateogryId=400`) displaying 19 service cards.
+   2. Click the **Service Type** dropdown (`nz-select-top-control`).
+   3. Select **Parents Services** (`خدمات أولياء أمور`, `cateogryId=401`); verify grid updates to show 4 parent-specific service cards.
+   4. Select **Student Services** (`خدمات الطلبة`, `cateogryId=402`); verify grid renders the empty-state message (`لم يتم العثور على نتائج`).
+   5. Select **All Services** (`كل الخدمات`, `cateogryId=0`); verify grid displays all 23 services.
+3. **Keyword Search & Filter Flow**:
+   1. In the search input (`textbox "Search Services..."`), enter a query (e.g., `'fees'` or `'شكوى'`).
+   2. Observe instant server-side dispatch to `GET /ServiceDesk/api/ServiceCatalogue/GetAll?Keyword=...`.
+   3. Verify the grid dynamically filters to matching services only.
+   4. Click the clear `(X)` icon inside the search input; verify the full catalog restores.
+4. **Service Card Selection & Draft Request Interception Flow**:
+   1. Click on any service card (e.g., *Initial application - Submission for a Private School Permit*).
+   2. Client checks `GET /ServiceDesk/api/Requests/GetRelatedRequests?Status=0&ServiceCode=...`.
+   3. If in-progress drafts exist, observe navigation is intercepted by a modal dialog (`<app-choose-draft-requests>`).
+   4. User can choose an existing draft from the dropdown and click **"Resume"**, click **"New Request"** to start fresh, or click **"Cancel"** to return to the catalog.
+5. **Back Navigation Flow**:
+   1. From `/services`, click the circular back button (`#back-btn`) next to the heading.
+   2. Verify user returns to the `/workspace` dashboard.
+6. **Multilingual & RTL Switching Flow**:
+   1. Click the globe icon in the header (`app-language-switcher`).
+   2. Verify document direction flips (`ltr` ↔ `rtl`), title updates (`Services` ↔ `الخدمات الإلكترونية`), and all card titles translate between English and Arabic.
+
+---
+
+### Selectors
+
+| Element | Recommended Locator | Fallback / Notes |
+| :--- | :--- | :--- |
+| **Page Heading** | `page.getByRole('heading', { name: /Services|الخدمات/i })` | `page.locator('.title')` |
+| **Back Button** | `page.locator('#back-btn')` | `page.locator('button.ant-btn-circle:has(img[src*="back-button-arrow"])')` |
+| **Search Input** | `page.getByPlaceholder(/Search Services|البحث في الخدمات/i)` | `page.locator('input[placeholder*="Services"]')` |
+| **Search Clear Button** | `page.locator('nz-select-clear, .ant-input-clear-icon')` | `page.locator('.search-container .clear-icon')` |
+| **Category Filter Dropdown** | `page.locator('nz-select').filter({ hasText: /Service Type|فئة الطلب/i })` | `page.locator('nz-select-top-control')` |
+| **Category Option - All Services** | `page.locator('nz-option-item[title="All Services"], nz-option-item[title="كل الخدمات"]')` | `page.getByRole('option', { name: /All Services|كل الخدمات/i })` |
+| **Category Option - Licensing** | `page.locator('nz-option-item[title="Licensing Services"], nz-option-item[title="خدمات التراخيص"]')` | `page.getByRole('option', { name: /Licensing|التراخيص/i })` |
+| **Category Option - Parents** | `page.locator('nz-option-item[title="Parents Services"], nz-option-item[title="خدمات أولياء أمور"]')` | `page.getByRole('option', { name: /Parents|أولياء/i })` |
+| **Category Option - Student** | `page.locator('nz-option-item[title="Student Services"], nz-option-item[title="خدمات الطلبة"]')` | `page.getByRole('option', { name: /Student|الطلبة/i })` |
+| **Service Cards (All)** | `page.locator('.service-card')` | `page.locator('.services-list .service-card')` |
+| **Service Card by Name** | `page.locator('.service-card').filter({ hasText: 'Initial application' })` | `page.locator('.service-card[ng-reflect-router-link="initial-approval-school"]')` |
+| **Draft Interception Modal** | `page.locator('nz-modal-container app-choose-draft-requests')` | `page.locator('.draft-request-dialog')` |
+| **Draft Selection Dropdown** | `page.locator('app-choose-draft-requests nz-select')` | `page.getByPlaceholder('Select Draft')` |
+| **"New Request" Button** | `page.locator('app-choose-draft-requests').getByRole('button', { name: 'New Request' })` | `page.getByText('New Request')` |
+| **"Resume" Button** | `page.locator('app-choose-draft-requests').getByRole('button', { name: 'Resume' })` | `page.getByText('Resume')` |
+| **Draft Modal Cancel Button** | `page.locator('.ant-modal-footer').getByRole('button', { name: 'Cancel' })` | `page.locator('button.ant-modal-close')` |
+| **Empty State Message** | `page.getByText('لم يتم العثور على نتائج')` | `page.locator('.empty-state')` |
+
+---
+
+### Surprises
+
+| # | What I Did | Expected | Actual |
+|---|---|---|---|
+| **1** | Clicked a service card with active drafts (e.g. *Initial application - Submission for a Private School Permit*). | Direct navigation to the service application form. | Navigation is intercepted by an `<app-choose-draft-requests>` modal requiring the user to choose between resuming an existing draft or starting a new request. |
+| **2** | Toggled the language switcher (`app-language-switcher`) in the header. | Clean language and layout direction toggle without runtime exceptions. | Logs an Angular runtime exception in the console: `NG0100: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked. Previous value for 'ant-select-rtl': 'false'. Current value: 'true'.` in `_LanguageSwitcherComponent`. |
+| **3** | Inspected the header buttons in Arabic mode (`dir="rtl"`). | All header buttons localized into Arabic text. | The `"Add ticket"` button retains hardcoded English text in Arabic mode alongside Arabic navigation items. |
+| **4** | Searched for a non-existent keyword (e.g. `'xyz123'`) in the search input. | An informative empty-state message or illustration (e.g., *"No services found matching your search"*). | The `.services-list` container is rendered completely blank with no empty-state message or feedback in English. |
+| **5** | Selected the **Student Services** (`خدمات الطلبة`) category from the filter dropdown. | Display available student-related service cards or catalog items. | Contains 0 services; displays an Arabic empty-state string (`"لم يتم العثور على نتائج"`), even when the portal was navigated in certain session states. |
+
+---
+
+## School Manager Services
+
+### Flows
+1. **Manager Authentication & Session Overview Flow**:
+   1. Log in with School Manager credentials (`australian_school_manager@hotmail.com` / `P0rtal#Cqnyp`).
+   2. Verify user profile button renders `Moahmed Barakat` (with manager-level RBAC permissions).
+   3. Note expanded sidebar options: **Settings**, **Students**, and **Divisions** appear in addition to standard applicant routes (**Workspace**, **Requests**, **Services**, **Penalties**, **My Schools**, **Invoices**).
+   4. Navigate to `/services`.
+2. **Elevated Category Catalog Filtering Flow**:
+   1. On `/services`, default selection is **Licensing Services** (`خدمات التراخيص`, `cateogryId=400`) displaying 19 service cards.
+   2. Select **Parent Services** (`خدمات أولياء أمور`, `cateogryId=401`); verify grid updates to show 4 parent-specific service cards.
+   3. Select **Student Services** (`خدمات الطلبة`, `cateogryId=402`); unlike the standard applicant persona (which renders an empty state), the manager view unlocks **18 administrative student services**.
+   4. Select **All Services** (`كل الخدمات`, `cateogryId=0`); verify grid renders all **41 services** (19 Licensing + 4 Parent + 18 Student).
+3. **Keyword Search & Instant Catalog Filtering Flow**:
+   1. In the search input (`textbox "Search Services..."`), enter `'Student'`.
+   2. Catalog dynamically narrows down to 11 services across all categories.
+   3. Click the clear icon (`nz-select-clear`) inside the search input; catalog immediately restores all 41 services.
+4. **Nested Sub-Service Navigation Flow**:
+   1. From Student Services or All Services, click on the **Student Registration** card.
+   2. App navigates to nested sub-service route: `/services/nested-services/65`.
+   3. Page presents a `"Select Sub-service"` screen with two sub-service choices:
+      * *Register current student*
+      * *Register a new student*
+   4. Click the circular back button (`#back-btn`); app returns to `/services`.
+5. **Direct Specialized Service Form Routing Flow**:
+   1. Under Student Services, click the **Manage School Logos** card.
+   2. App routes directly to `/services/school-change-logos`.
+   3. Form displays file upload zones for *School Logo*, *American Curriculum Accreditation Logo*, and *School Stamp*, with a disabled *Save* button awaiting valid file selections.
+   4. Click `#back-btn` to return to `/services`.
+6. **Draft Interception on Manager Services**:
+   1. Click on any permit or licensing service card (e.g. *Initial application - Submission for a Private School Permit*).
+   2. App queries `GET /ServiceDesk/api/Requests/GetRelatedRequests?Status=0&ServiceCode=...`.
+   3. If incomplete drafts exist, modal dialog `<app-choose-draft-requests>` interrupts navigation, prompting user to Resume draft, start New Request, or Cancel.
+7. **Back Navigation & Filter Reset Behavior**:
+   1. While viewing a filtered category (e.g. *Student Services* or *All Services*), click a card to navigate into a service (e.g. *Manage School Logos* or *Student Registration*).
+   2. Click the `#back-btn` to return to `/services`.
+   3. Observe the catalog resets its category filter back to default **Licensing Services** rather than maintaining the previously active category.
+
+### Selectors
+
+| Element | Recommended Locator | Fallback / Notes |
+| :--- | :--- | :--- |
+| **Manager Profile Button** | `page.getByRole('button', { name: 'Moahmed Barakat' })` | `page.locator('.user-name-btn')` |
+| **Sidebar - Settings** | `page.locator('.ant-drawer-open, app-sidebar').getByText('Settings')` | `page.locator('a[routerlink*="settings"]')` |
+| **Sidebar - Students** | `page.locator('.ant-drawer-open, app-sidebar').getByText('Students')` | `page.locator('a[routerlink*="students"]')` |
+| **Sidebar - Divisions** | `page.locator('.ant-drawer-open, app-sidebar').getByText('Divisions')` | `page.locator('a[routerlink*="divisions"]')` |
+| **Category Option - Student Services** | `page.locator('.ant-select-item-option[title="Student Services"]')` | `page.getByRole('option', { name: 'Student Services' })` |
+| **Category Option - All Services (41 items)** | `page.locator('.ant-select-item-option[title="All Services"]')` | `page.getByRole('option', { name: 'All Services' })` |
+| **Search Clear Button** | `page.locator('nz-select-clear, .ant-input-clear-icon')` | `page.locator('.search-container .clear-icon')` |
+| **Nested Service Header** | `page.getByText('Select Sub-service')` | `page.locator('.title:has-text("Select Sub-service")')` |
+| **Sub-service: Register current student** | `page.getByText('Register current student')` | `page.locator('.service-card:has-text("Register current student")')` |
+| **Sub-service: Register a new student** | `page.getByText('Register a new student')` | `page.locator('.service-card:has-text("Register a new student")')` |
+| **Manage School Logos Form** | `page.locator('app-school-change-logos')` | `page.getByRole('heading', { name: 'Manage School Logos' })` |
+| **School Logo Upload Button** | `page.locator('app-file-upload').filter({ hasText: 'School Logo' }).getByText('Choose File')` | `page.locator('input[type="file"]')` |
+| **American Curriculum Upload** | `page.locator('app-file-upload').filter({ hasText: 'American Curriculum' }).getByText('Choose File')` | `page.locator('input[type="file"]')` |
+| **School Stamp Upload** | `page.locator('app-file-upload').filter({ hasText: 'School Stamp' }).getByText('Choose File')` | `page.locator('input[type="file"]')` |
+| **School Logos Save Button** | `page.getByRole('button', { name: 'Save' })` | `page.locator('button[type="submit"]')` |
+
+### Surprises
+
+| # | What I Did | Expected | Actual |
+|---|---|---|---|
+| **1** | Inspected the manager user name in the sidebar profile header. | Display correct English spelling *"Mohamed Barakat"*. | The button and profile display `"Moahmed Barakat"` with transposed letters 'h' and 'a'. |
+| **2** | Filtered by **Student Services** with the School Manager persona. | Consistent behavior with applicant persona (or clear empty state if no services exist). | The Manager account exposes **18 administrative student services** (such as *Student Registration*, *Downgrade Student Level*, *Authentication of academic certificates*, *Manage School Logos*, *Teachers Management*), demonstrating role-based access control (RBAC) at the catalog level. |
+| **3** | Clicked **Student Registration** card. | Direct navigation to the student registration form. | Navigates to an intermediate nested-services route (`/services/nested-services/65`) displaying a sub-service selector (*Register current student* and *Register a new student*). |
+| **4** | Filtered by **Student Services**, navigated into a service (e.g. *Manage School Logos*), then clicked `#back-btn`. | Return to `/services` with **Student Services** category preserved. | The category filter resets back to default **Licensing Services**, requiring re-selection from the dropdown. |
+| **5** | Inspected dropdown label for Parent services in English mode. | Consistent naming convention (either plural *"Parents Services"* or singular *"Parent Services"*). | Dropdown option is labeled singular `"Parent Services"` in English, whereas the service card inside it is titled *"Submit a Complaint (Service for Parents)"*. |
+
+---
+
 ## Coverage Summary: Login & Login Links
 
 | Requirement ID | Requirement Description | Status | Details |

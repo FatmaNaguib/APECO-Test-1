@@ -1,0 +1,152 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - complementary [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - img "app-logo" [ref=f1e10] [cursor=pointer]
+        - list [ref=f1e12]:
+          - listitem [ref=f1e13]:
+            - button " Services" [ref=f1e14] [cursor=pointer]:
+              - generic [ref=f1e15]:
+                - generic [ref=f1e16]: 
+                - generic [ref=f1e17]: Services
+          - listitem [ref=f1e18]:
+            - button " Schools" [ref=f1e19] [cursor=pointer]:
+              - generic [ref=f1e20]:
+                - generic [ref=f1e21]: 
+                - generic [ref=f1e22]: Schools
+          - listitem [ref=f1e23]:
+            - button " Students" [ref=f1e24] [cursor=pointer]:
+              - generic [ref=f1e25]:
+                - generic [ref=f1e26]: 
+                - generic [ref=f1e27]: Students
+          - listitem [ref=f1e28]:
+            - button " School Penalties" [ref=f1e29] [cursor=pointer]:
+              - generic [ref=f1e30]:
+                - generic [ref=f1e31]: 
+                - generic [ref=f1e32]: School Penalties
+          - listitem [ref=f1e33]:
+            - button " Students Affairs" [ref=f1e34] [cursor=pointer]:
+              - generic [ref=f1e35]:
+                - generic [ref=f1e36]: 
+                - generic [ref=f1e37]: Students Affairs
+          - listitem [ref=f1e38]:
+            - button " Invoices" [ref=f1e39] [cursor=pointer]:
+              - generic [ref=f1e40]:
+                - generic [ref=f1e41]: 
+                - generic [ref=f1e42]: Invoices
+          - listitem [ref=f1e43]:
+            - button " Reports" [ref=f1e44] [cursor=pointer]:
+              - generic [ref=f1e45]:
+                - generic [ref=f1e46]: 
+                - generic [ref=f1e47]: Reports
+          - listitem [ref=f1e48]:
+            - button " Admin" [ref=f1e49] [cursor=pointer]:
+              - generic [ref=f1e50]:
+                - generic [ref=f1e51]: 
+                - generic [ref=f1e52]: Admin
+      - text: 
+    - generic [ref=f1e53]:
+      - navigation [ref=f1e54]:
+        - generic [ref=f1e55]:
+          - list:
+            - listitem
+          - list [ref=f1e56]:
+            - listitem [ref=f1e57]:
+              - generic [ref=f1e63] [cursor=pointer]:
+                - paragraph [ref=f1e64]: Admin Qc
+                - generic [ref=f1e65]: Admin QC
+            - listitem [ref=f1e66]:
+              - button "عربي" [ref=f1e67] [cursor=pointer]
+      - generic [ref=f1e70]:
+        - generic [ref=f1e73]:
+          - button " Back" [ref=f1e74] [cursor=pointer]:
+            - generic [ref=f1e75]: 
+            - generic [ref=f1e76]: Back
+          - generic [ref=f1e77]: Request Details
+        - generic [ref=f1e81]:
+          - 'heading "Applicant: Anas Mohamed" [level=1] [ref=f1e84]'
+          - generic [ref=f1e85]:
+            - generic [ref=f1e87]:
+              - heading "Request Status" [level=3] [ref=f1e88]
+              - generic [ref=f1e89]:
+                - button "Approve" [ref=f1e90] [cursor=pointer]
+                - button "Return" [ref=f1e91] [cursor=pointer]
+                - button "Reject" [ref=f1e92] [cursor=pointer]
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]:
+                - generic [ref=f1e95]:
+                  - generic [ref=f1e96]:
+                    - generic [ref=f1e97]: Step 1
+                    - generic [ref=f1e99]:
+                      - generic [ref=f1e100]: 
+                      - text: Pending
+                  - generic [ref=f1e101]: APECO Employee Review
+                - generic:
+                  - generic:
+                    - generic: Step 2
+                    - generic:
+                      - generic: 
+                      - text: Upcoming
+                  - generic: Technical Engineer Review
+                - generic:
+                  - generic:
+                    - generic: Step 3
+                    - generic:
+                      - generic: 
+                      - text: Upcoming
+                  - generic: Accepted
+              - generic: 
+          - generic [ref=f1e107]:
+            - generic [ref=f1e108]: Initial application - Submission for a Private School Permit
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]:
+                - generic [ref=f1e324]:
+                  - tablist [ref=f1e327]:
+                    - tab "School Details" [ref=f1e329] [cursor=pointer]
+                    - tab "Curriculum" [selected] [ref=f1e331] [cursor=pointer]
+                  - generic [ref=f1e333]:
+                    - text: "* * * * * * * * * * * * * * * * * * *"
+                    - tabpanel "Curriculum" [ref=f1e693]:
+                      - generic [ref=f1e694]:
+                        - heading "Curriculum" [level=1] [ref=f1e696]
+                        - generic [ref=f1e697]:
+                          - generic [ref=f1e698]:
+                            - heading "Curriculum 1" [level=2] [ref=f1e699]
+                            - button [active] [ref=f1e701] [cursor=pointer]
+                          - generic [ref=f1e710]:
+                            - generic [ref=f1e714]:
+                              - generic [ref=f1e715]: Curriculum *
+                              - generic [ref=f1e721]:
+                                - textbox [disabled] [ref=f1e723]
+                                - generic "British" [ref=f1e724]
+                            - generic [ref=f1e728]:
+                              - heading "Stages" [level=1] [ref=f1e730]
+                              - generic [ref=f1e731]:
+                                - generic [ref=f1e732]:
+                                  - heading "Stages 1" [level=2] [ref=f1e733]
+                                  - button [ref=f1e735] [cursor=pointer]
+                                - text: "* * * *"
+                - generic [ref=f1e196]:
+                  - button "Previous" [ref=f1e313] [cursor=pointer]
+                  - button "Next" [ref=f1e199] [cursor=pointer]
+              - generic [ref=f1e201]:
+                - generic [ref=f1e202]:
+                  - button "Application Information" [ref=f1e315] [cursor=pointer]
+                  - button "Owners Profiles" [ref=f1e662] [cursor=pointer]
+                  - button "3 School Information" [ref=f1e218] [cursor=pointer]:
+                    - generic [ref=f1e220]: "3"
+                    - generic [ref=f1e221]: School Information
+                  - button "4 Attachments" [ref=f1e225] [cursor=pointer]:
+                    - generic [ref=f1e227]: "4"
+                    - generic [ref=f1e228]: Attachments
+                  - button "5 Summary" [ref=f1e232] [cursor=pointer]:
+                    - generic [ref=f1e233]: "5"
+                    - generic [ref=f1e234]: Summary
+                - generic [ref=f1e237]:
+                  - separator [ref=f1e238]
+                  - generic [ref=f1e239]:
+                    - heading "Help" [level=2] [ref=f1e240]
+                    - generic [ref=f1e241] [cursor=pointer]: Service Card
+                    - generic [ref=f1e243] [cursor=pointer]: FAQS
+                    - generic [ref=f1e245] [cursor=pointer]: Contact US
+  - generic: Previous Requests

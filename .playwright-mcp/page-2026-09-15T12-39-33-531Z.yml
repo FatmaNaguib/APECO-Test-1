@@ -1,0 +1,41 @@
+- generic [ref=e7]:
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img "PEAO Logo" [ref=e12]
+      - generic [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]: العربية
+        - generic [ref=e19]:
+          - textbox [ref=e21]
+          - generic "العربية" [ref=e22]
+  - main [ref=e25]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "تسجيل الدخول" [level=1] [ref=e31]
+        - paragraph [ref=e32]: سجّل الدخول إلى حسابك للمتابعة
+      - button "UAE PASS تسجيل الدخول باستخدام UAE PASS" [ref=e33] [cursor=pointer]:
+        - img "UAE PASS" [ref=e34]
+        - generic [ref=e35]: تسجيل الدخول باستخدام UAE PASS
+      - generic [ref=e36]: أو
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: اسم المستخدم
+          - textbox "اسم المستخدم" [ref=e46]:
+            - /placeholder: ادخل اسم المستخدم الخاص بك
+            - text: apecouser@hotmail.com
+        - generic [ref=e47]:
+          - generic [ref=e48]: كلمة المرور
+          - generic [ref=e49]:
+            - textbox "كلمة المرور" [ref=e53]:
+              - /placeholder: ادخل كلمة المرور الخاصة بك
+              - text: P0rtal#Cqnyp
+            - button "Toggle password visibility" [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]: 
+        - link "هل نسيت كلمة المرور؟" [ref=e57] [cursor=pointer]:
+          - /url: /auth/forget-password
+        - button "تسجيل الدخول" [ref=e58] [cursor=pointer]
+        - generic [ref=e60]:
+          - generic [ref=e61]: ليس لديك حساب؟
+          - link "إنشاء حساب جديد" [ref=e62] [cursor=pointer]:
+            - /url: /auth/new-account

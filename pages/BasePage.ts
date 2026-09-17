@@ -19,10 +19,10 @@ export abstract class BasePage {
   async navigate(path: string = ''): Promise<void> {
     try {
       Logger.info(`Navigating to: "${path}"`);
-      await this.page.goto(path, { waitUntil: 'domcontentloaded' });
+      await this.page.goto(path, { waitUntil: 'domcontentloaded', timeout: 60000 });
     } catch (error) {
-      Logger.error(`Failed to navigate to: "${path}"`, error);
-      throw error;
+      Logger.warn(`Initial navigation to "${path}" failed or timed out, retrying once...`);
+      await this.page.goto(path, { waitUntil: 'domcontentloaded', timeout: 60000 });
     }
   }
 

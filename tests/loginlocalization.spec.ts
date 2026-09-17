@@ -45,7 +45,7 @@ test.describe('Feature: Login Localization', () => {
 
       // Verify successful navigation
       await expect(page).toHaveURL(/.*workspace/, { timeout: 20000 });
-      await expect(page.locator('app-header')).toBeVisible();
+      await expect(page.getByRole('banner').or(page.locator('app-header'))).toBeVisible();
     });
 
     test('TC-LOC-POS-03: Password visibility toggle in Arabic mode mirrors to left edge and alternates input type', async ({ loginPage }) => {

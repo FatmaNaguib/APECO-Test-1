@@ -1,0 +1,87 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e1163]:
+    - generic [ref=f2e1165]:
+      - img "App logo" [ref=f2e1168]
+      - generic [ref=f2e1169]:
+        - list [ref=f2e1171]:
+          - listitem [ref=f2e1172]:
+            - generic [ref=f2e1173] [cursor=pointer]
+          - listitem [ref=f2e1177]:
+            - link "Services" [ref=f2e1178] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f2e1179]:
+            - link "Contact Us" [ref=f2e1180] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=f2e1181] [cursor=pointer]
+        - generic [ref=f2e1183] [cursor=pointer]
+        - button "Add ticket" [ref=f2e1190] [cursor=pointer]
+    - generic [ref=f2e1202]:
+      - generic [ref=f2e1204]:
+        - button "Moahmed Barakat" [ref=f2e1207] [cursor=pointer]
+        - generic [ref=f2e1210]:
+          - generic [ref=f2e1211] [cursor=pointer]: Workspace
+          - generic [ref=f2e1220] [cursor=pointer]: Requests
+          - generic [ref=f2e1227] [cursor=pointer]: Services
+          - generic [ref=f2e1233] [cursor=pointer]: Penalties
+          - generic [ref=f2e1240] [cursor=pointer]: My Schools
+          - generic [ref=f2e1253] [cursor=pointer]: Invoices
+          - generic [ref=f2e1262] [cursor=pointer]: Settings
+          - generic [ref=f2e1269] [cursor=pointer]: Students
+          - generic [ref=f2e1275] [cursor=pointer]: Divisions
+        - generic [ref=f2e1281] [cursor=pointer]: Logout
+      - generic [ref=f2e1289]:
+        - generic [ref=f2e1293]:
+          - button [ref=f2e1295] [cursor=pointer]:
+            - button [ref=f2e1296]
+          - generic [ref=f2e1298]: Services
+        - generic [ref=f2e1309]:
+          - textbox "Search Services..." [ref=f2e1314]
+          - generic [ref=f2e1315]:
+            - generic [ref=f2e1316]: Service Type
+            - generic [ref=f2e1320] [cursor=pointer]:
+              - textbox [ref=f2e1322]
+              - generic "Licensing Services" [ref=f2e1323]
+    - generic [ref=f2e1329]:
+      - generic [ref=f2e1330]:
+        - generic [ref=f2e1331]:
+          - img "App logo" [ref=f2e1334]
+          - generic [ref=f2e1335]:
+            - generic [ref=f2e1336] [cursor=pointer]
+            - generic [ref=f2e1337] [cursor=pointer]
+            - link [ref=f2e1338] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f2e1339]:
+          - generic [ref=f2e1340]:
+            - generic [ref=f2e1341]: Quick Links
+            - generic [ref=f2e1342]:
+              - link "Workspace" [ref=f2e1343] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f2e1344] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f2e1345] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f2e1346] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f2e1347]:
+            - generic [ref=f2e1348]: Get in Touch
+            - generic [ref=f2e1349]:
+              - generic [ref=f2e1350]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f2e1351]: +971 232 1248
+      - separator [ref=f2e1352]
+      - generic [ref=f2e1353]:
+        - generic [ref=f2e1354]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f2e1355]:
+          - generic [ref=f2e1356] [cursor=pointer]: Copyright
+          - generic [ref=f2e1357] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f2e1358] [cursor=pointer]: Disclaimer
+          - generic [ref=f2e1359] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

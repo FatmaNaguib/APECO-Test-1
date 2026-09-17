@@ -1,0 +1,112 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - img "App logo" [ref=e10]
+      - generic [ref=e11]:
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]
+          - listitem [ref=e19]:
+            - link "Services" [ref=e20] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e21]:
+            - link "Contact Us" [ref=e22] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=e23] [cursor=pointer]
+        - generic [ref=e25] [cursor=pointer]
+        - button "Add ticket" [ref=e32] [cursor=pointer]
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - button "Moahmed Barakat" [ref=e49] [cursor=pointer]
+        - generic [ref=e52]:
+          - generic [ref=e53] [cursor=pointer]: Workspace
+          - generic [ref=e62] [cursor=pointer]: Requests
+          - generic [ref=e69] [cursor=pointer]: Services
+          - generic [ref=e75] [cursor=pointer]: Penalties
+          - generic [ref=e82] [cursor=pointer]: My Schools
+          - generic [ref=e95] [cursor=pointer]: Invoices
+          - generic [ref=e104] [cursor=pointer]: Settings
+          - generic [ref=e111] [cursor=pointer]: Students
+          - generic [ref=e117] [cursor=pointer]: Divisions
+        - generic [ref=e123] [cursor=pointer]: Logout
+      - generic [ref=e1030]:
+        - generic [ref=e1034]:
+          - button [ref=e1036] [cursor=pointer]:
+            - button [ref=e1037]
+          - generic [ref=e1039]: Services
+        - generic [ref=e1050]:
+          - textbox "Search Services..." [ref=e1055]
+          - generic [ref=e1056]:
+            - generic [ref=e1057]: Service Type
+            - generic [ref=e1061] [cursor=pointer]:
+              - textbox [ref=e1063]
+              - generic "Licensing Services" [ref=e1064]
+        - generic [ref=e1068]:
+          - generic [ref=e1069] [cursor=pointer]: Initial application - Submission for a Private School Permit
+          - generic [ref=e1074] [cursor=pointer]: Issuance of a New Permit
+          - generic [ref=e1079] [cursor=pointer]: Private School Renewal Application
+          - generic [ref=e1084] [cursor=pointer]: School Name Change Request
+          - generic [ref=e1089] [cursor=pointer]: Partner Withdrawal Request
+          - generic [ref=e1094] [cursor=pointer]: Request for Modification or Increase in Tuition Fees
+          - generic [ref=e1099] [cursor=pointer]: Request for School License Cancellation
+          - generic [ref=e1104] [cursor=pointer]: Application for License Holder Change / Board Representative Change / Adding a Partner
+          - generic [ref=e1109] [cursor=pointer]: Principal Change
+          - generic [ref=e1114] [cursor=pointer]: Appointment Notification for Employees in Private Schools
+          - generic [ref=e1119] [cursor=pointer]: Approval for Publishing Announcements for Private Schools
+          - generic [ref=e1124] [cursor=pointer]: Request for Modification or Addition to a Private School Building
+          - generic [ref=e1129] [cursor=pointer]: School Relocation Request
+          - generic [ref=e1134] [cursor=pointer]: Approval of Annual Activities and Programs
+          - generic [ref=e1139] [cursor=pointer]: Adding Educational Stages
+          - generic [ref=e1144] [cursor=pointer]: Reducing Educational Stages
+          - generic [ref=e1149] [cursor=pointer]: Request for Certification of Experience Certificate for Employees
+          - generic [ref=e1154] [cursor=pointer]: Request for Event Permit by an External Entity
+          - generic [ref=e1159] [cursor=pointer]: Approval for International Travel
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - generic [ref=e260]:
+          - img "App logo" [ref=e263]
+          - generic [ref=e264]:
+            - generic [ref=e265] [cursor=pointer]
+            - generic [ref=e266] [cursor=pointer]
+            - link [ref=e267] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - generic [ref=e270]: Quick Links
+            - generic [ref=e271]:
+              - link "Workspace" [ref=e272] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=e273] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=e274] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=e275] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=e276]:
+            - generic [ref=e277]: Get in Touch
+            - generic [ref=e278]:
+              - generic [ref=e279]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=e280]: +971 232 1248
+      - separator [ref=e281]
+      - generic [ref=e282]:
+        - generic [ref=e283]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=e284]:
+          - generic [ref=e285] [cursor=pointer]: Copyright
+          - generic [ref=e286] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e287] [cursor=pointer]: Disclaimer
+          - generic [ref=e288] [cursor=pointer]: Privacy Policy
+  - generic:
+    - dialog [ref=e1166]:
+      - document:
+        - generic [ref=e1169]:
+          - generic [ref=e1170] [cursor=pointer]
+          - generic [ref=e1173]: You have multiple draft requests. Please select one of the requests below if you want to resume.
+          - generic [ref=e1175]:
+            - textbox [active] [ref=e1177]
+            - generic: Select Draft
+          - generic [ref=e1181]:
+            - button "New Request" [ref=e1182] [cursor=pointer]
+            - button "Resume" [disabled] [ref=e1184]
+    - generic [ref=e1193]:
+      - generic "IDINAPSUFOPRSCPE14068" [ref=e1194] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE8188" [ref=e1196] [cursor=pointer]

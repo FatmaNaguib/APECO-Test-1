@@ -1,0 +1,241 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - complementary [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - img "app-logo" [ref=f1e10] [cursor=pointer]
+        - list [ref=f1e12]:
+          - listitem [ref=f1e13]:
+            - button " Services" [ref=f1e14] [cursor=pointer]:
+              - generic [ref=f1e15]:
+                - generic [ref=f1e16]: 
+                - generic [ref=f1e17]: Services
+          - listitem [ref=f1e18]:
+            - button " Schools" [ref=f1e19] [cursor=pointer]:
+              - generic [ref=f1e20]:
+                - generic [ref=f1e21]: 
+                - generic [ref=f1e22]: Schools
+          - listitem [ref=f1e23]:
+            - button " Students" [ref=f1e24] [cursor=pointer]:
+              - generic [ref=f1e25]:
+                - generic [ref=f1e26]: 
+                - generic [ref=f1e27]: Students
+          - listitem [ref=f1e28]:
+            - button " School Penalties" [ref=f1e29] [cursor=pointer]:
+              - generic [ref=f1e30]:
+                - generic [ref=f1e31]: 
+                - generic [ref=f1e32]: School Penalties
+          - listitem [ref=f1e33]:
+            - button " Students Affairs" [ref=f1e34] [cursor=pointer]:
+              - generic [ref=f1e35]:
+                - generic [ref=f1e36]: 
+                - generic [ref=f1e37]: Students Affairs
+          - listitem [ref=f1e38]:
+            - button " Invoices" [ref=f1e39] [cursor=pointer]:
+              - generic [ref=f1e40]:
+                - generic [ref=f1e41]: 
+                - generic [ref=f1e42]: Invoices
+          - listitem [ref=f1e43]:
+            - button " Reports" [ref=f1e44] [cursor=pointer]:
+              - generic [ref=f1e45]:
+                - generic [ref=f1e46]: 
+                - generic [ref=f1e47]: Reports
+          - listitem [ref=f1e48]:
+            - button " Admin" [ref=f1e49] [cursor=pointer]:
+              - generic [ref=f1e50]:
+                - generic [ref=f1e51]: 
+                - generic [ref=f1e52]: Admin
+      - text: 
+    - generic [ref=f1e53]:
+      - navigation [ref=f1e54]:
+        - generic [ref=f1e55]:
+          - list:
+            - listitem
+          - list [ref=f1e56]:
+            - listitem [ref=f1e57]:
+              - generic [ref=f1e63] [cursor=pointer]:
+                - paragraph [ref=f1e64]: Admin Qc
+                - generic [ref=f1e65]: Admin QC
+            - listitem [ref=f1e66]:
+              - button "عربي" [ref=f1e67] [cursor=pointer]
+      - generic [ref=f1e70]:
+        - generic [ref=f1e73]:
+          - button " Back" [ref=f1e74] [cursor=pointer]:
+            - generic [ref=f1e75]: 
+            - generic [ref=f1e76]: Back
+          - generic [ref=f1e77]: Request Details
+        - generic [ref=f1e81]:
+          - 'heading "Applicant: Anas Mohamed" [level=1] [ref=f1e84]'
+          - generic [ref=f1e85]:
+            - generic [ref=f1e87]:
+              - heading "Request Status" [level=3] [ref=f1e88]
+              - generic [ref=f1e89]:
+                - button "Approve" [ref=f1e90] [cursor=pointer]
+                - button "Return" [ref=f1e91] [cursor=pointer]
+                - button "Reject" [ref=f1e92] [cursor=pointer]
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]:
+                - generic [ref=f1e95]:
+                  - generic [ref=f1e96]:
+                    - generic [ref=f1e97]: Step 1
+                    - generic [ref=f1e99]:
+                      - generic [ref=f1e100]: 
+                      - text: Pending
+                  - generic [ref=f1e101]: APECO Employee Review
+                - generic:
+                  - generic:
+                    - generic: Step 2
+                    - generic:
+                      - generic: 
+                      - text: Upcoming
+                  - generic: Technical Engineer Review
+                - generic:
+                  - generic:
+                    - generic: Step 3
+                    - generic:
+                      - generic: 
+                      - text: Upcoming
+                  - generic: Accepted
+              - generic: 
+          - generic [ref=f1e107]:
+            - generic [ref=f1e108]: Initial application - Submission for a Private School Permit
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]:
+                - generic [ref=f1e324]:
+                  - tablist [ref=f1e327]:
+                    - tab "School Details" [selected] [ref=f1e329] [cursor=pointer]
+                    - tab "Curriculum" [ref=f1e331] [cursor=pointer]
+                  - tabpanel "School Details" [ref=f1e334]:
+                    - generic [ref=f1e337]:
+                      - generic [ref=f1e341]:
+                        - generic [ref=f1e342]: Request Type *
+                        - generic [ref=f1e348]:
+                          - textbox [disabled] [ref=f1e350]
+                          - generic "New building - empty land to be built on" [ref=f1e351]
+                      - generic [ref=f1e358]:
+                        - generic [ref=f1e359]: Arabic School Name *
+                        - textbox "Arabic School Name" [disabled] [ref=f1e364]: مدرسة المستقبل الحديثة 40178
+                      - generic [ref=f1e368]:
+                        - generic [ref=f1e369]: English School Name *
+                        - textbox "English School Name" [disabled] [ref=f1e374]: Modern Future School 40178
+                      - generic [ref=f1e378]:
+                        - generic [ref=f1e379]: Consultant *
+                        - textbox "Consultant" [disabled] [ref=f1e384]: Future Edu Consultancy
+                      - generic [ref=f1e388]:
+                        - generic [ref=f1e389]: School Title *
+                        - textbox "School Title" [disabled] [ref=f1e394]
+                      - generic [ref=f1e398]:
+                        - generic [ref=f1e399]: Type of students *
+                        - generic [ref=f1e405]:
+                          - textbox [disabled] [ref=f1e407]
+                          - generic "Boys and Girls" [ref=f1e408]
+                      - generic [ref=f1e415]:
+                        - generic [ref=f1e416]: English Location/Block number *
+                        - textbox "English Location/Block number" [disabled] [ref=f1e421]:
+                          - /placeholder: English  Location/Block number
+                          - text: Block 12
+                      - generic [ref=f1e425]:
+                        - generic [ref=f1e426]: Arabic Location/Block number *
+                        - textbox "Arabic Location/Block number" [disabled] [ref=f1e431]: قطعة 12
+                      - generic [ref=f1e435]:
+                        - generic [ref=f1e436]: Land Ownership *
+                        - generic [ref=f1e442]:
+                          - textbox [disabled] [ref=f1e444]
+                          - generic "Private" [ref=f1e445]
+                      - generic [ref=f1e452]:
+                        - generic [ref=f1e453]: Building Ownership *
+                        - generic [ref=f1e459]:
+                          - textbox [disabled] [ref=f1e461]
+                          - generic "Private" [ref=f1e462]
+                      - generic [ref=f1e469]:
+                        - generic [ref=f1e470]: Land Area *
+                        - textbox "Land Area" [disabled] [ref=f1e477]: "15000"
+                      - generic [ref=f1e481]:
+                        - generic [ref=f1e482]: Building Area *
+                        - textbox "Building Area" [disabled] [ref=f1e489]: "8500"
+                      - generic [ref=f1e493]:
+                        - generic [ref=f1e494]: Total Indoor Court Area *
+                        - textbox "Total Indoor Court Area" [disabled] [ref=f1e501]: "2000"
+                      - generic [ref=f1e505]:
+                        - generic [ref=f1e506]: Total Outdoor Canopy Area *
+                        - textbox "Total Outdoor Canopy Area" [disabled] [ref=f1e513]: "1500"
+                      - generic [ref=f1e517]:
+                        - generic [ref=f1e518]: Date Construction
+                        - textbox "Date Construction" [disabled] [ref=f1e525]
+                      - generic [ref=f1e529]:
+                        - generic [ref=f1e530]: Phone
+                        - textbox "Phone" [disabled] [ref=f1e537]
+                      - generic [ref=f1e541]:
+                        - generic [ref=f1e542]: Fax
+                        - textbox "Fax" [disabled] [ref=f1e549]
+                      - generic [ref=f1e553]:
+                        - generic [ref=f1e554]: Email
+                        - textbox "Email" [disabled] [ref=f1e559]
+                      - generic [ref=f1e563]:
+                        - generic [ref=f1e564]: Applicant Name in English
+                        - textbox "Applicant Name in English" [disabled] [ref=f1e569]: Anas Mohamed
+                      - generic [ref=f1e573]:
+                        - generic [ref=f1e574]: Applicant Name in Arabic
+                        - textbox "Applicant Name in Arabic" [disabled] [ref=f1e579]: انس محمد
+                      - generic [ref=f1e583]:
+                        - generic [ref=f1e584]: Relation to School Building *
+                        - textbox "Relation to School Building" [disabled] [ref=f1e589]: Owner
+                      - generic [ref=f1e593]:
+                        - generic [ref=f1e594]: Applicant Phone *
+                        - textbox "Applicant Phone" [disabled] [ref=f1e601]: "0501234567"
+                      - generic [ref=f1e605]:
+                        - generic [ref=f1e606]: School Reservation File *
+                        - generic [ref=f1e608]:
+                          - generic [ref=f1e611]:
+                            - generic [ref=f1e613]:
+                              - generic [ref=f1e614]: Choose File
+                              - generic [ref=f1e615]: sample-photo.png
+                            - generic [ref=f1e616]:
+                              - generic [ref=f1e617] [cursor=pointer]
+                              - img "file-download" [ref=f1e620] [cursor=pointer]
+                          - generic [ref=f1e621]: Max file size is 3MB, Suitable files are .jpg, .png & .PDF
+                      - generic [ref=f1e625]:
+                        - generic [ref=f1e626]: The engineering plan for the school building issued by an accredited engineering office *
+                        - generic [ref=f1e628]:
+                          - generic [ref=f1e631]:
+                            - generic [ref=f1e633]:
+                              - generic [ref=f1e634]: Choose File
+                              - generic [ref=f1e635]: sample-photo.png
+                            - generic [ref=f1e636]:
+                              - generic [ref=f1e637] [cursor=pointer]
+                              - img "file-download" [ref=f1e640] [cursor=pointer]
+                          - generic [ref=f1e641]: Max file size is 12MB, Suitable files are .jpg, .jpeg, .png and pdf
+                      - generic [ref=f1e645]:
+                        - generic [ref=f1e646]: A map of the land issued by the concerned authorities, showing the name of the area and the plot number *
+                        - generic [ref=f1e648]:
+                          - generic [ref=f1e651]:
+                            - generic [ref=f1e653]:
+                              - generic [ref=f1e654]: Choose File
+                              - generic [ref=f1e655]: sample-photo.png
+                            - generic [ref=f1e656]:
+                              - generic [ref=f1e657] [cursor=pointer]
+                              - img "file-download" [ref=f1e660] [cursor=pointer]
+                          - generic [ref=f1e661]: Max file size is 3MB, Suitable files are .jpg, .png & .PDF
+                - generic [ref=f1e196]:
+                  - button "Previous" [ref=f1e313] [cursor=pointer]
+                  - button "Next" [active] [ref=f1e199] [cursor=pointer]
+              - generic [ref=f1e201]:
+                - generic [ref=f1e202]:
+                  - button "Application Information" [ref=f1e315] [cursor=pointer]
+                  - button "Owners Profiles" [ref=f1e662] [cursor=pointer]
+                  - button "3 School Information" [ref=f1e218] [cursor=pointer]:
+                    - generic [ref=f1e220]: "3"
+                    - generic [ref=f1e221]: School Information
+                  - button "4 Attachments" [ref=f1e225] [cursor=pointer]:
+                    - generic [ref=f1e227]: "4"
+                    - generic [ref=f1e228]: Attachments
+                  - button "5 Summary" [ref=f1e232] [cursor=pointer]:
+                    - generic [ref=f1e233]: "5"
+                    - generic [ref=f1e234]: Summary
+                - generic [ref=f1e237]:
+                  - separator [ref=f1e238]
+                  - generic [ref=f1e239]:
+                    - heading "Help" [level=2] [ref=f1e240]
+                    - generic [ref=f1e241] [cursor=pointer]: Service Card
+                    - generic [ref=f1e243] [cursor=pointer]: FAQS
+                    - generic [ref=f1e245] [cursor=pointer]: Contact US
+  - generic: Previous Requests

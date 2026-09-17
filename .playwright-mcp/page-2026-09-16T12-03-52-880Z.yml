@@ -1,0 +1,136 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e334]:
+    - generic [ref=f2e336]:
+      - img "App logo" [ref=f2e339]
+      - generic [ref=f2e340]:
+        - list [ref=f2e342]:
+          - listitem [ref=f2e343]:
+            - generic [ref=f2e344] [cursor=pointer]
+          - listitem [ref=f2e348]:
+            - link "Services" [ref=f2e349] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f2e350]:
+            - link "Contact Us" [ref=f2e351] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=f2e352] [cursor=pointer]
+        - generic [ref=f2e354] [cursor=pointer]
+        - button "Add ticket" [ref=f2e361] [cursor=pointer]
+    - generic [ref=f2e373]:
+      - generic [ref=f2e375]:
+        - button "Anas Mohamed" [ref=f2e378] [cursor=pointer]
+        - generic [ref=f2e381]:
+          - generic [ref=f2e382] [cursor=pointer]: Workspace
+          - generic [ref=f2e391] [cursor=pointer]: Requests
+          - generic [ref=f2e398] [cursor=pointer]: Services
+          - generic [ref=f2e404] [cursor=pointer]: Penalties
+          - generic [ref=f2e411] [cursor=pointer]: My Schools
+          - generic [ref=f2e424] [cursor=pointer]: Invoices
+        - generic [ref=f2e433] [cursor=pointer]: Logout
+      - generic [ref=f2e442]:
+        - generic [ref=f2e446]:
+          - button [ref=f2e448] [cursor=pointer]:
+            - button [ref=f2e449]
+          - generic [ref=f2e451]: Initial application - Submission for a Private School Permit
+        - generic [ref=f2e452]:
+          - generic [ref=f2e453]:
+            - generic [ref=f2e460]:
+              - tablist [ref=f2e463]:
+                - tab "Applicant Information" [selected] [ref=f2e465] [cursor=pointer]
+                - tab "Contact Information" [ref=f2e467] [cursor=pointer]
+              - tabpanel "Applicant Information" [ref=f2e470]:
+                - generic [ref=f2e473]:
+                  - generic [ref=f2e477]:
+                    - generic [ref=f2e478]: First Name (in English)
+                    - textbox "First Name (in English)" [disabled] [ref=f2e484]: Anas
+                  - generic [ref=f2e488]:
+                    - generic [ref=f2e489]: First Name (in Arabic)
+                    - textbox "First Name (in Arabic)" [disabled] [ref=f2e495]: انس
+                  - generic [ref=f2e499]:
+                    - generic [ref=f2e500]: Last Name (in English)
+                    - textbox "Last Name (in English)" [disabled] [ref=f2e506]: Mohamed
+                  - generic [ref=f2e510]:
+                    - generic [ref=f2e511]: Last Name (in Arabic)
+                    - textbox "Last Name (in Arabic)" [disabled] [ref=f2e517]: محمد
+                  - generic [ref=f2e521]:
+                    - generic [ref=f2e522]: Date of Birth
+                    - textbox "Date of Birth" [ref=f2e529]
+                  - generic [ref=f2e533]:
+                    - generic [ref=f2e534]: Emirates ID
+                    - textbox "Emirates ID" [disabled] [ref=f2e540]
+            - generic [ref=f2e543]:
+              - button "Save as Draft" [ref=f2e544] [cursor=pointer]
+              - button "Next" [ref=f2e546] [cursor=pointer]
+          - generic [ref=f2e548]:
+            - generic [ref=f2e549]:
+              - generic [ref=f2e550]: Completion Rate
+              - generic [ref=f2e551]: "0"
+            - generic [ref=f2e558]:
+              - button "1 Application Information" [ref=f2e560]:
+                - generic [ref=f2e562]: "1"
+                - generic [ref=f2e564]: Application Information
+              - button "2 Owners Profiles" [ref=f2e568]:
+                - generic [ref=f2e570]: "2"
+                - generic [ref=f2e572]: Owners Profiles
+              - button "3 School Information" [ref=f2e576]:
+                - generic [ref=f2e578]: "3"
+                - generic [ref=f2e580]: School Information
+              - button "4 Download Documents" [ref=f2e584]:
+                - generic [ref=f2e586]: "4"
+                - generic [ref=f2e588]: Download Documents
+              - button "5 Attachments" [ref=f2e592]:
+                - generic [ref=f2e594]: "5"
+                - generic [ref=f2e596]: Attachments
+              - button "6 Summary" [ref=f2e600]:
+                - generic [ref=f2e601]: "6"
+                - generic [ref=f2e603]: Summary
+            - generic [ref=f2e606]:
+              - separator [ref=f2e607]
+              - heading "Help" [level=2] [ref=f2e608]
+              - generic [ref=f2e609]:
+                - generic [ref=f2e610] [cursor=pointer]: Service Card
+                - generic [ref=f2e612] [cursor=pointer]: FAQs
+                - generic [ref=f2e614] [cursor=pointer]: Contact Us
+    - generic [ref=f2e618]:
+      - generic [ref=f2e619]:
+        - generic [ref=f2e620]:
+          - img "App logo" [ref=f2e623]
+          - generic [ref=f2e624]:
+            - generic [ref=f2e625] [cursor=pointer]
+            - generic [ref=f2e626] [cursor=pointer]
+            - link [ref=f2e627] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f2e628]:
+          - generic [ref=f2e629]:
+            - generic [ref=f2e630]: Quick Links
+            - generic [ref=f2e631]:
+              - link "Workspace" [ref=f2e632] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f2e633] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f2e634] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f2e635] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f2e636]:
+            - generic [ref=f2e637]: Get in Touch
+            - generic [ref=f2e638]:
+              - generic [ref=f2e639]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f2e640]: +971 232 1248
+      - separator [ref=f2e641]
+      - generic [ref=f2e642]:
+        - generic [ref=f2e643]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f2e644]:
+          - generic [ref=f2e645] [cursor=pointer]: Copyright
+          - generic [ref=f2e646] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f2e647] [cursor=pointer]: Disclaimer
+          - generic [ref=f2e648] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"

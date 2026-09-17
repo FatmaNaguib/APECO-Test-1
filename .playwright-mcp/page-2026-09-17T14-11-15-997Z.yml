@@ -1,0 +1,118 @@
+- generic [ref=e32]:
+  - complementary [ref=e33]:
+    - generic [ref=e34]:
+      - img "app-logo" [ref=e38] [cursor=pointer]
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - button " Services" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: 
+              - generic [ref=e45]: Services
+        - listitem [ref=e46]:
+          - button " Schools" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]:
+              - generic [ref=e49]: 
+              - generic [ref=e50]: Schools
+        - listitem [ref=e51]:
+          - button " Students" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: 
+              - generic [ref=e55]: Students
+        - listitem [ref=e56]:
+          - button " School Penalties" [ref=e57] [cursor=pointer]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: 
+              - generic [ref=e60]: School Penalties
+        - listitem [ref=e61]:
+          - button " Students Affairs" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: 
+              - generic [ref=e65]: Students Affairs
+        - listitem [ref=e66]:
+          - button " Invoices" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]:
+              - generic [ref=e69]: 
+              - generic [ref=e70]: Invoices
+        - listitem [ref=e71]:
+          - button " Reports" [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: 
+              - generic [ref=e75]: Reports
+        - listitem [ref=e76]:
+          - button " Admin" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: 
+              - generic [ref=e80]: Admin
+    - text:    
+  - generic [ref=e81]:
+    - navigation [ref=e82]:
+      - generic [ref=e83]:
+        - list:
+          - listitem
+        - list [ref=e84]:
+          - listitem [ref=e85]:
+            - generic [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: Aq
+              - generic [ref=e91]:
+                - paragraph [ref=e92]: Admin Qc
+                - generic [ref=e93]: Admin QC
+          - listitem [ref=e94]:
+            - button "عربي" [ref=e95] [cursor=pointer]
+    - generic [ref=e99]:
+      - generic [ref=e101]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: Agent Queue
+          - generic [ref=e105]: (0)
+        - generic [ref=e106]:
+          - button " Export" [disabled]:
+            - generic: 
+            - text: Export
+      - generic [ref=e107]:
+        - generic [ref=e112]:
+          - progressbar "loading" [ref=e114]
+          - progressbar "loading" [ref=e116]
+          - progressbar "loading" [ref=e118]
+          - progressbar "loading" [ref=e120]
+        - generic [ref=e123]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: 
+            - textbox "Search" [ref=e129]
+          - button "filter Filter" [ref=e131] [cursor=pointer]:
+            - img "filter" [ref=e132]
+            - generic [ref=e133]: Filter
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: Status
+            - generic [ref=e141] [cursor=pointer]:
+              - textbox [ref=e143]
+              - generic: All
+          - generic [ref=e147]:
+            - generic [ref=e148]: Category
+            - generic [ref=e150] [cursor=pointer]:
+              - textbox [ref=e152]
+              - generic: All
+          - generic [ref=e156]:
+            - generic [ref=e157]: Service
+            - generic [ref=e159]:
+              - textbox [ref=e161]
+              - generic: All
+          - generic [ref=e165]:
+            - generic [ref=e166]: School
+            - generic [ref=e168]:
+              - textbox [ref=e170]
+              - generic: All
+          - generic [ref=e175]:
+            - generic [ref=e176]: 
+            - textbox "Student Name" [ref=e178]
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - checkbox "Assigned to Me"
+              - generic [ref=e183] [cursor=pointer]
+            - generic [ref=e184]: Assigned to Me
+        - progressbar "loading" [ref=e188]
+        - progressbar "loading" [ref=e192]
+        - progressbar "loading" [ref=e196]
+        - progressbar "loading" [ref=e200]
+        - progressbar "loading" [ref=e204]
+        - progressbar "loading" [ref=e208]
+        - progressbar "loading" [ref=e212]

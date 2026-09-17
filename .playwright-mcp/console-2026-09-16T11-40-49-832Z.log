@@ -1,0 +1,15 @@
+[     282ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[ 1324747ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[ 1324938ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[ 2260537ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/FileService/api/Attachment/Upload:0
+[ 2260539ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/FileService/api/Attachment/Upload:0
+[ 2260542ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://apeco-gateway-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/FileService/api/Attachment/Upload:0
+[ 2260546ms] [ERROR] ERROR HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[ 2260548ms] [ERROR] ERROR HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[ 2260550ms] [ERROR] ERROR HttpErrorResponse @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:9800
+[ 2734760ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[ 2742925ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[ 2754216ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[ 2754535ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[ 2779236ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291
+[ 2779555ms] [LOG] Angular is running in development mode. @ https://apeco-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/chunk-CVODJZTG.js:19291

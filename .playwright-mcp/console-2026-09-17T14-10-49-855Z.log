@@ -1,0 +1,9 @@
+[    4151ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/login:0
+[  137026ms] [LOG] {applicant: Object, owners: Object, schoolDetails: Object, attachments: Object} @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/5798.84f63cc7f9db33b7.js:0
+[  137033ms] [LOG] Do @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/5798.84f63cc7f9db33b7.js:0
+[  137034ms] [LOG] Do @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/5798.84f63cc7f9db33b7.js:0
+[  137034ms] [LOG] Do @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/5798.84f63cc7f9db33b7.js:0
+[  137035ms] [LOG] Do @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/5798.84f63cc7f9db33b7.js:0
+[  137035ms] [LOG] Do @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/5798.84f63cc7f9db33b7.js:0
+[  137036ms] [LOG] Do @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/5798.84f63cc7f9db33b7.js:0
+[  137061ms] [LOG] After View Init @ https://apeco-admin-portal-qc.graycliff-e2cfdb11.eastus.azurecontainerapps.io/5798.84f63cc7f9db33b7.js:0

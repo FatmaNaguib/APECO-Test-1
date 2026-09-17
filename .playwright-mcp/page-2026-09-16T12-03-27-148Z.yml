@@ -1,0 +1,132 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e5]:
+    - generic [ref=f2e7]:
+      - img "App logo" [ref=f2e10]
+      - generic [ref=f2e11]:
+        - list [ref=f2e13]:
+          - listitem [ref=f2e14]:
+            - generic [ref=f2e15] [cursor=pointer]
+          - listitem [ref=f2e19]:
+            - link "Services" [ref=f2e20] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f2e21]:
+            - link "Contact Us" [ref=f2e22] [cursor=pointer]:
+              - /url: https://apea.ae/en/contact-us
+        - generic [ref=f2e23] [cursor=pointer]
+        - generic [ref=f2e25] [cursor=pointer]
+        - button "Add ticket" [ref=f2e32] [cursor=pointer]
+    - generic [ref=f2e44]:
+      - generic [ref=f2e46]:
+        - button "Anas Mohamed" [ref=f2e49] [cursor=pointer]
+        - generic [ref=f2e52]:
+          - generic [ref=f2e53] [cursor=pointer]: Workspace
+          - generic [ref=f2e62] [cursor=pointer]: Requests
+          - generic [ref=f2e69] [cursor=pointer]: Services
+          - generic [ref=f2e75] [cursor=pointer]: Penalties
+          - generic [ref=f2e82] [cursor=pointer]: My Schools
+          - generic [ref=f2e95] [cursor=pointer]: Invoices
+        - generic [ref=f2e104] [cursor=pointer]: Logout
+      - generic [ref=f2e112]:
+        - generic [ref=f2e116]:
+          - button [ref=f2e118] [cursor=pointer]:
+            - button [ref=f2e119]
+          - generic [ref=f2e121]: Services
+        - generic [ref=f2e123]:
+          - textbox "Search Services..." [ref=f2e128]
+          - generic [ref=f2e129]:
+            - generic [ref=f2e130]: Service Type
+            - generic [ref=f2e134] [cursor=pointer]:
+              - textbox [ref=f2e136]
+              - generic "Licensing Services" [ref=f2e137]
+        - generic [ref=f2e141]:
+          - generic [ref=f2e142] [cursor=pointer]: Initial application - Submission for a Private School Permit
+          - generic [ref=f2e147] [cursor=pointer]: Issuance of a New Permit
+          - generic [ref=f2e152] [cursor=pointer]: Private School Renewal Application
+          - generic [ref=f2e157] [cursor=pointer]: School Name Change Request
+          - generic [ref=f2e162] [cursor=pointer]: Partner Withdrawal Request
+          - generic [ref=f2e167] [cursor=pointer]: Request for Modification or Increase in Tuition Fees
+          - generic [ref=f2e172] [cursor=pointer]: Request for School License Cancellation
+          - generic [ref=f2e177] [cursor=pointer]: Application for License Holder Change / Board Representative Change / Adding a Partner
+          - generic [ref=f2e182] [cursor=pointer]: Principal Change
+          - generic [ref=f2e187] [cursor=pointer]: Appointment Notification for Employees in Private Schools
+          - generic [ref=f2e192] [cursor=pointer]: Approval for Publishing Announcements for Private Schools
+          - generic [ref=f2e197] [cursor=pointer]: Request for Modification or Addition to a Private School Building
+          - generic [ref=f2e202] [cursor=pointer]: School Relocation Request
+          - generic [ref=f2e207] [cursor=pointer]: Approval of Annual Activities and Programs
+          - generic [ref=f2e212] [cursor=pointer]: Adding Educational Stages
+          - generic [ref=f2e217] [cursor=pointer]: Reducing Educational Stages
+          - generic [ref=f2e222] [cursor=pointer]: Request for Certification of Experience Certificate for Employees
+          - generic [ref=f2e227] [cursor=pointer]: Request for Event Permit by an External Entity
+          - generic [ref=f2e232] [cursor=pointer]: Approval for International Travel
+    - generic [ref=f2e239]:
+      - generic [ref=f2e240]:
+        - generic [ref=f2e241]:
+          - img "App logo" [ref=f2e244]
+          - generic [ref=f2e245]:
+            - generic [ref=f2e246] [cursor=pointer]
+            - generic [ref=f2e247] [cursor=pointer]
+            - link [ref=f2e248] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=f2e249]:
+          - generic [ref=f2e250]:
+            - generic [ref=f2e251]: Quick Links
+            - generic [ref=f2e252]:
+              - link "Workspace" [ref=f2e253] [cursor=pointer]:
+                - /url: /workspace
+              - link "Requests" [ref=f2e254] [cursor=pointer]:
+                - /url: /requests
+              - link "Services" [ref=f2e255] [cursor=pointer]:
+                - /url: /services
+              - link "My Schools" [ref=f2e256] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=f2e257]:
+            - generic [ref=f2e258]: Get in Touch
+            - generic [ref=f2e259]:
+              - generic [ref=f2e260]: Monday - Thursday 7 AM - 3 PM
+              - generic [ref=f2e261]: +971 232 1248
+      - separator [ref=f2e262]
+      - generic [ref=f2e263]:
+        - generic [ref=f2e264]: © 2023 Private Education Coordination Office - Government of Ajman. All Rights Reserved
+        - generic [ref=f2e265]:
+          - generic [ref=f2e266] [cursor=pointer]: Copyright
+          - generic [ref=f2e267] [cursor=pointer]: Terms & Conditions
+          - generic [ref=f2e268] [cursor=pointer]: Disclaimer
+          - generic [ref=f2e269] [cursor=pointer]: Privacy Policy
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"
+    - dialog [ref=f2e272]:
+      - document:
+        - generic [ref=f2e275]:
+          - generic [ref=f2e276] [cursor=pointer]
+          - generic [ref=f2e279]: You have multiple draft requests. Please select one of the requests below if you want to resume.
+          - generic [ref=f2e281]:
+            - textbox [active] [ref=f2e283]
+            - generic: Select Draft
+          - generic [ref=f2e287]:
+            - button "New Request" [ref=f2e288] [cursor=pointer]
+            - button "Resume" [disabled] [ref=f2e290]
+    - generic [ref=f2e299]:
+      - generic "IDINAPSUFOPRSCPE14640" [ref=f2e300] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE14237" [ref=f2e302] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE14123" [ref=f2e304] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE8950" [ref=f2e306] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE6321" [ref=f2e308] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE6101" [ref=f2e310] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5793" [ref=f2e312] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5123" [ref=f2e314] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5116" [ref=f2e316] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5114" [ref=f2e318] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5106" [ref=f2e320] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5079" [ref=f2e322] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5078" [ref=f2e324] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5077" [ref=f2e326] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5073" [ref=f2e328] [cursor=pointer]
+      - generic "IDINAPSUFOPRSCPE5072" [ref=f2e330] [cursor=pointer]

@@ -1,0 +1,21 @@
+- generic [ref=e4]:
+  - button "عربي" [active] [ref=e26] [cursor=pointer]
+  - generic [ref=e6]:
+    - img "DCAA Logo" [ref=e10]
+    - generic [ref=e11]:
+      - heading "Login to your account" [level=3] [ref=e27]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: Email
+          - generic [ref=e16]:
+            - textbox "Email" [ref=e28]:
+              - /placeholder: Type email address
+            - generic [ref=e18]: 
+        - generic [ref=e19]:
+          - generic [ref=e20]: Password
+          - generic [ref=e21]:
+            - textbox "Password" [ref=e29]:
+              - /placeholder: Type password
+            - generic [ref=e23]: 
+            - img "visible" [ref=e24] [cursor=pointer]
+      - button "Login" [ref=e30] [cursor=pointer]

@@ -1,0 +1,246 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - complementary [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - img "app-logo" [ref=f1e10] [cursor=pointer]
+        - list [ref=f1e12]:
+          - listitem [ref=f1e13]:
+            - button " Services" [ref=f1e14] [cursor=pointer]:
+              - generic [ref=f1e15]:
+                - generic [ref=f1e16]: 
+                - generic [ref=f1e17]: Services
+          - listitem [ref=f1e18]:
+            - button " Schools" [ref=f1e19] [cursor=pointer]:
+              - generic [ref=f1e20]:
+                - generic [ref=f1e21]: 
+                - generic [ref=f1e22]: Schools
+          - listitem [ref=f1e23]:
+            - button " Students" [ref=f1e24] [cursor=pointer]:
+              - generic [ref=f1e25]:
+                - generic [ref=f1e26]: 
+                - generic [ref=f1e27]: Students
+          - listitem [ref=f1e28]:
+            - button " School Penalties" [ref=f1e29] [cursor=pointer]:
+              - generic [ref=f1e30]:
+                - generic [ref=f1e31]: 
+                - generic [ref=f1e32]: School Penalties
+          - listitem [ref=f1e33]:
+            - button " Students Affairs" [ref=f1e34] [cursor=pointer]:
+              - generic [ref=f1e35]:
+                - generic [ref=f1e36]: 
+                - generic [ref=f1e37]: Students Affairs
+          - listitem [ref=f1e38]:
+            - button " Invoices" [ref=f1e39] [cursor=pointer]:
+              - generic [ref=f1e40]:
+                - generic [ref=f1e41]: 
+                - generic [ref=f1e42]: Invoices
+          - listitem [ref=f1e43]:
+            - button " Reports" [ref=f1e44] [cursor=pointer]:
+              - generic [ref=f1e45]:
+                - generic [ref=f1e46]: 
+                - generic [ref=f1e47]: Reports
+          - listitem [ref=f1e48]:
+            - button " Admin" [ref=f1e49] [cursor=pointer]:
+              - generic [ref=f1e50]:
+                - generic [ref=f1e51]: 
+                - generic [ref=f1e52]: Admin
+      - text: 
+    - generic [ref=f1e53]:
+      - navigation [ref=f1e54]:
+        - generic [ref=f1e55]:
+          - list:
+            - listitem
+          - list [ref=f1e56]:
+            - listitem [ref=f1e57]:
+              - generic [ref=f1e63] [cursor=pointer]:
+                - paragraph [ref=f1e64]: Admin Qc
+                - generic [ref=f1e65]: Admin QC
+            - listitem [ref=f1e66]:
+              - button "عربي" [ref=f1e67] [cursor=pointer]
+      - generic [ref=f1e70]:
+        - generic [ref=f1e73]:
+          - button " Back" [ref=f1e74] [cursor=pointer]:
+            - generic [ref=f1e75]: 
+            - generic [ref=f1e76]: Back
+          - generic [ref=f1e77]: Request Details
+        - generic [ref=f1e81]:
+          - 'heading "Applicant: Anas Mohamed" [level=1] [ref=f1e84]'
+          - generic [ref=f1e85]:
+            - generic [ref=f1e87]:
+              - heading "Request Status" [level=3] [ref=f1e88]
+              - generic [ref=f1e89]:
+                - button "Approve" [active] [ref=f1e90] [cursor=pointer]
+                - dialog [ref=f1e1009]:
+                  - generic [ref=f1e1010]:
+                    - generic [ref=f1e1011]: Approve by APECO Employee
+                    - generic [ref=f1e1015]:
+                      - generic [ref=f1e1016]:
+                        - heading [level=5]
+                        - generic [ref=f1e1019]:
+                          - generic [ref=f1e1020]: Comments *
+                          - generic [ref=f1e1021]:
+                            - textbox "Type description" [ref=f1e1022]
+                            - generic [ref=f1e1023]:
+                              - generic [ref=f1e1024] [cursor=pointer]: Upload Files *
+                              - generic [ref=f1e1025]:
+                                - text: "Hint: Maxmium allowed file size is 10 MB and supported types are"
+                                - generic [ref=f1e1026]: image Files ,
+                                - generic [ref=f1e1027]: pdf Files ,
+                                - generic [ref=f1e1028]: Sheets Files ,
+                                - generic [ref=f1e1029]: Word Files
+                              - button "Upload Files *"
+                      - generic [ref=f1e1030]:
+                        - button "Back" [ref=f1e1031] [cursor=pointer]
+                        - button "Save" [disabled]
+                - button "Return" [ref=f1e91] [cursor=pointer]
+                - button "Reject" [ref=f1e92] [cursor=pointer]
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]:
+                - generic [ref=f1e95]:
+                  - generic [ref=f1e96]:
+                    - generic [ref=f1e97]: Step 1
+                    - generic [ref=f1e99]:
+                      - generic [ref=f1e100]: 
+                      - text: Pending
+                  - generic [ref=f1e101]: APECO Employee Review
+                - generic:
+                  - generic:
+                    - generic: Step 2
+                    - generic:
+                      - generic: 
+                      - text: Upcoming
+                  - generic: Technical Engineer Review
+                - generic:
+                  - generic:
+                    - generic: Step 3
+                    - generic:
+                      - generic: 
+                      - text: Upcoming
+                  - generic: Accepted
+              - generic: 
+          - generic [ref=f1e107]:
+            - generic [ref=f1e108]: Initial application - Submission for a Private School Permit
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]:
+                - generic [ref=f1e837]:
+                  - heading "Summary" [level=2] [ref=f1e839]
+                  - generic [ref=f1e840]:
+                    - generic [ref=f1e841]:
+                      - generic [ref=f1e842]: Applicant Information
+                      - generic [ref=f1e843] [cursor=pointer]
+                    - generic [ref=f1e865]:
+                      - generic [ref=f1e866]:
+                        - generic [ref=f1e867]: Full Name (EN)
+                        - generic [ref=f1e868]: Anas Mohamed
+                      - generic [ref=f1e869]:
+                        - generic [ref=f1e870]: Full Name (AR)
+                        - generic [ref=f1e871]: انس محمد
+                      - generic [ref=f1e872]:
+                        - generic [ref=f1e873]: Emirates ID
+                        - generic [ref=f1e874]: __
+                      - generic [ref=f1e875]:
+                        - generic [ref=f1e876]: Phone
+                        - generic [ref=f1e877]: __
+                      - generic [ref=f1e878]:
+                        - generic [ref=f1e879]: Email
+                        - generic [ref=f1e880]: apecouser@hotmail.com
+                      - generic [ref=f1e881]:
+                        - generic [ref=f1e882]: Address
+                        - generic [ref=f1e883]: __
+                      - generic [ref=f1e884]:
+                        - generic [ref=f1e885]: Date of Birth
+                        - generic [ref=f1e886]: 1/1/1985
+                  - generic [ref=f1e846]:
+                    - generic [ref=f1e847]:
+                      - generic [ref=f1e848]: Owners
+                      - generic [ref=f1e849] [cursor=pointer]
+                    - generic [ref=f1e1032]:
+                      - heading "Personal Details" [level=3] [ref=f1e1033]
+                      - generic [ref=f1e1034]:
+                        - generic [ref=f1e1035]:
+                          - generic [ref=f1e1036]: Type of Owner
+                          - generic [ref=f1e1037]: Individual
+                        - generic [ref=f1e1038]:
+                          - generic [ref=f1e1039]: Name of the Institution or Company
+                          - generic [ref=f1e1040]: __
+                        - generic [ref=f1e1041]:
+                          - generic [ref=f1e1042]: Full Name
+                          - generic [ref=f1e1043]: Anas Mohamed
+                        - generic [ref=f1e1044]:
+                          - generic [ref=f1e1045]: Family Name
+                          - generic [ref=f1e1046]: Mohamed
+                        - generic [ref=f1e1047]:
+                          - generic [ref=f1e1048]: Work Phone Number
+                          - generic [ref=f1e1049]: __
+                      - heading "Passport Details" [level=3] [ref=f1e1050]
+                      - generic [ref=f1e1051]:
+                        - generic [ref=f1e1052]:
+                          - generic [ref=f1e1053]: Passport Number
+                          - generic [ref=f1e1054]: N1234567
+                        - generic [ref=f1e1055]:
+                          - generic [ref=f1e1056]: Passport Place of Issue
+                          - generic [ref=f1e1057]: Sydney
+                        - generic [ref=f1e1058]:
+                          - generic [ref=f1e1059]: Passport Release Date
+                          - generic [ref=f1e1060]: 1/1/2020
+                        - generic [ref=f1e1061]:
+                          - generic [ref=f1e1062]: Passport Expiry Date
+                          - generic [ref=f1e1063]: 1/1/2030
+                      - heading "Residence Details" [level=3] [ref=f1e1064]
+                      - generic [ref=f1e1065]:
+                        - generic [ref=f1e1066]:
+                          - generic [ref=f1e1067]: Residence Number
+                          - generic [ref=f1e1068]: __
+                        - generic [ref=f1e1069]:
+                          - generic [ref=f1e1070]: Residence Place of Issue
+                          - generic [ref=f1e1071]: __
+                        - generic [ref=f1e1072]:
+                          - generic [ref=f1e1073]: Residence Release Date
+                          - generic [ref=f1e1074]: __
+                        - generic [ref=f1e1075]:
+                          - generic [ref=f1e1076]: Residence Expiry Date
+                          - generic [ref=f1e1077]: __
+                        - generic [ref=f1e1078]:
+                          - generic [ref=f1e1079]: Emirates ID
+                          - generic [ref=f1e1080]: __
+                  - generic [ref=f1e852]:
+                    - generic [ref=f1e853]:
+                      - generic [ref=f1e854]: School Details
+                      - generic [ref=f1e855] [cursor=pointer]
+                    - generic [ref=f1e989]:
+                      - generic [ref=f1e990]:
+                        - generic [ref=f1e991]: English School Name
+                        - generic [ref=f1e992]: Modern Future School 40178
+                      - generic [ref=f1e993]:
+                        - generic [ref=f1e994]: Arabic School Name
+                        - generic [ref=f1e995]: مدرسة المستقبل الحديثة 40178
+                      - generic [ref=f1e996]:
+                        - generic [ref=f1e997]: Phone
+                        - generic [ref=f1e998]: __
+                      - generic [ref=f1e999]:
+                        - generic [ref=f1e1000]: English Location/Block number
+                        - generic [ref=f1e1001]: Block 12
+                      - generic [ref=f1e1002]:
+                        - generic [ref=f1e1003]: Arabic Location/Block number
+                        - generic [ref=f1e1004]: قطعة 12
+                      - generic [ref=f1e1005]:
+                        - generic [ref=f1e1006]: Curriculums
+                        - generic [ref=f1e1007]: British
+                - button "Previous" [ref=f1e313] [cursor=pointer]
+              - generic [ref=f1e201]:
+                - generic [ref=f1e202]:
+                  - button "Application Information" [ref=f1e315] [cursor=pointer]
+                  - button "Owners Profiles" [ref=f1e662] [cursor=pointer]
+                  - button "School Information" [ref=f1e832] [cursor=pointer]
+                  - button "Attachments" [ref=f1e858] [cursor=pointer]
+                  - button "5 Summary" [ref=f1e232] [cursor=pointer]:
+                    - generic [ref=f1e233]: "5"
+                    - generic [ref=f1e234]: Summary
+                - generic [ref=f1e237]:
+                  - separator [ref=f1e238]
+                  - generic [ref=f1e239]:
+                    - heading "Help" [level=2] [ref=f1e240]
+                    - generic [ref=f1e241] [cursor=pointer]: Service Card
+                    - generic [ref=f1e243] [cursor=pointer]: FAQS
+                    - generic [ref=f1e245] [cursor=pointer]: Contact US
+  - generic: Previous Requests

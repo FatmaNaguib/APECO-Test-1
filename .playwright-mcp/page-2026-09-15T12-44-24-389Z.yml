@@ -1,0 +1,108 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e64]:
+    - generic [ref=e66]:
+      - img "شعار التطبيق" [ref=e69]
+      - generic [ref=e70]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - generic [ref=e74] [cursor=pointer]
+          - listitem [ref=e78]:
+            - link "الخدمات الإلكترونية" [ref=e79] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e80]:
+            - link "اتصل بنا" [ref=e81] [cursor=pointer]:
+              - /url: https://apea.ae/ar/contact-us
+        - generic [ref=e82] [cursor=pointer]
+        - generic [ref=e84] [cursor=pointer]
+        - button "Add ticket" [ref=e91] [cursor=pointer]
+    - generic [ref=e103]:
+      - generic [ref=e105]:
+        - button "انس محمد" [ref=e108] [cursor=pointer]
+        - generic [ref=e111]:
+          - generic [ref=e112] [cursor=pointer]: مساحة العمل
+          - generic [ref=e121] [cursor=pointer]: الطلبات
+          - generic [ref=e128] [cursor=pointer]: الخدمات
+          - generic [ref=e134] [cursor=pointer]: الغرامات
+          - generic [ref=e141] [cursor=pointer]: مدارسي
+          - generic [ref=e154] [cursor=pointer]: الفواتير
+        - generic [ref=e163] [cursor=pointer]: خروج
+      - generic [ref=e171]:
+        - generic [ref=e175]:
+          - button [ref=e177] [cursor=pointer]:
+            - button [ref=e178]
+          - generic [ref=e180]: الخدمات الإلكترونية
+        - generic [ref=e191]:
+          - textbox "البحث في الخدمات الإلكترونية..." [ref=e196]
+          - generic [ref=e197]:
+            - generic [ref=e198]: فئة الطلب
+            - generic [ref=e202] [cursor=pointer]:
+              - textbox [ref=e204]
+              - generic "كل الخدمات" [ref=e406]
+        - generic [ref=e242]:
+          - generic [ref=e407] [cursor=pointer]: طلب تمهيدي - تقديم طلب تصريح مدرسة خاصة
+          - generic [ref=e412] [cursor=pointer]: إصدار تصريح جديد
+          - generic [ref=e417] [cursor=pointer]: طلب تجديد التصريح
+          - generic [ref=e422] [cursor=pointer]: طلب تغيير اسم المدرسة
+          - generic [ref=e427] [cursor=pointer]: طلب انسحاب شريك
+          - generic [ref=e432] [cursor=pointer]: طلب تعديل أو زيادة الرسوم الدراسية
+          - generic [ref=e437] [cursor=pointer]: طلب إلغاء تصريح مدرسة
+          - generic [ref=e442] [cursor=pointer]: طلب تغيير صاحب التصريح / تغيير ممثل مجلس الإدارة / إضافة شريك
+          - generic [ref=e447] [cursor=pointer]: تغيير المدير
+          - generic [ref=e452] [cursor=pointer]: اخطار تعيين للعاملين في مدرسة خاصة
+          - generic [ref=e457] [cursor=pointer]: اعتماد نشر الإعلان الخاص بالمدارس الخاصة
+          - generic [ref=e462] [cursor=pointer]: طلب تعديل أو اضافة على مبنى لمدرسة خاصة
+          - generic [ref=e467] [cursor=pointer]: طلب تغيير موقع المدرسة
+          - generic [ref=e472] [cursor=pointer]: اعتماد الأنشطة والبرامج السنوية
+          - generic [ref=e477] [cursor=pointer]: إضافة مراحل تعليمية
+          - generic [ref=e482] [cursor=pointer]: تخفيض مراحل دراسية
+          - generic [ref=e487] [cursor=pointer]: طلب تصديق شهادة الخبرة للعاملين
+          - generic [ref=e492] [cursor=pointer]: طلب تصريح إقامة فعالية بواسطة جهة خارجية
+          - generic [ref=e497] [cursor=pointer]: تقديم شكوى (خدمة خاصة بأولياء الأمور)
+          - generic [ref=e502] [cursor=pointer]: اعتماد رحلة سفر لخارج الدولة
+          - generic [ref=e507] [cursor=pointer]: إضافة طالب لملف ولي الأمر
+          - generic [ref=e512] [cursor=pointer]: إصدار شهادة
+          - generic [ref=e517] [cursor=pointer]: بدل صرف رسوم دراسية
+    - generic [ref=e211]:
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - img "شعار التطبيق" [ref=e216]
+          - generic [ref=e217]:
+            - generic [ref=e218] [cursor=pointer]
+            - generic [ref=e219] [cursor=pointer]
+            - link [ref=e220] [cursor=pointer]:
+              - /url: assets/icons/instagram.svg
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - generic [ref=e223]: روابط سريعة
+            - generic [ref=e224]:
+              - link "مساحة العمل" [ref=e225] [cursor=pointer]:
+                - /url: /workspace
+              - link "الطلبات" [ref=e226] [cursor=pointer]:
+                - /url: /requests
+              - link "الخدمات الإلكترونية" [ref=e227] [cursor=pointer]:
+                - /url: /services
+              - link "مدارسي" [ref=e228] [cursor=pointer]:
+                - /url: /schools
+          - generic [ref=e229]:
+            - generic [ref=e230]: تواصل معنا
+            - generic [ref=e231]:
+              - generic [ref=e232]: الاثنين - الخميس، من الساعة 7 صباحًا حتى 3 مساءً
+              - generic [ref=e233]: الهاتف المحمول
+      - separator [ref=e234]
+      - generic [ref=e235]:
+        - generic [ref=e236]: © 2023 هيئة لجنة التعليم الخاص. جميع الحقوق محفوظة
+        - generic [ref=e237]:
+          - generic [ref=e238] [cursor=pointer]: حقوق النشر
+          - generic [ref=e239] [cursor=pointer]: الشروط والأحكام
+          - generic [ref=e240] [cursor=pointer]: إخلاء المسؤولية
+          - generic [ref=e241] [cursor=pointer]: سياسة الخصوصية
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Close"
