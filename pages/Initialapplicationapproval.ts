@@ -362,7 +362,7 @@ export class Initialapplicationapproval extends BasePage {
     this.downloadInvoiceButton = page.getByRole('button', { name: 'Download Invoice' });
     this.requestDetailsButton = page.getByRole('button', { name: 'Request Details' });
     this.payLaterButton = page.getByRole('button', { name: 'Pay Later' });
-    this.payNowButton = page.getByRole('button', { name: 'Pay Now' });
+    this.payNowButton = page.getByRole('button', { name: /Pay Now|ادفع الآن/i }).or(page.locator('button.ant-btn-primary:has-text("Pay Now"), button:has-text("ادفع الآن"), button:has-text("Pay Now")')).first();
     this.unpaidInvoiceDollarIcon = page.getByRole('row').filter({ hasText: 'Unpaid' }).locator('.anticon-dollar, [nztype="dollar"], button').first().or(page.locator('tbody tr:first-child .anticon-dollar'));
   }
 
@@ -882,7 +882,7 @@ export class Initialapplicationapproval extends BasePage {
 
     // Click PAY
     const payBtn = targetPage.getByRole('button', { name: 'PAY', exact: true }).or(targetPage.locator('button:has-text("PAY"), input[value="PAY"], #proceed')).first();
-    await payBtn.click();
+    await payBtn.click({ noWaitAfter: true });
 
     // Await gateway redirect back to APECO portal result page
     await targetPage.waitForURL(/.*payment-result|.*requests|.*checkout/i, { timeout: 35000 });
